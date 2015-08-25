@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Desktop\Porject\socmf.ncd
+OUTFILE=D:\Desktop\Porject\socmf.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=D:\Desktop\Porject
+LICENSE=WebPack
+USER_INFO=210955176_0_0_951

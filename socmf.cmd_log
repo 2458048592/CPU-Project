@@ -1,0 +1,64 @@
+xst -intstyle ise -ifn "C:/Users/Young/Desktop/proj3/socmf.xst" -ofn "C:/Users/Young/Desktop/proj3/socmf.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_master.ucf -p xc6slx16-csg324-3 socmf.ngc socmf.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o socmf_map.ncd socmf.ngd socmf.pcf 
+par -w -intstyle ise -ol high -mt off socmf_map.ncd socmf.ncd socmf.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml socmf.twx socmf.ncd -o socmf.twr socmf.pcf -ucf Nexys3_master.ucf 
+bitgen -intstyle ise -f socmf.ut socmf.ncd 
+xst -intstyle ise -ifn "D:/Desktop/Porject/socmf.xst" -ofn "D:/Desktop/Porject/socmf.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_master.ucf -p xc6slx16-csg324-3 socmf.ngc socmf.ngd  
+xst -intstyle ise -ifn "D:/Desktop/Porject/socmf.xst" -ofn "D:/Desktop/Porject/socmf.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_master.ucf -p xc6slx16-csg324-3 socmf.ngc socmf.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o socmf_map.ncd socmf.ngd socmf.pcf 
+par -w -intstyle ise -ol high -mt off socmf_map.ncd socmf.ncd socmf.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml socmf.twx socmf.ncd -o socmf.twr socmf.pcf -ucf Nexys3_master.ucf 
+bitgen -intstyle ise -f socmf.ut socmf.ncd 
+xst -intstyle ise -ifn "D:/Desktop/Porject/socmf.xst" -ofn "D:/Desktop/Porject/socmf.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_master.ucf -p xc6slx16-csg324-3 socmf.ngc socmf.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o socmf_map.ncd socmf.ngd socmf.pcf 
+par -w -intstyle ise -ol high -mt off socmf_map.ncd socmf.ncd socmf.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml socmf.twx socmf.ncd -o socmf.twr socmf.pcf -ucf Nexys3_master.ucf 
+bitgen -intstyle ise -f socmf.ut socmf.ncd 
+xst -intstyle ise -ifn "D:/Desktop/Porject/socmf.xst" -ofn "D:/Desktop/Porject/socmf.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_master.ucf -p xc6slx16-csg324-3 socmf.ngc socmf.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o socmf_map.ncd socmf.ngd socmf.pcf 
+par -w -intstyle ise -ol high -mt off socmf_map.ncd socmf.ncd socmf.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml socmf.twx socmf.ncd -o socmf.twr socmf.pcf -ucf Nexys3_master.ucf 
+bitgen -intstyle ise -f socmf.ut socmf.ncd 
+xst -intstyle ise -ifn "D:/Desktop/Porject/socmf.xst" -ofn "D:/Desktop/Porject/socmf.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_master.ucf -p xc6slx16-csg324-3 socmf.ngc socmf.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o socmf_map.ncd socmf.ngd socmf.pcf 
+par -w -intstyle ise -ol high -mt off socmf_map.ncd socmf.ncd socmf.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml socmf.twx socmf.ncd -o socmf.twr socmf.pcf -ucf Nexys3_master.ucf 
+bitgen -intstyle ise -f socmf.ut socmf.ncd 
+xst -intstyle ise -ifn "D:/Desktop/Porject/socmf.xst" -ofn "D:/Desktop/Porject/socmf.syr" 
+xst -intstyle ise -ifn "D:/Desktop/Porject/socmf.xst" -ofn "D:/Desktop/Porject/socmf.syr" 
+xst -intstyle ise -ifn "D:/Desktop/Porject/socmf.xst" -ofn "D:/Desktop/Porject/socmf.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_master.ucf -p xc6slx16-csg324-3 socmf.ngc socmf.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o socmf_map.ncd socmf.ngd socmf.pcf 
+par -w -intstyle ise -ol high -mt off socmf_map.ncd socmf.ncd socmf.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml socmf.twx socmf.ncd -o socmf.twr socmf.pcf -ucf Nexys3_master.ucf 
+bitgen -intstyle ise -f socmf.ut socmf.ncd 
+xst -intstyle ise -ifn "D:/Desktop/Porject/socmf.xst" -ofn "D:/Desktop/Porject/socmf.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_master.ucf -p xc6slx16-csg324-3 socmf.ngc socmf.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o socmf_map.ncd socmf.ngd socmf.pcf 
+par -w -intstyle ise -ol high -mt off socmf_map.ncd socmf.ncd socmf.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml socmf.twx socmf.ncd -o socmf.twr socmf.pcf -ucf Nexys3_master.ucf 
+bitgen -intstyle ise -f socmf.ut socmf.ncd 
+xst -intstyle ise -ifn "D:/Desktop/Porject/socmf.xst" -ofn "D:/Desktop/Porject/socmf.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_master.ucf -p xc6slx16-csg324-3 socmf.ngc socmf.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o socmf_map.ncd socmf.ngd socmf.pcf 
+par -w -intstyle ise -ol high -mt off socmf_map.ncd socmf.ncd socmf.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml socmf.twx socmf.ncd -o socmf.twr socmf.pcf -ucf Nexys3_master.ucf 
+bitgen -intstyle ise -f socmf.ut socmf.ncd 
+xst -intstyle ise -ifn "D:/Desktop/Porject/socmf.xst" -ofn "D:/Desktop/Porject/socmf.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_master.ucf -p xc6slx16-csg324-3 socmf.ngc socmf.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o socmf_map.ncd socmf.ngd socmf.pcf 
+par -w -intstyle ise -ol high -mt off socmf_map.ncd socmf.ncd socmf.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml socmf.twx socmf.ncd -o socmf.twr socmf.pcf -ucf Nexys3_master.ucf 
+bitgen -intstyle ise -f socmf.ut socmf.ncd 
+xst -intstyle ise -ifn "D:/Desktop/Porject/socmf.xst" -ofn "D:/Desktop/Porject/socmf.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys3_master.ucf -p xc6slx16-csg324-3 socmf.ngc socmf.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o socmf_map.ncd socmf.ngd socmf.pcf 
+par -w -intstyle ise -ol high -mt off socmf_map.ncd socmf.ncd socmf.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml socmf.twx socmf.ncd -o socmf.twr socmf.pcf -ucf Nexys3_master.ucf 
+bitgen -intstyle ise -f socmf.ut socmf.ncd 
