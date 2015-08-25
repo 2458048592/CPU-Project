@@ -107,11 +107,11 @@ always@* begin
 		end
 	end
 	
-	//4'hd:
-	//begin
-	//		Peripheral_in = Cpu_data2bus;
-	//		Cpu_data4bus = {16'h0000 ,xkey};
-	//end
+	4'hd:
+	begin
+			Peripheral_in = Cpu_data2bus;
+			Cpu_data4bus = {16'h0000, xkey};
+	end
 	
 	endcase
 	casex({data_ram_rd,GPIOe0000000_rd,counter_rd,GPIOf0000000_rd})
