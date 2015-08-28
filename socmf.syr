@@ -1,16 +1,16 @@
-Release 14.7 - xst P.20131013 (nt64)
+Release 14.7 - xst P.20131013 (nt)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.06 secs
+Total CPU time to Xst completion: 0.13 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.06 secs
+Total CPU time to Xst completion: 0.13 secs
  
 --> Reading design: socmf.prj
 
@@ -108,86 +108,94 @@ Cores Search Directories           : {"ipcore_dir"  }
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "D:\Desktop\Project\xor32.v" into library work
+Analyzing Verilog file "C:\Users\Young\Documents\GitHub\CPU-Project\xor32.v" into library work
 Parsing module <xor32>.
-Analyzing Verilog file "D:\Desktop\Project\srl32.v" into library work
+Analyzing Verilog file "C:\Users\Young\Documents\GitHub\CPU-Project\srl32.v" into library work
 Parsing module <srl32>.
-Analyzing Verilog file "D:\Desktop\Project\SignalExt_32.v" into library work
+Analyzing Verilog file "C:\Users\Young\Documents\GitHub\CPU-Project\SignalExt_32.v" into library work
 Parsing module <SignalExt_32>.
-Analyzing Verilog file "D:\Desktop\Project\or_bit_32.v" into library work
+Analyzing Verilog file "C:\Users\Young\Documents\GitHub\CPU-Project\or_bit_32.v" into library work
 Parsing module <or_bit_32>.
-Analyzing Verilog file "D:\Desktop\Project\or32.v" into library work
+Analyzing Verilog file "C:\Users\Young\Documents\GitHub\CPU-Project\or32.v" into library work
 Parsing module <or32>.
-Analyzing Verilog file "D:\Desktop\Project\nor32.v" into library work
+Analyzing Verilog file "C:\Users\Young\Documents\GitHub\CPU-Project\nor32.v" into library work
 Parsing module <nor32>.
-Analyzing Verilog file "D:\Desktop\Project\mux8to1_32.v" into library work
+Analyzing Verilog file "C:\Users\Young\Documents\GitHub\CPU-Project\mux8to1_32.v" into library work
 Parsing module <mux8to1_32>.
-Analyzing Verilog file "D:\Desktop\Project\and32.v" into library work
+Analyzing Verilog file "C:\Users\Young\Documents\GitHub\CPU-Project\and32.v" into library work
 Parsing module <and32>.
-Analyzing Verilog file "D:\Desktop\Project\ADC32.v" into library work
+Analyzing Verilog file "C:\Users\Young\Documents\GitHub\CPU-Project\ADC32.v" into library work
 Parsing module <ADC32>.
-Analyzing Verilog file "D:\Desktop\Project\regs.v" into library work
+Analyzing Verilog file "C:\Users\Young\Documents\GitHub\CPU-Project\regs.v" into library work
 Parsing module <Regs>.
-Analyzing Verilog file "D:\Desktop\Project\REG32_with_rst.v" into library work
+Analyzing Verilog file "C:\Users\Young\Documents\GitHub\CPU-Project\REG32_with_rst.v" into library work
 Parsing module <REG32_with_rst>.
-Analyzing Verilog file "D:\Desktop\Project\REG32.v" into library work
+Analyzing Verilog file "C:\Users\Young\Documents\GitHub\CPU-Project\REG32.v" into library work
 Parsing module <REG32>.
-Analyzing Verilog file "D:\Desktop\Project\mux4to1_5.v" into library work
+Analyzing Verilog file "C:\Users\Young\Documents\GitHub\CPU-Project\mux4to1_5.v" into library work
 Parsing module <mux4to1_5>.
-Analyzing Verilog file "D:\Desktop\Project\mux4to1_32.v" into library work
+Analyzing Verilog file "C:\Users\Young\Documents\GitHub\CPU-Project\mux4to1_32.v" into library work
 Parsing module <mux4to1_32>.
-Analyzing Verilog file "D:\Desktop\Project\mux2to1_32.v" into library work
+Analyzing Verilog file "C:\Users\Young\Documents\GitHub\CPU-Project\mux2to1_32.v" into library work
 Parsing module <mux2to1_32>.
-Analyzing Verilog file "D:\Desktop\Project\Ext_32.v" into library work
+Analyzing Verilog file "C:\Users\Young\Documents\GitHub\CPU-Project\Ext_32.v" into library work
 Parsing module <Ext_32>.
-Analyzing Verilog file "D:\Desktop\Project\ALU.vf" into library work
+Analyzing Verilog file "C:\Users\Young\Documents\GitHub\CPU-Project\ALU.vf" into library work
 Parsing module <ALU>.
-Analyzing Verilog file "D:\Desktop\Project\datapath.v" into library work
+Analyzing Verilog file "C:\Users\Young\Documents\GitHub\CPU-Project\datapath.v" into library work
 Parsing module <M_datapath>.
-Analyzing Verilog file "D:\Desktop\Project\ctrl.v" into library work
+Analyzing Verilog file "C:\Users\Young\Documents\GitHub\CPU-Project\ctrl.v" into library work
 Parsing module <ctrl>.
-Analyzing Verilog file "D:\Desktop\Project\vga_display.v" into library work
+Analyzing Verilog file "C:\Users\Young\Documents\GitHub\CPU-Project\vga_display.v" into library work
 Parsing module <vga_display>.
-Analyzing Verilog file "D:\Desktop\Project\vga_640x480.v" into library work
+Analyzing Verilog file "C:\Users\Young\Documents\GitHub\CPU-Project\vga_control.v" into library work
+Parsing module <vga_control>.
+Analyzing Verilog file "C:\Users\Young\Documents\GitHub\CPU-Project\vga_640x480.v" into library work
 Parsing module <vga_640x480>.
-Analyzing Verilog file "D:\Desktop\Project\muliti_cycle_cpu.v" into library work
+Analyzing Verilog file "C:\Users\Young\Documents\GitHub\CPU-Project\muliti_cycle_cpu.v" into library work
 Parsing module <Muliti_CPU>.
-Analyzing Verilog file "D:\Desktop\Project\MIO_BUS.v" into library work
+Analyzing Verilog file "C:\Users\Young\Documents\GitHub\CPU-Project\MIO_BUS.v" into library work
 Parsing module <MIO_BUS>.
-Analyzing Verilog file "D:\Desktop\Project\led_Dev_IO.v" into library work
+Analyzing Verilog file "C:\Users\Young\Documents\GitHub\CPU-Project\led_Dev_IO.v" into library work
 Parsing module <led_Dev_IO>.
-Analyzing Verilog file "D:\Desktop\Project\keyboard.v" into library work
+Analyzing Verilog file "C:\Users\Young\Documents\GitHub\CPU-Project\keyboard.v" into library work
 Parsing module <keyboard>.
-Analyzing Verilog file "D:\Desktop\Project\ipcore_dir\RAM_B.v" into library work
+Analyzing Verilog file "C:\Users\Young\Documents\GitHub\CPU-Project\ipcore_dir\RAM_B.v" into library work
 Parsing module <RAM_B>.
-Analyzing Verilog file "D:\Desktop\Project\Counter_3channel.v" into library work
+Analyzing Verilog file "C:\Users\Young\Documents\GitHub\CPU-Project\ipcore_dir\char_ram.v" into library work
+Parsing module <char_ram>.
+Analyzing Verilog file "C:\Users\Young\Documents\GitHub\CPU-Project\font_table.v" into library work
+Parsing module <font_table>.
+Analyzing Verilog file "C:\Users\Young\Documents\GitHub\CPU-Project\Counter_3channel.v" into library work
 Parsing module <Counter_x>.
-Analyzing Verilog file "D:\Desktop\Project\clk_div_4.v" into library work
+Analyzing Verilog file "C:\Users\Young\Documents\GitHub\CPU-Project\clk_div_4.v" into library work
 Parsing module <clk_div_4>.
-Analyzing Verilog file "D:\Desktop\Project\clk_div.v" into library work
+Analyzing Verilog file "C:\Users\Young\Documents\GitHub\CPU-Project\clk_div.v" into library work
 Parsing module <clk_div>.
-Analyzing Verilog file "D:\Desktop\Project\Anti_jitter.v" into library work
+Analyzing Verilog file "C:\Users\Young\Documents\GitHub\CPU-Project\char_mode.v" into library work
+Parsing module <char_mode>.
+Analyzing Verilog file "C:\Users\Young\Documents\GitHub\CPU-Project\Anti_jitter.v" into library work
 Parsing module <Anti_jitter>.
-Analyzing Verilog file "D:\Desktop\Project\7seg_Dev_IO.v" into library work
+Analyzing Verilog file "C:\Users\Young\Documents\GitHub\CPU-Project\7seg_Dev_IO.v" into library work
 Parsing module <seven_seg_Dev_IO>.
-Analyzing Verilog file "D:\Desktop\Project\7seg_Dev.v" into library work
+Analyzing Verilog file "C:\Users\Young\Documents\GitHub\CPU-Project\7seg_Dev.v" into library work
 Parsing module <seven_seg_dev>.
-Analyzing Verilog file "D:\Desktop\Project\socmf.v" into library work
+Analyzing Verilog file "C:\Users\Young\Documents\GitHub\CPU-Project\socmf.v" into library work
 Parsing module <socmf>.
 
 =========================================================================
 *                            HDL Elaboration                            *
 =========================================================================
-WARNING:HDLCompiler:1016 - "D:\Desktop\Project\socmf.v" Line 162: Port button_pulse is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\Young\Documents\GitHub\CPU-Project\socmf.v" Line 171: Port button_pulse is not connected to this instance
 
 Elaborating module <socmf>.
 
 Elaborating module <Muliti_CPU>.
 
 Elaborating module <ctrl>.
-WARNING:HDLCompiler:1127 - "D:\Desktop\Project\ctrl.v" Line 77: Assignment to mem_w ignored, since the identifier is never used
-WARNING:HDLCompiler:189 - "D:\Desktop\Project\muliti_cycle_cpu.v" Line 58: Size mismatch in connection of port <state_out>. Formal port size is 5-bit while actual signal size is 1-bit.
-WARNING:HDLCompiler:1127 - "D:\Desktop\Project\muliti_cycle_cpu.v" Line 58: Assignment to state_out ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\Young\Documents\GitHub\CPU-Project\ctrl.v" Line 77: Assignment to mem_w ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\Young\Documents\GitHub\CPU-Project\muliti_cycle_cpu.v" Line 58: Size mismatch in connection of port <state_out>. Formal port size is 5-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\Young\Documents\GitHub\CPU-Project\muliti_cycle_cpu.v" Line 58: Assignment to state_out ignored, since the identifier is never used
 
 Elaborating module <M_datapath>.
 
@@ -220,8 +228,8 @@ Elaborating module <Regs>.
 Elaborating module <REG32_with_rst>.
 
 Elaborating module <REG32>.
-WARNING:HDLCompiler:189 - "D:\Desktop\Project\datapath.v" Line 53: Size mismatch in connection of port <CE>. Formal port size is 1-bit while actual signal size is 32-bit.
-WARNING:HDLCompiler:189 - "D:\Desktop\Project\datapath.v" Line 54: Size mismatch in connection of port <CE>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:\Users\Young\Documents\GitHub\CPU-Project\datapath.v" Line 53: Size mismatch in connection of port <CE>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:\Users\Young\Documents\GitHub\CPU-Project\datapath.v" Line 54: Size mismatch in connection of port <CE>. Formal port size is 1-bit while actual signal size is 32-bit.
 
 Elaborating module <mux4to1_5>.
 
@@ -230,73 +238,81 @@ Elaborating module <mux2to1_32>.
 Elaborating module <mux4to1_32>.
 
 Elaborating module <Ext_32>.
-WARNING:HDLCompiler:634 - "D:\Desktop\Project\datapath.v" Line 49: Net <rst> does not have a driver.
-WARNING:HDLCompiler:1127 - "D:\Desktop\Project\socmf.v" Line 76: Assignment to state ignored, since the identifier is never used
+WARNING:HDLCompiler:634 - "C:\Users\Young\Documents\GitHub\CPU-Project\datapath.v" Line 49: Net <rst> does not have a driver.
+WARNING:HDLCompiler:1127 - "C:\Users\Young\Documents\GitHub\CPU-Project\socmf.v" Line 83: Assignment to state ignored, since the identifier is never used
 
 Elaborating module <RAM_B>.
 
 Elaborating module <MIO_BUS>.
 
 Elaborating module <seven_seg_Dev_IO>.
-WARNING:HDLCompiler:1499 - "D:\Desktop\Project\7seg_Dev_IO.v" Line 21: Empty module <seven_seg_Dev_IO> remains a black box.
+WARNING:HDLCompiler:1499 - "C:\Users\Young\Documents\GitHub\CPU-Project\7seg_Dev_IO.v" Line 21: Empty module <seven_seg_Dev_IO> remains a black box.
 
 Elaborating module <seven_seg_dev>.
-WARNING:HDLCompiler:1499 - "D:\Desktop\Project\7seg_Dev.v" Line 21: Empty module <seven_seg_dev> remains a black box.
+WARNING:HDLCompiler:1499 - "C:\Users\Young\Documents\GitHub\CPU-Project\7seg_Dev.v" Line 21: Empty module <seven_seg_dev> remains a black box.
 
 Elaborating module <led_Dev_IO>.
-WARNING:HDLCompiler:1499 - "D:\Desktop\Project\led_Dev_IO.v" Line 21: Empty module <led_Dev_IO> remains a black box.
+WARNING:HDLCompiler:1499 - "C:\Users\Young\Documents\GitHub\CPU-Project\led_Dev_IO.v" Line 21: Empty module <led_Dev_IO> remains a black box.
 
 Elaborating module <clk_div>.
 
 Elaborating module <Anti_jitter>.
-WARNING:HDLCompiler:1499 - "D:\Desktop\Project\Anti_jitter.v" Line 21: Empty module <Anti_jitter> remains a black box.
+WARNING:HDLCompiler:1499 - "C:\Users\Young\Documents\GitHub\CPU-Project\Anti_jitter.v" Line 21: Empty module <Anti_jitter> remains a black box.
 
 Elaborating module <Counter_x>.
-WARNING:HDLCompiler:1499 - "D:\Desktop\Project\Counter_3channel.v" Line 21: Empty module <Counter_x> remains a black box.
+WARNING:HDLCompiler:1499 - "C:\Users\Young\Documents\GitHub\CPU-Project\Counter_3channel.v" Line 21: Empty module <Counter_x> remains a black box.
 
 Elaborating module <clk_div_4>.
-WARNING:HDLCompiler:413 - "D:\Desktop\Project\clk_div_4.v" Line 29: Result of 3-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Young\Documents\GitHub\CPU-Project\clk_div_4.v" Line 29: Result of 3-bit expression is truncated to fit in 2-bit target.
 
 Elaborating module <keyboard>.
 
 Elaborating module <vga_640x480>.
-WARNING:HDLCompiler:413 - "D:\Desktop\Project\vga_640x480.v" Line 47: Result of 11-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "D:\Desktop\Project\vga_640x480.v" Line 61: Result of 11-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:1127 - "D:\Desktop\Project\socmf.v" Line 204: Assignment to hc ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "D:\Desktop\Project\socmf.v" Line 205: Assignment to vc ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "C:\Users\Young\Documents\GitHub\CPU-Project\vga_640x480.v" Line 47: Result of 11-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Young\Documents\GitHub\CPU-Project\vga_640x480.v" Line 61: Result of 11-bit expression is truncated to fit in 10-bit target.
 
 Elaborating module <vga_display>.
-WARNING:HDLCompiler:189 - "D:\Desktop\Project\socmf.v" Line 215: Size mismatch in connection of port <vgaBlue>. Formal port size is 3-bit while actual signal size is 2-bit.
-WARNING:HDLCompiler:634 - "D:\Desktop\Project\socmf.v" Line 32: Net <blinke[3]> does not have a driver.
+
+Elaborating module <vga_control>.
+WARNING:HDLCompiler:413 - "C:\Users\Young\Documents\GitHub\CPU-Project\vga_control.v" Line 44: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Young\Documents\GitHub\CPU-Project\vga_control.v" Line 45: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Young\Documents\GitHub\CPU-Project\vga_control.v" Line 48: Result of 15-bit expression is truncated to fit in 13-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Young\Documents\GitHub\CPU-Project\vga_control.v" Line 49: Result of 32-bit expression is truncated to fit in 10-bit target.
+
+Elaborating module <font_table>.
+
+Elaborating module <char_ram>.
+WARNING:HDLCompiler:1499 - "C:\Users\Young\Documents\GitHub\CPU-Project\ipcore_dir\char_ram.v" Line 39: Empty module <char_ram> remains a black box.
+
+Elaborating module <char_mode>.
+WARNING:HDLCompiler:634 - "C:\Users\Young\Documents\GitHub\CPU-Project\socmf.v" Line 32: Net <blinke[3]> does not have a driver.
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <socmf>.
-    Related source file is "D:\Desktop\Project\socmf.v".
-INFO:Xst:3210 - "D:\Desktop\Project\socmf.v" line 64: Output port <state> of the instance <U1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\Desktop\Project\socmf.v" line 64: Output port <CPU_MIO> of the instance <U1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\Desktop\Project\socmf.v" line 144: Output port <GPIOf0> of the instance <U7> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\Desktop\Project\socmf.v" line 162: Output port <button_pulse> of the instance <U9> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\Desktop\Project\socmf.v" line 200: Output port <hc> of the instance <U13> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\Desktop\Project\socmf.v" line 200: Output port <vc> of the instance <U13> is unconnected or connected to loadless signal.
+    Related source file is "C:\Users\Young\Documents\GitHub\CPU-Project\socmf.v".
+INFO:Xst:3210 - "C:\Users\Young\Documents\GitHub\CPU-Project\socmf.v" line 71: Output port <state> of the instance <U1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Young\Documents\GitHub\CPU-Project\socmf.v" line 71: Output port <CPU_MIO> of the instance <U1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Young\Documents\GitHub\CPU-Project\socmf.v" line 153: Output port <GPIOf0> of the instance <U7> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Young\Documents\GitHub\CPU-Project\socmf.v" line 171: Output port <button_pulse> of the instance <U9> is unconnected or connected to loadless signal.
 WARNING:Xst:653 - Signal <blinke> is used but never assigned. This sourceless signal will be automatically connected to value GND.
     Summary:
 	no macro.
 Unit <socmf> synthesized.
 
 Synthesizing Unit <Muliti_CPU>.
-    Related source file is "D:\Desktop\Project\muliti_cycle_cpu.v".
+    Related source file is "C:\Users\Young\Documents\GitHub\CPU-Project\muliti_cycle_cpu.v".
 WARNING:Xst:647 - Input <INT> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-INFO:Xst:3210 - "D:\Desktop\Project\muliti_cycle_cpu.v" line 36: Output port <state_out> of the instance <m_ctrl> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Young\Documents\GitHub\CPU-Project\muliti_cycle_cpu.v" line 36: Output port <state_out> of the instance <m_ctrl> is unconnected or connected to loadless signal.
 WARNING:Xst:653 - Signal <state> is used but never assigned. This sourceless signal will be automatically connected to value GND.
     Summary:
 	no macro.
 Unit <Muliti_CPU> synthesized.
 
 Synthesizing Unit <ctrl>.
-    Related source file is "D:\Desktop\Project\ctrl.v".
+    Related source file is "C:\Users\Young\Documents\GitHub\CPU-Project\ctrl.v".
         IF = 5'b00000
         ID = 5'b00001
         EX_R = 5'b00010
@@ -362,32 +378,32 @@ WARNING:Xst:647 - Input <overflow> is never used. This port will be preserved an
 Unit <ctrl> synthesized.
 
 Synthesizing Unit <M_datapath>.
-    Related source file is "D:\Desktop\Project\datapath.v".
+    Related source file is "C:\Users\Young\Documents\GitHub\CPU-Project\datapath.v".
 WARNING:Xst:653 - Signal <rst> is used but never assigned. This sourceless signal will be automatically connected to value GND.
     Summary:
 Unit <M_datapath> synthesized.
 
 Synthesizing Unit <ALU>.
-    Related source file is "D:\Desktop\Project\ALU.vf".
+    Related source file is "C:\Users\Young\Documents\GitHub\CPU-Project\ALU.vf".
 WARNING:Xst:653 - Signal <overflow> is used but never assigned. This sourceless signal will be automatically connected to value GND.
     Summary:
 	no macro.
 Unit <ALU> synthesized.
 
 Synthesizing Unit <and32>.
-    Related source file is "D:\Desktop\Project\and32.v".
+    Related source file is "C:\Users\Young\Documents\GitHub\CPU-Project\and32.v".
     Summary:
 	no macro.
 Unit <and32> synthesized.
 
 Synthesizing Unit <or32>.
-    Related source file is "D:\Desktop\Project\or32.v".
+    Related source file is "C:\Users\Young\Documents\GitHub\CPU-Project\or32.v".
     Summary:
 	no macro.
 Unit <or32> synthesized.
 
 Synthesizing Unit <ADC32>.
-    Related source file is "D:\Desktop\Project\ADC32.v".
+    Related source file is "C:\Users\Young\Documents\GitHub\CPU-Project\ADC32.v".
     Found 33-bit adder for signal <n0012> created at line 9.
     Found 33-bit adder for signal <S> created at line 9.
     Summary:
@@ -395,18 +411,18 @@ Synthesizing Unit <ADC32>.
 Unit <ADC32> synthesized.
 
 Synthesizing Unit <xor32>.
-    Related source file is "D:\Desktop\Project\xor32.v".
+    Related source file is "C:\Users\Young\Documents\GitHub\CPU-Project\xor32.v".
     Summary:
 Unit <xor32> synthesized.
 
 Synthesizing Unit <nor32>.
-    Related source file is "D:\Desktop\Project\nor32.v".
+    Related source file is "C:\Users\Young\Documents\GitHub\CPU-Project\nor32.v".
     Summary:
 	no macro.
 Unit <nor32> synthesized.
 
 Synthesizing Unit <srl32>.
-    Related source file is "D:\Desktop\Project\srl32.v".
+    Related source file is "C:\Users\Young\Documents\GitHub\CPU-Project\srl32.v".
 WARNING:Xst:647 - Input <A> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <B> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Summary:
@@ -414,26 +430,26 @@ WARNING:Xst:647 - Input <B> is never used. This port will be preserved and left 
 Unit <srl32> synthesized.
 
 Synthesizing Unit <mux8to1_32>.
-    Related source file is "D:\Desktop\Project\mux8to1_32.v".
+    Related source file is "C:\Users\Young\Documents\GitHub\CPU-Project\mux8to1_32.v".
     Found 32-bit 8-to-1 multiplexer for signal <o> created at line 16.
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <mux8to1_32> synthesized.
 
 Synthesizing Unit <or_bit_32>.
-    Related source file is "D:\Desktop\Project\or_bit_32.v".
+    Related source file is "C:\Users\Young\Documents\GitHub\CPU-Project\or_bit_32.v".
     Summary:
 	no macro.
 Unit <or_bit_32> synthesized.
 
 Synthesizing Unit <SignalExt_32>.
-    Related source file is "D:\Desktop\Project\SignalExt_32.v".
+    Related source file is "C:\Users\Young\Documents\GitHub\CPU-Project\SignalExt_32.v".
     Summary:
 	no macro.
 Unit <SignalExt_32> synthesized.
 
 Synthesizing Unit <Regs>.
-    Related source file is "D:\Desktop\Project\regs.v".
+    Related source file is "C:\Users\Young\Documents\GitHub\CPU-Project\regs.v".
     Found 992-bit register for signal <n0051[991:0]>.
     Found 32-bit 31-to-1 multiplexer for signal <R_addr_A[4]_register[31][31]_wide_mux_1_OUT> created at line 12.
     Found 32-bit 31-to-1 multiplexer for signal <R_addr_B[4]_register[31][31]_wide_mux_4_OUT> created at line 13.
@@ -443,57 +459,58 @@ Synthesizing Unit <Regs>.
 Unit <Regs> synthesized.
 
 Synthesizing Unit <REG32_with_rst>.
-    Related source file is "D:\Desktop\Project\REG32_with_rst.v".
+    Related source file is "C:\Users\Young\Documents\GitHub\CPU-Project\REG32_with_rst.v".
     Found 32-bit register for signal <register>.
     Summary:
 	inferred  32 D-type flip-flop(s).
 Unit <REG32_with_rst> synthesized.
 
 Synthesizing Unit <REG32>.
-    Related source file is "D:\Desktop\Project\REG32.v".
+    Related source file is "C:\Users\Young\Documents\GitHub\CPU-Project\REG32.v".
     Found 32-bit register for signal <register>.
     Summary:
 	inferred  32 D-type flip-flop(s).
 Unit <REG32> synthesized.
 
 Synthesizing Unit <mux4to1_5>.
-    Related source file is "D:\Desktop\Project\mux4to1_5.v".
+    Related source file is "C:\Users\Young\Documents\GitHub\CPU-Project\mux4to1_5.v".
     Found 5-bit 3-to-1 multiplexer for signal <o> created at line 12.
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <mux4to1_5> synthesized.
 
 Synthesizing Unit <mux2to1_32>.
-    Related source file is "D:\Desktop\Project\mux2to1_32.v".
+    Related source file is "C:\Users\Young\Documents\GitHub\CPU-Project\mux2to1_32.v".
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <mux2to1_32> synthesized.
 
 Synthesizing Unit <mux4to1_32>.
-    Related source file is "D:\Desktop\Project\mux4to1_32.v".
+    Related source file is "C:\Users\Young\Documents\GitHub\CPU-Project\mux4to1_32.v".
     Found 32-bit 4-to-1 multiplexer for signal <o> created at line 12.
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <mux4to1_32> synthesized.
 
 Synthesizing Unit <Ext_32>.
-    Related source file is "D:\Desktop\Project\Ext_32.v".
+    Related source file is "C:\Users\Young\Documents\GitHub\CPU-Project\Ext_32.v".
     Summary:
 	no macro.
 Unit <Ext_32> synthesized.
 
 Synthesizing Unit <MIO_BUS>.
-    Related source file is "D:\Desktop\Project\MIO_BUS.v".
+    Related source file is "C:\Users\Young\Documents\GitHub\CPU-Project\MIO_BUS.v".
 WARNING:Xst:647 - Input <addr_bus<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <addr_bus<27:12>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <char_data> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <rst> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Summary:
-	inferred  19 Multiplexer(s).
+	inferred  22 Multiplexer(s).
 Unit <MIO_BUS> synthesized.
 
 Synthesizing Unit <clk_div>.
-    Related source file is "D:\Desktop\Project\clk_div.v".
+    Related source file is "C:\Users\Young\Documents\GitHub\CPU-Project\clk_div.v".
     Found 32-bit register for signal <clkdiv>.
     Found 32-bit adder for signal <clkdiv[31]_GND_30_o_add_0_OUT> created at line 29.
     Summary:
@@ -503,7 +520,7 @@ Synthesizing Unit <clk_div>.
 Unit <clk_div> synthesized.
 
 Synthesizing Unit <clk_div_4>.
-    Related source file is "D:\Desktop\Project\clk_div_4.v".
+    Related source file is "C:\Users\Young\Documents\GitHub\CPU-Project\clk_div_4.v".
     Found 2-bit register for signal <count>.
     Found 2-bit adder for signal <count[1]_GND_33_o_add_1_OUT> created at line 29.
     Summary:
@@ -512,7 +529,7 @@ Synthesizing Unit <clk_div_4>.
 Unit <clk_div_4> synthesized.
 
 Synthesizing Unit <keyboard>.
-    Related source file is "D:\Desktop\Project\keyboard.v".
+    Related source file is "C:\Users\Young\Documents\GitHub\CPU-Project\keyboard.v".
     Found 8-bit register for signal <ps2d_filter>.
     Found 1-bit register for signal <PS2Cf>.
     Found 1-bit register for signal <PS2Df>.
@@ -524,7 +541,7 @@ Synthesizing Unit <keyboard>.
 Unit <keyboard> synthesized.
 
 Synthesizing Unit <vga_640x480>.
-    Related source file is "D:\Desktop\Project\vga_640x480.v".
+    Related source file is "C:\Users\Young\Documents\GitHub\CPU-Project\vga_640x480.v".
         h_pixel = 800
         h_total = 521
         hbp = 144
@@ -549,7 +566,7 @@ Synthesizing Unit <vga_640x480>.
 Unit <vga_640x480> synthesized.
 
 Synthesizing Unit <vga_display>.
-    Related source file is "D:\Desktop\Project\vga_display.v".
+    Related source file is "C:\Users\Young\Documents\GitHub\CPU-Project\vga_display.v".
     Found 3-bit register for signal <vgaGreen>.
     Found 1-bit register for signal <vgaBlue<2>>.
     Found 1-bit register for signal <vgaBlue<1>>.
@@ -559,33 +576,89 @@ Synthesizing Unit <vga_display>.
 	inferred   9 D-type flip-flop(s).
 Unit <vga_display> synthesized.
 
+Synthesizing Unit <vga_control>.
+    Related source file is "C:\Users\Young\Documents\GitHub\CPU-Project\vga_control.v".
+        h_pixel = 800
+        h_total = 521
+        hbp = 144
+        hfp = 784
+        vbp = 31
+        vfp = 511
+    Found 8-bit register for signal <data>.
+    Found 14-bit adder for signal <n0016> created at line 48.
+    Found 32-bit adder for signal <n0017> created at line 49.
+    Found 10-bit subtractor for signal <xpix> created at line 41.
+    Found 10-bit subtractor for signal <ypix> created at line 42.
+    Found 7x7-bit multiplier for signal <n0036> created at line 48.
+    Summary:
+	inferred   1 Multiplier(s).
+	inferred   4 Adder/Subtractor(s).
+	inferred   8 D-type flip-flop(s).
+Unit <vga_control> synthesized.
+
+Synthesizing Unit <font_table>.
+    Related source file is "C:\Users\Young\Documents\GitHub\CPU-Project\font_table.v".
+        font =
+8192'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000000000000110000001100000011000000110000000000000011000000110000000000001101100011011000100100000000000000000000000000000000000000000000110110001101100111111100110110011111110011011000110110000000000000110000111111011011000011111100001101101111110000110000000000001100010011001100000110000011000001100000110011001000110000000000011100001101100011010000111011011011100110011000111011000000000000110000001100000110000000000000000000000000000000000000000000000001100000110000011000000110000001100000001100000001100000000000011000000011000000011000000110000001100000110000011000000000000000000000110110000111000111111100011100001101100000000000000000000000000000110000001100001111110000110000001100000000000000000000000000000000000000000000000000000000000000110000001100000010000000000000000000000000000011111100000000000000000000000000000000000000000000000000000000000000000000000000001100000011000000000000000001000000110000011000001100000110000011000000100000000
+0000000011110001100110011011100111011001100110011001100011110000000000000110000001100000111000000110000001100000011000001111000000000001111100000001100000011000111100011000000110000001111100000000000111110000000110000001100011110000000110000001100111110000000000011001100110011001100110011111100000011000000110000001100000000001111110011000000110000001111100000001100000011001111100000000000011110001100000011000000111110001100110011001100011110000000000011111100000011000001100000110000001100000011000000110000000000000111100011001100110011000111100011001100110011000111100000000000011110001100110011001100011111000000110000001100011110000000000000000000001100000011000000000000001100000011000000000000000000000000000000000000001100000011000000000000001100000011000000100000000110000011000001100000110000000110000000110000000110000000000000000000000000001111110000000000111111000000000000000000000000000110000000110000000110000000110000011000001100000110000000000000011110001100110000001100001110000011000000000000001100000
+0000000011110001100110011011100110101001101110011000000011111000000000001111000110011001100110011111100110011001100110011001100000000001111100011001100110011001111100011001100110011001111100000000000011110001100110011000000110000001100000011001100011110000000000011111000110011001100110011001100110011001100110011111000000000001111110011000000110000001111100011000000110000001111110000000000111111001100000011000000111110001100000011000000110000000000000001111000110011001100000011011100110011001100110001111000000000001100110011001100110011001111110011001100110011001100110000000000011110000011000000110000001100000011000000110000011110000000000001111100000110000001100000011000000110001101100001110000000000001100110011011000111100001110000011110000110110001100110000000000110000001100000011000000110000001100000011000000111111000000000110001101110111011111110110101101100011011000110110001100000000001100110011001100111011001111110011011100110011001100110000000000011110001100110011001100110011001100110011001100011110000
+0000000111110001100110011001100111110001100000011000000110000000000000001111000110011001100110011001100110111001100110001111100000000001111100011001100110011001111100011001100110011001100110000000000011111001100000011000000011110000000110000001100111110000000000011111100001100000011000000110000001100000011000000110000000000001100110011001100110011001100110011001100110011000111100000000000110011001100110011001100110011000111100001111000001100000000000110001101100011011010110110101101111111011101110010001000000000001100110011001100011110000011000001111000110011001100110000000000110011001100110011001100011110000011000000110000001100000000000011111100000011000001100000110000011000001100000011111100000000000111100001100000011000000110000001100000011000000111100000000000100000001100000001100000001100000001100000001100000001000000000001111000000110000001100000011000000110000001100001111000000000000010000001110000110110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011
+1111110001100000011000000011000000000000000000000000000000000000000000000000000000000000111100000001100011111001100110001110100000000001100000011000000111110001100110011001100110011001111100000000000000000000000000001111000110011001100000011001100011110000000000000001100000011000111110011001100110011001100110001111100000000000000000000000000011110001100110011111000110000000111100000000000000111000011000000110000011111000011000000110000001100000000000000000000000000000111110011001100110011000111110000001100011110001100000011000000111110001100110011001100110011001100110000000000001100000000000000110000001100000011000000110000001100000000000000110000000000000011000000110000001100000011000000110000111000001100000011000000110011001101100011110000110110001100110000000000011000000110000001100000011000000110000001100000001110000000000000000000000000011001100111111101101011011000110110001100000000000000000000000000111110001100110011001100110011001100110000000000000000000000000001111000110011001100110011001100011110000
+0000000000000000000000011111000110011001100110011111000110000001100000000000000000000000111110011001100110011000111110000001100000011000000000000000000011011000111000001100000011000000110000000000000000000000000000001111100110000000111100000001100111110000000000000110000001100000111100000110000001100000011000000011000000000000000000000000000110011001100110011001100110011000111100000000000000000000000000011001100110011001100110001111000001100000000000000000000000000011000110110101101101011001111100001010000000000000000000000000000110011000111100000110000011110001100110000000000000000000000000011001100110011001100110001111100000011001111100000000000000000001111110000011000001100000110000011111100000000000011100001100000011000001100000001100000011000000011100000000000001100000011000000110000001100000011000000110000001100000000000001110000000110000001100000001100000110000001100001110000000000000000000001100100100110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+000000
+    Found 9-bit subtractor for signal <GND_39_o_GND_39_o_sub_1_OUT> created at line 158.
+    Found 32-bit adder for signal <GND_39_o_GND_39_o_add_1_OUT> created at line 158.
+    Found 13-bit subtractor for signal <GND_39_o_GND_39_o_sub_3_OUT<12:0>> created at line 158.
+    Found 8192x1-bit Read Only RAM for signal <font_dot>
+    Summary:
+	inferred   1 RAM(s).
+	inferred   3 Adder/Subtractor(s).
+Unit <font_table> synthesized.
+
+Synthesizing Unit <char_mode>.
+    Related source file is "C:\Users\Young\Documents\GitHub\CPU-Project\char_mode.v".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <char_mode> synthesized.
+
 =========================================================================
 HDL Synthesis Report
 
 Macro Statistics
-# Adders/Subtractors                                   : 6
+# RAMs                                                 : 1
+ 8192x1-bit single-port Read Only RAM                  : 1
+# Multipliers                                          : 1
+ 7x7-bit multiplier                                    : 1
+# Adders/Subtractors                                   : 13
  10-bit adder                                          : 2
+ 10-bit subtractor                                     : 2
+ 13-bit subtractor                                     : 1
+ 14-bit adder                                          : 1
  2-bit adder                                           : 1
- 32-bit adder                                          : 1
+ 32-bit adder                                          : 3
  33-bit adder                                          : 2
-# Registers                                            : 34
+ 9-bit subtractor                                      : 1
+# Registers                                            : 35
  1-bit register                                        : 13
  10-bit register                                       : 3
  11-bit register                                       : 1
  2-bit register                                        : 5
  3-bit register                                        : 4
  32-bit register                                       : 5
- 8-bit register                                        : 2
+ 8-bit register                                        : 3
  992-bit register                                      : 1
 # Comparators                                          : 6
  10-bit comparator greater                             : 4
  10-bit comparator lessequal                           : 2
-# Multiplexers                                         : 99
- 1-bit 2-to-1 multiplexer                              : 25
+# Multiplexers                                         : 103
+ 1-bit 2-to-1 multiplexer                              : 27
  10-bit 2-to-1 multiplexer                             : 1
+ 13-bit 2-to-1 multiplexer                             : 1
  2-bit 2-to-1 multiplexer                              : 21
  3-bit 2-to-1 multiplexer                              : 4
- 32-bit 2-to-1 multiplexer                             : 41
+ 32-bit 2-to-1 multiplexer                             : 42
  32-bit 31-to-1 multiplexer                            : 2
  32-bit 4-to-1 multiplexer                             : 3
  32-bit 8-to-1 multiplexer                             : 1
@@ -602,19 +675,20 @@ Macro Statistics
 =========================================================================
 
 Reading core <Anti_jitter.ngc>.
+Reading core <ipcore_dir/char_ram.ngc>.
 Reading core <seven_seg_Dev_IO.ngc>.
 Reading core <led_Dev_IO.ngc>.
 Reading core <Counter_x.ngc>.
 Reading core <ipcore_dir/RAM_B.ngc>.
 Reading core <seven_seg_dev.ngc>.
 Loading core <Anti_jitter> for timing and area information for instance <U9>.
+Loading core <char_ram> for timing and area information for instance <U17>.
 Loading core <seven_seg_Dev_IO> for timing and area information for instance <U5>.
 Loading core <led_Dev_IO> for timing and area information for instance <U7>.
 Loading core <Counter_x> for timing and area information for instance <U10>.
 Loading core <RAM_B> for timing and area information for instance <U3>.
 Loading core <seven_seg_dev> for timing and area information for instance <U6>.
 WARNING:Xst:1710 - FF/Latch <vgaBlue_0> (without init value) has a constant value of 0 in block <U14>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:2677 - Node <vgaBlue_2> of sequential type is unconnected in block <U14>.
 
 Synthesizing (advanced) Unit <clk_div>.
 The following registers are absorbed into counter <clkdiv>: 1 register on signal <clkdiv>.
@@ -623,6 +697,21 @@ Unit <clk_div> synthesized (advanced).
 Synthesizing (advanced) Unit <clk_div_4>.
 The following registers are absorbed into counter <count>: 1 register on signal <count>.
 Unit <clk_div_4> synthesized (advanced).
+
+Synthesizing (advanced) Unit <socmf>.
+	Multiplier <U15/Mmult_n0036> in block <socmf> and adder/subtractor <U15/Madd_n0016_Madd> in block <socmf> are combined into a MAC<U15/Maddsub_n0036>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <U16/Mram_font_dot> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 8192-word x 1-bit                   |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <U16/GND_39_o_GND_39_o_sub_3_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <font_dot>      |          |
+    -----------------------------------------------------------------------
+Unit <socmf> synthesized (advanced).
 
 Synthesizing (advanced) Unit <vga_640x480>.
 The following registers are absorbed into counter <hc>: 1 register on signal <hc>.
@@ -633,23 +722,33 @@ Unit <vga_640x480> synthesized (advanced).
 Advanced HDL Synthesis Report
 
 Macro Statistics
-# Adders/Subtractors                                   : 1
+# RAMs                                                 : 1
+ 8192x1-bit single-port distributed Read Only RAM      : 1
+# MACs                                                 : 1
+ 7x7-to-13-bit MAC                                     : 1
+# Adders/Subtractors                                   : 7
+ 10-bit adder                                          : 1
+ 10-bit subtractor                                     : 2
+ 13-bit adder                                          : 1
+ 13-bit subtractor                                     : 1
  33-bit adder carry in                                 : 1
+ 7-bit subtractor                                      : 1
 # Counters                                             : 4
  10-bit up counter                                     : 2
  2-bit up counter                                      : 1
  32-bit up counter                                     : 1
-# Registers                                            : 1190
- Flip-Flops                                            : 1190
+# Registers                                            : 1198
+ Flip-Flops                                            : 1198
 # Comparators                                          : 6
  10-bit comparator greater                             : 4
  10-bit comparator lessequal                           : 2
-# Multiplexers                                         : 98
- 1-bit 2-to-1 multiplexer                              : 24
+# Multiplexers                                         : 102
+ 1-bit 2-to-1 multiplexer                              : 26
  10-bit 2-to-1 multiplexer                             : 1
+ 13-bit 2-to-1 multiplexer                             : 1
  2-bit 2-to-1 multiplexer                              : 21
  3-bit 2-to-1 multiplexer                              : 4
- 32-bit 2-to-1 multiplexer                             : 41
+ 32-bit 2-to-1 multiplexer                             : 42
  32-bit 31-to-1 multiplexer                            : 2
  32-bit 4-to-1 multiplexer                             : 3
  32-bit 8-to-1 multiplexer                             : 1
@@ -752,21 +851,22 @@ Optimizing unit <vga_640x480> ...
 
 Optimizing unit <vga_display> ...
 WARNING:Xst:2677 - Node <U1/m_ctrl/CPU_MIO> of sequential type is unconnected in block <socmf>.
-WARNING:Xst:2677 - Node <U14/vgaBlue_2> of sequential type is unconnected in block <socmf>.
 INFO:Xst:2261 - The FF/Latch <U1/m_ctrl/PCSource_0> in Unit <socmf> is equivalent to the following FF/Latch, which will be removed : <U1/m_ctrl/PCWriteCond> 
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block socmf, actual ratio is 39.
-FlipFlop U1/m_datapath/IR/register_16 has been replicated 16 time(s)
-FlipFlop U1/m_datapath/IR/register_17 has been replicated 14 time(s)
-FlipFlop U1/m_datapath/IR/register_18 has been replicated 5 time(s)
-FlipFlop U1/m_datapath/IR/register_19 has been replicated 5 time(s)
-FlipFlop U1/m_datapath/IR/register_20 has been replicated 1 time(s)
+Found area constraint ratio of 100 (+ 5) on block socmf, actual ratio is 41.
+FlipFlop U1/m_ctrl/ALUSrcB_0 has been replicated 2 time(s)
+FlipFlop U1/m_ctrl/ALUSrcB_1 has been replicated 2 time(s)
+FlipFlop U1/m_datapath/IR/register_16 has been replicated 22 time(s)
+FlipFlop U1/m_datapath/IR/register_17 has been replicated 16 time(s)
+FlipFlop U1/m_datapath/IR/register_18 has been replicated 3 time(s)
+FlipFlop U1/m_datapath/IR/register_19 has been replicated 3 time(s)
+FlipFlop U1/m_datapath/IR/register_20 has been replicated 2 time(s)
 FlipFlop U1/m_datapath/IR/register_21 has been replicated 15 time(s)
-FlipFlop U1/m_datapath/IR/register_22 has been replicated 15 time(s)
-FlipFlop U1/m_datapath/IR/register_23 has been replicated 4 time(s)
-FlipFlop U1/m_datapath/IR/register_24 has been replicated 4 time(s)
+FlipFlop U1/m_datapath/IR/register_22 has been replicated 14 time(s)
+FlipFlop U1/m_datapath/IR/register_23 has been replicated 3 time(s)
+FlipFlop U1/m_datapath/IR/register_24 has been replicated 3 time(s)
 FlipFlop U1/m_datapath/IR/register_25 has been replicated 1 time(s)
 
 Final Macro Processing ...
@@ -780,8 +880,8 @@ Unit <socmf> processed.
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 1324
- Flip-Flops                                            : 1324
+# Registers                                            : 1339
+ Flip-Flops                                            : 1339
 # Shift Registers                                      : 2
  3-bit shift register                                  : 1
  4-bit shift register                                  : 1
@@ -807,46 +907,48 @@ Top Level Output File Name         : socmf.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 3548
-#      GND                         : 5
-#      INV                         : 50
+# BELS                             : 3787
+#      GND                         : 6
+#      INV                         : 62
 #      LUT1                        : 113
-#      LUT2                        : 13
-#      LUT3                        : 1303
+#      LUT2                        : 21
+#      LUT3                        : 1345
 #      LUT3_D                      : 2
-#      LUT4                        : 351
+#      LUT4                        : 370
 #      LUT4_L                      : 53
-#      LUT5                        : 246
-#      LUT6                        : 852
+#      LUT5                        : 238
+#      LUT6                        : 1021
 #      MUXCY                       : 193
 #      MUXF5                       : 136
 #      MUXF6                       : 40
-#      MUXF7                       : 9
-#      VCC                         : 5
+#      MUXF7                       : 4
+#      VCC                         : 6
 #      XORCY                       : 177
-# FlipFlops/Latches                : 1577
-#      FD                          : 145
+# FlipFlops/Latches                : 1595
+#      FD                          : 153
 #      FD_1                        : 14
-#      FDC                         : 104
+#      FDC                         : 106
 #      FDCE                        : 1027
 #      FDCE_1                      : 7
-#      FDE                         : 204
+#      FDE                         : 209
 #      FDE_1                       : 22
-#      FDP                         : 22
+#      FDP                         : 24
 #      FDPE_1                      : 3
-#      FDR                         : 17
+#      FDR                         : 18
 #      FDRE                        : 10
 #      LD                          : 2
-# RAMS                             : 2
-#      RAMB16BWER                  : 2
+# RAMS                             : 7
+#      RAMB16BWER                  : 7
 # Shift Registers                  : 2
 #      SRLC16E                     : 2
 # Clock Buffers                    : 6
 #      BUFG                        : 5
 #      BUFGP                       : 1
-# IO Buffers                       : 44
+# IO Buffers                       : 45
 #      IBUF                        : 14
-#      OBUF                        : 30
+#      OBUF                        : 31
+# DSPs                             : 1
+#      DSP48A1                     : 1
 
 Device utilization summary:
 ---------------------------
@@ -855,27 +957,28 @@ Selected Device : 6slx16csg324-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:            1577  out of  18224     8%  
- Number of Slice LUTs:                 2985  out of   9112    32%  
-    Number used as Logic:              2983  out of   9112    32%  
+ Number of Slice Registers:            1595  out of  18224     8%  
+ Number of Slice LUTs:                 3227  out of   9112    35%  
+    Number used as Logic:              3225  out of   9112    35%  
     Number used as Memory:                2  out of   2176     0%  
        Number used as SRL:                2
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   4174
-   Number with an unused Flip Flop:    2597  out of   4174    62%  
-   Number with an unused LUT:          1189  out of   4174    28%  
-   Number of fully used LUT-FF pairs:   388  out of   4174     9%  
-   Number of unique control sets:        28
+ Number of LUT Flip Flop pairs used:   4365
+   Number with an unused Flip Flop:    2770  out of   4365    63%  
+   Number with an unused LUT:          1138  out of   4365    26%  
+   Number of fully used LUT-FF pairs:   457  out of   4365    10%  
+   Number of unique control sets:        29
 
 IO Utilization: 
- Number of IOs:                          45
- Number of bonded IOBs:                  45  out of    232    19%  
+ Number of IOs:                          46
+ Number of bonded IOBs:                  46  out of    232    19%  
 
 Specific Feature Utilization:
- Number of Block RAM/FIFO:                2  out of     32     6%  
-    Number using Block RAM only:          2
+ Number of Block RAM/FIFO:                7  out of     32    21%  
+    Number using Block RAM only:          7
  Number of BUFG/BUFGCTRLs:                6  out of     16    37%  
+ Number of DSP48A1s:                      1  out of     32     3%  
 
 ---------------------------
 Partition Resource Summary:
@@ -895,18 +998,19 @@ NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
 
 Clock Information:
 ------------------
------------------------------------+-----------------------------------------------------------------------------------------------+-------+
-Clock Signal                       | Clock buffer(FF name)                                                                         | Load  |
------------------------------------+-----------------------------------------------------------------------------------------------+-------+
-clk                                | BUFGP                                                                                         | 125   |
-U12/PS2Cf                          | BUFG                                                                                          | 18    |
-U11/count_1                        | BUFG                                                                                          | 46    |
-Clk_CPU(U8/Mmux_Clk_CPU11:O)       | BUFG(*)(U1/m_datapath/ALUout/register_31)                                                     | 1235  |
-NOT_Clk_CPU(NOT_Clk_CPU1:O)        | BUFG(*)(U5/blink_out_0)                                                                       | 120   |
-U9/rst                             | NONE(U5/Disp_num_31_LD)                                                                       | 2     |
-U8/clkdiv_7                        | BUFG                                                                                          | 35    |
-U3/BU2/doutb(0)                    | NONE(U3/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram)| 2     |
------------------------------------+-----------------------------------------------------------------------------------------------+-------+
+-----------------------------------+------------------------------------------------------------------------------------------------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                                                                                                        | Load  |
+-----------------------------------+------------------------------------------------------------------------------------------------------------------------------+-------+
+clk                                | BUFGP                                                                                                                        | 151   |
+U12/PS2Cf                          | BUFG                                                                                                                         | 18    |
+Clk_CPU(U8/Mmux_Clk_CPU11:O)       | BUFG(*)(U1/m_datapath/ALUout/register_31)                                                                                    | 1241  |
+U11/count_1                        | BUFG                                                                                                                         | 37    |
+U17/N1                             | NONE(U17/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram)| 5     |
+NOT_Clk_CPU(NOT_Clk_CPU1:O)        | BUFG(*)(U5/blink_out_0)                                                                                                      | 120   |
+U9/rst                             | NONE(U5/Disp_num_31_LD)                                                                                                      | 2     |
+U8/clkdiv_7                        | BUFG                                                                                                                         | 35    |
+U3/BU2/doutb(0)                    | NONE(U3/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram)                               | 2     |
+-----------------------------------+------------------------------------------------------------------------------------------------------------------------------+-------+
 (*) These 2 clock signal(s) are generated by combinatorial logic,
 and XST is not able to identify which are the primary clock signals.
 Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
@@ -920,7 +1024,7 @@ Timing Summary:
 ---------------
 Speed Grade: -3
 
-   Minimum period: 11.076ns (Maximum Frequency: 90.284MHz)
+   Minimum period: 11.061ns (Maximum Frequency: 90.410MHz)
    Minimum input arrival time before clock: 6.106ns
    Maximum output required time after clock: 8.232ns
    Maximum combinational path delay: No path found
@@ -932,7 +1036,7 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
   Clock period: 5.116ns (frequency: 195.454MHz)
-  Total number of paths / destination ports: 5524 / 142
+  Total number of paths / destination ports: 5572 / 158
 -------------------------------------------------------------------------
 Delay:               5.116ns (Levels of Logic = 4)
   Source:            U9/sw_temp_4 (FF)
@@ -976,51 +1080,30 @@ Delay:               1.415ns (Levels of Logic = 0)
                                        (100.0% logic, 0.0% route)
 
 =========================================================================
-Timing constraint: Default period analysis for Clock 'U11/count_1'
-  Clock period: 5.439ns (frequency: 183.866MHz)
-  Total number of paths / destination ports: 605 / 74
--------------------------------------------------------------------------
-Delay:               5.439ns (Levels of Logic = 4)
-  Source:            U13/vc_3 (FF)
-  Destination:       U14/vgaRed_2 (FF)
-  Source Clock:      U11/count_1 rising
-  Destination Clock: U11/count_1 rising
-
-  Data Path: U13/vc_3 to U14/vgaRed_2
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     FDRE:C->Q             4   0.447   1.028  U13/vc_3 (U13/vc_3)
-     LUT5:I0->O            1   0.203   0.684  U14/vidon_inv3 (U14/vidon_inv3)
-     LUT6:I4->O            1   0.203   0.684  U14/vidon_inv4_SW0 (N252)
-     LUT6:I4->O            1   0.203   0.580  U14/vidon_inv4 (U14/vidon_inv4)
-     LUT6:I5->O            7   0.205   0.773  U14/vidon_inv6 (U14/vidon_inv)
-     FDR:R                     0.430          U14/vgaBlue_1
-    ----------------------------------------
-    Total                      5.439ns (1.691ns logic, 3.748ns route)
-                                       (31.1% logic, 68.9% route)
-
-=========================================================================
 Timing constraint: Default period analysis for Clock 'Clk_CPU'
-  Clock period: 11.076ns (frequency: 90.284MHz)
-  Total number of paths / destination ports: 3583511 / 2339
+  Clock period: 11.061ns (frequency: 90.410MHz)
+  Total number of paths / destination ports: 3632857 / 2347
 -------------------------------------------------------------------------
-Delay:               11.076ns (Levels of Logic = 31)
-  Source:            U1/m_datapath/IR/register_17_5 (FF)
+Delay:               11.061ns (Levels of Logic = 33)
+  Source:            U1/m_datapath/IR/register_21_7 (FF)
   Destination:       U1/m_datapath/PC/register_1 (FF)
   Source Clock:      Clk_CPU rising
   Destination Clock: Clk_CPU rising
 
-  Data Path: U1/m_datapath/IR/register_17_5 to U1/m_datapath/PC/register_1
+  Data Path: U1/m_datapath/IR/register_21_7 to U1/m_datapath/PC/register_1
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDE:C->Q             17   0.447   1.132  U1/m_datapath/IR/register_17_5 (U1/m_datapath/IR/register_17_5)
-     LUT6:I4->O            1   0.203   0.827  U1/m_datapath/U2/Mmux_R_addr_B[4]_register[31][31]_wide_mux_4_OUT_882 (U1/m_datapath/U2/Mmux_R_addr_B[4]_register[31][31]_wide_mux_4_OUT_882)
-     LUT6:I2->O            3   0.203   0.755  U1/m_datapath/U2/Mmux_R_addr_B[4]_register[31][31]_wide_mux_4_OUT_327 (U1/m_datapath/U2/Mmux_R_addr_B[4]_register[31][31]_wide_mux_4_OUT_327)
-     LUT4:I2->O            3   0.203   0.755  U1/m_datapath/U2/Mmux_rdata_B281 (Data_out<5>)
-     LUT6:I4->O            1   0.203   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_lut<5> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_lut<5>)
-     MUXCY:S->O            1   0.172   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<5> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<5>)
+     FDE:C->Q             19   0.447   1.176  U1/m_datapath/IR/register_21_7 (U1/m_datapath/IR/register_21_7)
+     LUT6:I4->O            1   0.203   0.827  U1/m_datapath/U2/Mmux_R_addr_A[4]_register[31][31]_wide_mux_1_OUT_834 (U1/m_datapath/U2/Mmux_R_addr_A[4]_register[31][31]_wide_mux_1_OUT_834)
+     LUT6:I2->O            1   0.203   0.580  U1/m_datapath/U2/Mmux_R_addr_A[4]_register[31][31]_wide_mux_1_OUT_311 (U1/m_datapath/U2/Mmux_R_addr_A[4]_register[31][31]_wide_mux_1_OUT_311)
+     LUT6:I5->O            5   0.205   0.819  U1/m_datapath/MUX4/Mmux_o121 (U1/m_datapath/A<1>)
+     LUT6:I4->O            1   0.203   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_lut<1> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_lut<1>)
+     MUXCY:S->O            1   0.172   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<1> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<2> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<3> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<4> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<5> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<5>)
      MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<6> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<6>)
      MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<7> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<7>)
      MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<8> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<8>)
@@ -1039,50 +1122,80 @@ Delay:               11.076ns (Levels of Logic = 31)
      MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<21> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<21>)
      MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<22> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<22>)
      MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<23> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<23>)
-     MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<24> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<24>)
-     MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<25> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<25>)
-     XORCY:CI->O           1   0.180   0.580  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_xor<26> (U1/m_datapath/U1/S<26>)
-     LUT6:I5->O            3   0.205   0.995  U1/m_datapath/U1/XLXI_14/Mmux_o191 (U1/m_datapath/res<26>)
-     LUT6:I1->O            1   0.203   0.684  U1/m_datapath/U1/XLXI_15/out3_SW1_SW0_SW0 (N244)
-     LUT6:I4->O            1   0.203   0.579  U1/m_datapath/U1/XLXI_15/out10 (U1/m_datapath/U1/XLXN_89)
+     XORCY:CI->O           1   0.180   0.580  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_xor<24> (U1/m_datapath/U1/S<24>)
+     LUT6:I5->O            3   0.205   0.879  U1/m_datapath/U1/XLXI_14/Mmux_o171 (U1/m_datapath/res<24>)
+     LUT5:I2->O            1   0.205   0.808  U1/m_datapath/U1/XLXI_15/out7_SW0 (N27)
+     LUT6:I3->O            1   0.205   0.579  U1/m_datapath/U1/XLXI_15/out10 (U1/m_datapath/U1/XLXN_89)
      INV:I->O             32   0.568   1.292  U1/m_datapath/U1/XLXI_24 (U1/zero)
      LUT6:I5->O            1   0.205   0.000  U1/m_datapath/PC/register_27_rstpot (U1/m_datapath/PC/register_27_rstpot)
      FD:D                      0.102          U1/m_datapath/PC/register_27
     ----------------------------------------
-    Total                     11.076ns (3.477ns logic, 7.599ns route)
-                                       (31.4% logic, 68.6% route)
+    Total                     11.061ns (3.521ns logic, 7.540ns route)
+                                       (31.8% logic, 68.2% route)
 
 =========================================================================
-Timing constraint: Default period analysis for Clock 'NOT_Clk_CPU'
-  Clock period: 8.275ns (frequency: 120.846MHz)
-  Total number of paths / destination ports: 154 / 84
+Timing constraint: Default period analysis for Clock 'U11/count_1'
+  Clock period: 9.016ns (frequency: 110.919MHz)
+  Total number of paths / destination ports: 7572 / 75
 -------------------------------------------------------------------------
-Delay:               4.137ns (Levels of Logic = 3)
-  Source:            U7/counter_set_0 (FF)
-  Destination:       U10/M0 (FF)
-  Source Clock:      NOT_Clk_CPU falling
-  Destination Clock: NOT_Clk_CPU rising
+Delay:               9.016ns (Levels of Logic = 7)
+  Source:            U13/vc_0 (FF)
+  Destination:       U15/data_0 (FF)
+  Source Clock:      U11/count_1 rising
+  Destination Clock: U11/count_1 rising
 
-  Data Path: U7/counter_set_0 to U10/M0
+  Data Path: U13/vc_0 to U15/data_0
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDCE_1:C->Q           2   0.447   0.845  counter_set_0 (counter_set<0>)
-     end scope: 'U7:counter_set<0>'
-     begin scope: 'U10:counter_ch<0>'
-     LUT3:I0->O           33   0.205   1.534  M0_and0000111 (counter0_Lock_not0001)
-     LUT4:I1->O            1   0.205   0.579  M0_and00001 (M0_and0000)
-     FDE:CE                    0.322          M0
+     FDRE:C->Q           104   0.447   1.888  U13/vc_0 (U13/vc_0)
+     LUT2:I1->O           94   0.205   1.942  U16/Msub_GND_39_o_GND_39_o_sub_3_OUT<12:0>_xor<0>51 (U16/GND_39_o_GND_39_o_sub_3_OUT<4>)
+     LUT6:I4->O            1   0.203   0.827  U16/Mram_font_dot411 (U16/Mram_font_dot41)
+     LUT6:I2->O            1   0.203   0.827  U16/Mram_font_dot941_145 (U16/Mram_font_dot941_145)
+     LUT6:I2->O            1   0.203   0.827  U16/Mram_font_dot941_91 (U16/Mram_font_dot941_91)
+     LUT6:I2->O            1   0.203   0.000  U16/Mram_font_dot941_41 (U16/Mram_font_dot941_4)
+     MUXF7:I0->O           8   0.131   0.803  U16/Mram_font_dot941_2_f7 (font_dot)
+     LUT3:I2->O            1   0.205   0.000  U15/data_0_rstpot (U15/data_0_rstpot)
+     FD:D                      0.102          U15/data_0
     ----------------------------------------
-    Total                      4.137ns (1.179ns logic, 2.958ns route)
-                                       (28.5% logic, 71.5% route)
+    Total                      9.016ns (1.902ns logic, 7.114ns route)
+                                       (21.1% logic, 78.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'NOT_Clk_CPU'
+  Clock period: 9.713ns (frequency: 102.952MHz)
+  Total number of paths / destination ports: 159 / 84
+-------------------------------------------------------------------------
+Delay:               4.857ns (Levels of Logic = 7)
+  Source:            U7/LED_4 (FF)
+  Destination:       U5/Disp_num_16_C_16 (FF)
+  Source Clock:      NOT_Clk_CPU falling
+  Destination Clock: NOT_Clk_CPU rising
+
+  Data Path: U7/LED_4 to U5/Disp_num_16_C_16
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE_1:C->Q           3   0.447   0.651  LED_4 (led_out<4>)
+     end scope: 'U7:led_out<4>'
+     LUT6:I5->O            1   0.205   0.684  U4/Mmux_Cpu_data4bus82_SW1 (N223)
+     LUT6:I4->O            1   0.203   0.580  U4/Mmux_Cpu_data4bus82 (U4/Mmux_Cpu_data4bus81)
+     LUT6:I5->O           25   0.205   1.297  U4/Mmux_Cpu_data4bus83 (Data_in<16>)
+     begin scope: 'U5:Test_data6<16>'
+     LUT3:I1->O            1   0.203   0.000  Mmux_Disp_num_mux0000_47 (Mmux_Disp_num_mux0000_47)
+     MUXF5:I1->O           1   0.140   0.000  Mmux_Disp_num_mux0000_3_f5_6 (Mmux_Disp_num_mux0000_3_f57)
+     MUXF6:I1->O           2   0.140   0.000  Mmux_Disp_num_mux0000_2_f6_6 (Disp_num_mux0000<16>)
+     FD:D                      0.102          Disp_num_16_C_16
+    ----------------------------------------
+    Total                      4.857ns (1.645ns logic, 3.212ns route)
+                                       (33.9% logic, 66.1% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'U8/clkdiv_7'
-  Clock period: 4.742ns (frequency: 210.864MHz)
+  Clock period: 4.745ns (frequency: 210.747MHz)
   Total number of paths / destination ports: 1351 / 35
 -------------------------------------------------------------------------
-Delay:               4.742ns (Levels of Logic = 3)
+Delay:               4.745ns (Levels of Logic = 3)
   Source:            U10/counter0_32 (FF)
   Destination:       U10/counter0_28 (FF)
   Source Clock:      U8/clkdiv_7 rising
@@ -1092,37 +1205,18 @@ Delay:               4.742ns (Levels of Logic = 3)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q            135   0.447   1.969  counter0_32 (counter0_OUT)
+     FDC:C->Q            136   0.447   1.972  counter0_32 (counter0_OUT)
      LUT2:I1->O           31   0.205   1.506  Mxor_counter0_32_xor0000_Result1 (counter0_32_xor0000)
      LUT4_L:I1->LO         1   0.205   0.105  Mmux_counter0_30_mux0000_3 (Mmux_counter0_30_mux0000_3)
      LUT3:I1->O            1   0.203   0.000  Mmux_counter0_30_mux0000_2_f5 (counter0_30_mux0000)
      FDC:D                     0.102          counter0_30
     ----------------------------------------
-    Total                      4.742ns (1.162ns logic, 3.580ns route)
+    Total                      4.745ns (1.162ns logic, 3.583ns route)
                                        (24.5% logic, 75.5% route)
 
 =========================================================================
-Timing constraint: Default OFFSET IN BEFORE for Clock 'U11/count_1'
-  Total number of paths / destination ports: 2 / 2
--------------------------------------------------------------------------
-Offset:              1.903ns (Levels of Logic = 1)
-  Source:            PS2KeyboardClk (PAD)
-  Destination:       U12/ps2c_filter_7 (FF)
-  Destination Clock: U11/count_1 rising
-
-  Data Path: PS2KeyboardClk to U12/ps2c_filter_7
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     IBUF:I->O             1   1.222   0.579  PS2KeyboardClk_IBUF (PS2KeyboardClk_IBUF)
-     FD:D                      0.102          U12/ps2c_filter_7
-    ----------------------------------------
-    Total                      1.903ns (1.324ns logic, 0.579ns route)
-                                       (69.6% logic, 30.4% route)
-
-=========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
-  Total number of paths / destination ports: 1045 / 110
+  Total number of paths / destination ports: 1047 / 112
 -------------------------------------------------------------------------
 Offset:              6.106ns (Levels of Logic = 6)
   Source:            SW<4> (PAD)
@@ -1229,9 +1323,9 @@ Offset:              8.232ns (Levels of Logic = 9)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'U11/count_1'
-  Total number of paths / destination ports: 21 / 9
+  Total number of paths / destination ports: 22 / 10
 -------------------------------------------------------------------------
-Offset:              5.992ns (Levels of Logic = 3)
+Offset:              6.111ns (Levels of Logic = 3)
   Source:            U13/vc_5 (FF)
   Destination:       Vsync (PAD)
   Source Clock:      U11/count_1 rising
@@ -1240,13 +1334,13 @@ Offset:              5.992ns (Levels of Logic = 3)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDRE:C->Q             4   0.447   1.028  U13/vc_5 (U13/vc_5)
+     FDRE:C->Q             8   0.447   1.147  U13/vc_5 (U13/vc_5)
      LUT5:I0->O            2   0.203   0.961  U13/SF011 (U13/SF01)
      LUT5:I0->O            1   0.203   0.579  U13/Vsync11 (Vsync_OBUF)
      OBUF:I->O                 2.571          Vsync_OBUF (Vsync)
     ----------------------------------------
-    Total                      5.992ns (3.424ns logic, 2.568ns route)
-                                       (57.1% logic, 42.9% route)
+    Total                      6.111ns (3.424ns logic, 2.687ns route)
+                                       (56.0% logic, 44.0% route)
 
 =========================================================================
 
@@ -1258,11 +1352,11 @@ Clock to Setup on destination clock Clk_CPU
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-Clk_CPU        |   11.076|         |         |         |
-NOT_Clk_CPU    |         |    2.486|         |         |
-U12/PS2Cf      |         |    2.612|         |         |
-U8/clkdiv_7    |    3.753|         |         |         |
-clk            |    3.920|    2.737|         |         |
+Clk_CPU        |   11.061|         |         |         |
+NOT_Clk_CPU    |         |    3.077|         |         |
+U12/PS2Cf      |         |    2.584|         |         |
+U8/clkdiv_7    |    4.886|         |         |         |
+clk            |    5.307|    3.099|         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock NOT_Clk_CPU
@@ -1270,12 +1364,12 @@ Clock to Setup on destination clock NOT_Clk_CPU
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-Clk_CPU        |    8.583|         |    8.113|         |
-NOT_Clk_CPU    |    2.554|    4.137|         |         |
-U12/PS2Cf      |         |    3.850|         |         |
-U8/clkdiv_7    |    4.992|         |         |         |
+Clk_CPU        |    9.683|         |    8.697|         |
+NOT_Clk_CPU    |    2.554|    4.857|         |         |
+U12/PS2Cf      |         |    3.823|         |         |
+U8/clkdiv_7    |    6.124|         |         |         |
 U9/rst         |         |    2.954|         |         |
-clk            |    5.158|    4.396|    4.458|         |
+clk            |    6.545|    4.879|    4.459|         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock U11/count_1
@@ -1283,8 +1377,8 @@ Clock to Setup on destination clock U11/count_1
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-Clk_CPU        |    5.803|         |         |         |
-U11/count_1    |    5.439|         |         |         |
+U11/count_1    |    9.016|         |         |         |
+clk            |    8.705|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock U12/PS2Cf
@@ -1292,8 +1386,8 @@ Clock to Setup on destination clock U12/PS2Cf
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-U11/count_1    |         |         |    1.063|         |
 U12/PS2Cf      |         |         |    1.415|         |
+clk            |         |         |    1.063|         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock U8/clkdiv_7
@@ -1302,8 +1396,8 @@ Clock to Setup on destination clock U8/clkdiv_7
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
 NOT_Clk_CPU    |    4.445|         |         |         |
-U8/clkdiv_7    |    4.742|         |         |         |
-clk            |    3.744|         |         |         |
+U8/clkdiv_7    |    4.745|         |         |         |
+clk            |    3.745|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock clk
@@ -1311,21 +1405,22 @@ Clock to Setup on destination clock clk
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-Clk_CPU        |         |         |    7.671|         |
+Clk_CPU        |    8.321|         |    7.490|         |
+U11/count_1    |   12.756|         |         |         |
 clk            |    5.116|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 14.00 secs
-Total CPU time to Xst completion: 13.89 secs
+Total REAL time to Xst completion: 22.00 secs
+Total CPU time to Xst completion: 22.36 secs
  
 --> 
 
-Total memory usage is 271592 kilobytes
+Total memory usage is 198820 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   45 (   0 filtered)
-Number of infos    :    9 (   0 filtered)
+Number of warnings :   46 (   0 filtered)
+Number of infos    :    8 (   0 filtered)
 

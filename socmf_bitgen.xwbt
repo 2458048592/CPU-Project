@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=D:\Desktop\Project\socmf.ncd
-OUTFILE=D:\Desktop\Project\socmf.bit
+INFILE=C:\Users\Young\Documents\GitHub\CPU-Project\socmf.ncd
+OUTFILE=C:\Users\Young\Documents\GitHub\CPU-Project\socmf.bit
 FAMILY=Spartan6
 PART=xc6slx16-3csg324
-WORKINGDIR=D:\Desktop\Project
+WORKINGDIR=C:\Users\Young\Documents\GitHub\CPU-Project
 LICENSE=WebPack
-USER_INFO=210955176_0_0_951
+USER_INFO=210955176_0_0_253

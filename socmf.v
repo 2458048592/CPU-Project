@@ -12,9 +12,9 @@ module socmf (
 	input wire PS2KeyboardClk,
 	output wire [2:0] vgaRed,
 	output wire [2:0] vgaGreen,
-	output wire [2:1] vgaBlue,
-	output Hsync,
-	output Vsync
+	output wire [2:0] vgaBlue,
+	output wire Hsync,
+	output wire Vsync
 	);
 
 	wire Clk_CPU;
@@ -55,6 +55,13 @@ module socmf (
 	wire [9:0] hc;
 	wire [9:0] vc;
 	wire vidon;
+	wire GPIOd0000000_we;
+	wire [15:0] char_data;
+	wire font_dot;
+	wire [7:0] data;
+	wire [12:0] char_address;
+	wire [12:0] vga_address;
+	wire [9:0] font_address;
 	
 	assign LED[7:0] = {LED_DUMMY[7] | Clk_CPU, LED_DUMMY[6:0]};
 	assign NOT_clk = ~clk;
@@ -107,7 +114,9 @@ module socmf (
 		.ram_addr(ram_addr[9:0]),
 		.ram_data_in(ram_data_in[31:0]),
 		
-		.xkey(xkey)
+		.xkey(xkey),
+		.char_data(char_data),
+		.GPIOd0000000_we(GPIOd0000000_we)
 	);
 	
 	seven_seg_Dev_IO U5 (
@@ -118,7 +127,7 @@ module socmf (
 		.point_in(32'hFFFFFFFF),
 		.rst(rst),
 		.Test(SW_OK[7:5]),
-		.Test_data1({2'b00,pc[31:2]}),
+		.Test_data1({16'h0000, xkey}),
 		.Test_data2(counter_out[31:0]),
 		.Test_data3(inst_out[31:0]),
 		.Test_data4(Addr_out[31:0]),
@@ -191,7 +200,7 @@ module socmf (
 	);
 	
 	keyboard U12(
-		.clk25(clk25),
+		.clk25(clk),
 		.PS2D(PS2KeyboardData),
 		.PS2C(PS2KeyboardClk),
 		.xkey(xkey)
@@ -209,9 +218,45 @@ module socmf (
 	vga_display U14(
 		.clk(clk25), 
 		.vidon(vidon), 
-		.data(counter_val[7:0]), 
+		.data(data), 
 		.vgaRed(vgaRed), 
 		.vgaGreen(vgaGreen), 
 		.vgaBlue(vgaBlue)
 	);
+	
+	vga_control U15 (
+			.clk25(clk25),
+			.hc(hc),
+			.vc(vc),
+			.vidon(vidon),
+			.RGB(char_data[15:8]),
+			.font_dot(font_dot),
+			
+			.data(data),
+			.vga_address(vga_address),
+			.font_address(font_address)
+	);
+	
+	font_table U16 (
+			.ascii(char_data[7:0]),
+			.font_address(font_address),
+			
+			.font_dot(font_dot)
+	);
+	
+	char_ram U17 (
+			.addra(char_address),
+			.dina(counter_val[31:16]),
+			.douta(char_data),
+			.wea(GPIOd0000000_we),
+			.clka(clk)
+	);
+	
+	char_mode U18 (
+			.cpu_address(counter_val[12:0]),
+			.vga_address(vga_address),
+			.char_address(char_address),
+			.mode(GPIOd0000000_we)
+	);
+	
 endmodule

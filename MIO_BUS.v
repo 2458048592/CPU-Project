@@ -41,6 +41,8 @@ module MIO_BUS(clk,
 					counter_we,
 					Peripheral_in,
 					
+					char_data,
+					GPIOd0000000_we,
 					xkey
 					);
 					
@@ -63,6 +65,9 @@ wire[7:0] led_out;
 wire counter_over;
 
 input [15:0] xkey;
+input [15:0] char_data;
+output reg GPIOd0000000_we;
+reg keyboard_rd;
 
 always@* begin
 	data_ram_we=0;
@@ -77,6 +82,9 @@ always@* begin
 	ram_data_in=32'h0;
 	Peripheral_in=32'h0;
 	Cpu_data4bus =32'h0;
+	
+	keyboard_rd = 0;
+	GPIOd0000000_we = 0;
 		
 	case(addr_bus[31:28])
 	4'h0:begin
@@ -109,16 +117,24 @@ always@* begin
 	
 	4'hd:
 	begin
-			Peripheral_in = Cpu_data2bus;
-			Cpu_data4bus = {16'h0000, xkey};
+		//Peripheral_in = Cpu_data2bus;
+		Cpu_data4bus = {16'h0000, xkey};
+		keyboard_rd = ~mem_w;
+	end
+	
+	4'hc:
+	begin
+		GPIOd0000000_we = mem_w;
+		Peripheral_in = Cpu_data2bus;
 	end
 	
 	endcase
-	casex({data_ram_rd,GPIOe0000000_rd,counter_rd,GPIOf0000000_rd})
-		4'b1xxx:Cpu_data4bus = ram_data_out; //read from RAM
-		4'bx1xx:Cpu_data4bus = counter_out;  //read from Counter
-		4'bxx1x:Cpu_data4bus = counter_out;  //read from Counter
-		4'bxxx1:Cpu_data4bus = {counter0_out,counter1_out,counter2_out,9'h00,led_out,BTN,SW}; //read from SW & BTN
+	casex({data_ram_rd,GPIOe0000000_rd,counter_rd,GPIOf0000000_rd, keyboard_rd})
+		5'b1xxxx:Cpu_data4bus = ram_data_out; //read from RAM
+		5'bx1xxx:Cpu_data4bus = counter_out;  //read from Counter
+		5'bxx1xx:Cpu_data4bus = counter_out;  //read from Counter
+		5'bxxx1x:Cpu_data4bus = {counter0_out,counter1_out,counter2_out,9'h00,led_out,BTN,SW}; //read from SW & BTN
+		5'bxxxx1:Cpu_data4bus = {16'h0000, xkey};
 	endcase
 end
 
