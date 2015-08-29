@@ -10,23 +10,23 @@ Target Device  : xc6slx16
 Target Package : csg324
 Target Speed   : -3
 Mapper Version : spartan6 -- $Revision: 1.55 $
-Mapped Date    : Fri Aug 28 13:05:54 2015
+Mapped Date    : Sat Aug 29 16:19:23 2015
 
 Design Summary
 --------------
 Number of errors:      0
 Number of warnings:    2
 Slice Logic Utilization:
-  Number of Slice Registers:                 1,553 out of  18,224    8%
-    Number used as Flip Flops:               1,553
+  Number of Slice Registers:                 1,552 out of  18,224    8%
+    Number used as Flip Flops:               1,552
     Number used as Latches:                      0
     Number used as Latch-thrus:                  0
     Number used as AND/OR logics:                0
-  Number of Slice LUTs:                      2,383 out of   9,112   26%
-    Number used as logic:                    2,368 out of   9,112   25%
-      Number using O6 output only:           1,647
+  Number of Slice LUTs:                      2,376 out of   9,112   26%
+    Number used as logic:                    2,360 out of   9,112   25%
+      Number using O6 output only:           1,648
       Number using O5 output only:             108
-      Number using O5 and O6:                  613
+      Number using O5 and O6:                  604
       Number used as ROM:                        0
     Number used as Memory:                       2 out of   2,176    1%
       Number used as Dual Port RAM:              0
@@ -35,21 +35,21 @@ Slice Logic Utilization:
         Number using O6 output only:             2
         Number using O5 output only:             0
         Number using O5 and O6:                  0
-    Number used exclusively as route-thrus:     13
-      Number with same-slice register load:      6
+    Number used exclusively as route-thrus:     14
+      Number with same-slice register load:      7
       Number with same-slice carry load:         7
       Number with other load:                    0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                   868 out of   2,278   38%
+  Number of occupied Slices:                   874 out of   2,278   38%
   Number of MUXCYs used:                       212 out of   4,556    4%
-  Number of LUT Flip Flop pairs used:        2,480
-    Number with an unused Flip Flop:         1,432 out of   2,480   57%
-    Number with an unused LUT:                  97 out of   2,480    3%
-    Number of fully used LUT-FF pairs:         951 out of   2,480   38%
-    Number of unique control sets:              22
+  Number of LUT Flip Flop pairs used:        2,497
+    Number with an unused Flip Flop:         1,455 out of   2,497   58%
+    Number with an unused LUT:                 121 out of   2,497    4%
+    Number of fully used LUT-FF pairs:         921 out of   2,497   36%
+    Number of unique control sets:              23
     Number of slice register sites lost
-      to control set restrictions:              93 out of  18,224    1%
+      to control set restrictions:              86 out of  18,224    1%
 
   A LUT Flip Flop pair for this architecture represents one LUT paired with
   one Flip Flop within a slice.  A control set is a unique combination of
@@ -86,11 +86,11 @@ Specific Feature Utilization:
   Number of STARTUPs:                            0 out of       1    0%
   Number of SUSPEND_SYNCs:                       0 out of       1    0%
 
-Average Fanout of Non-Clock Nets:                4.44
+Average Fanout of Non-Clock Nets:                4.45
 
-Peak Memory Usage:  279 MB
-Total REAL time to MAP completion:  16 secs 
-Total CPU time to MAP completion:   16 secs 
+Peak Memory Usage:  278 MB
+Total REAL time to MAP completion:  15 secs 
+Total CPU time to MAP completion:   15 secs 
 
 Table of Contents
 -----------------
@@ -133,8 +133,8 @@ INFO:LIT:395 - The above info message is repeated 26 more times for the
    U9/button_pulse<2>,
    U9/button_pulse<1>,
    U9/button_pulse<0>,
-   U17/douta<7>,
-   U7/GPIOf0<21>
+   U7/GPIOf0<21>,
+   U7/GPIOf0<20>
    To see the details of these info messages, please use the -detail switch.
 INFO:MapLib:562 - No environment variables are currently set.
 INFO:LIT:244 - All of the single ended outputs in this design are using slew
@@ -153,8 +153,8 @@ INFO:Pack:1650 - Map created a placed design.
 
 Section 4 - Removed Logic Summary
 ---------------------------------
-  37 block(s) removed
-  64 block(s) optimized away
+  35 block(s) removed
+  60 block(s) optimized away
   38 signal(s) removed
 
 Section 5 - Removed Logic
@@ -191,17 +191,6 @@ The signal "U9/pulse" is sourceless and has been removed.
   The signal "U9/pulse_rstpot1" is sourceless and has been removed.
    Sourceless block "U9/pulse" (FF) removed.
 The signal "U9/N3" is sourceless and has been removed.
-The signal "U17/douta<7>" is sourceless and has been removed.
-The signal "U17/N0" is sourceless and has been removed.
-The signal
-"U17/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2
-].ram.ram_douta<3>" is sourceless and has been removed.
- Sourceless block
-"U17/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a
-.A/Mmux_dout_mux141" (ROM) removed.
-The signal
-"U17/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1
-].ram.ram_douta<7>" is sourceless and has been removed.
 The signal "U7/GPIOf0<21>" is sourceless and has been removed.
 The signal "U7/GPIOf0<20>" is sourceless and has been removed.
 The signal "U7/GPIOf0<19>" is sourceless and has been removed.
@@ -247,8 +236,17 @@ The signal "U7/GPIOf0_and0000" is sourceless and has been removed.
  Sourceless block "U7/GPIOf0_19" (FF) removed.
  Sourceless block "U7/GPIOf0_20" (FF) removed.
  Sourceless block "U7/GPIOf0_21" (FF) removed.
-Unused block "U3/GND" (ZERO) removed.
-Unused block "U3/VCC" (ONE) removed.
+The signal "U17/douta<7>" is sourceless and has been removed.
+The signal "U17/N0" is sourceless and has been removed.
+The signal
+"U17/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2
+].ram.ram_douta<3>" is sourceless and has been removed.
+ Sourceless block
+"U17/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a
+.A/Mmux_dout_mux141" (ROM) removed.
+The signal
+"U17/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1
+].ram.ram_douta<7>" is sourceless and has been removed.
 Unused block "U7/GPIOf0_and00001" (ROM) removed.
 Unused block "U9/counter_or00001/LUT3_D_BUF" (BUF) removed.
 
@@ -258,19 +256,11 @@ GND 		U10/XST_GND
 VCC 		U10/XST_VCC
 GND 		U17/XST_GND
 VCC 		U17/XST_VCC
-GND 		U3/BU2/XST_GND
-VCC 		U3/BU2/XST_VCC
+GND 		U3/XST_GND
+VCC 		U3/XST_VCC
 LUT6 		U4/Mmux_Cpu_data4bus222
    optimized to 0
-LUT5 		U4/Mmux_Cpu_data4bus222_SW0
-   optimized to 0
-LUT6 		U4/Mmux_Cpu_data4bus222_SW1
-   optimized to 0
 LUT6 		U4/Mmux_Cpu_data4bus242
-   optimized to 0
-LUT5 		U4/Mmux_Cpu_data4bus242_SW0
-   optimized to 0
-LUT6 		U4/Mmux_Cpu_data4bus242_SW1
    optimized to 0
 LUT3 		U5/Mmux_blink_out_mux0000_3_f5
    optimized to 0

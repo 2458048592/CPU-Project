@@ -200,7 +200,7 @@ module socmf (
 	);
 	
 	keyboard U12(
-		.clk25(clk),
+		.clk25(clk25),
 		.PS2D(PS2KeyboardData),
 		.PS2C(PS2KeyboardClk),
 		.xkey(xkey)
@@ -249,7 +249,7 @@ module socmf (
 			.dina(counter_val[31:16]),
 			.douta(char_data),
 			.wea(GPIOd0000000_we),
-			.clka(clk)
+			.clka(clk25)
 	);
 	
 	char_mode U18 (

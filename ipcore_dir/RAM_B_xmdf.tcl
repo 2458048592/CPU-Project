@@ -35,6 +35,182 @@ utilities_xmdf::xmdfSetData $instance FileSet $fcount type logical_library
 utilities_xmdf::xmdfSetData $instance FileSet $fcount logical_library unisim
 incr fcount
 
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/blk_mem_gen_v7_3_readme.txt
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/doc/blk_mem_gen_v7_3_vinfo.html
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/doc/pg058-blk-mem-gen.pdf
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/example_design/RAM_B_exdes.ucf
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/example_design/RAM_B_exdes.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/example_design/RAM_B_exdes.xdc
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/example_design/RAM_B_prod.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/implement/implement.bat
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/implement/implement.sh
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/implement/planAhead_ise.bat
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/implement/planAhead_ise.sh
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/implement/planAhead_ise.tcl
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/implement/xst.prj
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/implement/xst.scr
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/simulation/RAM_B_synth.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/simulation/RAM_B_tb.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/simulation/addr_gen.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/simulation/bmg_stim_gen.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/simulation/bmg_tb_pkg.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/simulation/checker.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/simulation/data_gen.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/simulation/functional/simcmds.tcl
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/simulation/functional/simulate_isim.bat
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/simulation/functional/simulate_mti.bat
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/simulation/functional/simulate_mti.do
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/simulation/functional/simulate_mti.sh
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/simulation/functional/simulate_ncsim.sh
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/simulation/functional/simulate_vcs.sh
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/simulation/functional/ucli_commands.key
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/simulation/functional/vcs_session.tcl
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/simulation/functional/wave_mti.do
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/simulation/functional/wave_ncsim.sv
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/simulation/random.vhd
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/simulation/timing/simcmds.tcl
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/simulation/timing/simulate_isim.bat
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/simulation/timing/simulate_mti.bat
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/simulation/timing/simulate_mti.do
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/simulation/timing/simulate_mti.sh
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/simulation/timing/simulate_ncsim.sh
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/simulation/timing/simulate_vcs.sh
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/simulation/timing/ucli_commands.key
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/simulation/timing/vcs_session.tcl
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/simulation/timing/wave_mti.do
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B/simulation/timing/wave_ncsim.sv
+utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
+incr fcount
+
 utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B.asy
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type asy
 incr fcount
@@ -67,12 +243,8 @@ utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path RAM_B_xmdf.t
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type AnyView
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path blk_mem_gen_ds512.pdf
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path summary.log
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type AnyView
-incr fcount
-
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path blk_mem_gen_readme.txt
-utilities_xmdf::xmdfSetData $instance FileSet $fcount type text
 incr fcount
 
 utilities_xmdf::xmdfSetData $instance FileSet $fcount associated_module RAM_B

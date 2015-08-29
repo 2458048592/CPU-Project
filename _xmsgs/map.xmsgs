@@ -12,8 +12,8 @@
 <arg fmt="%s" index="3">U9/button_pulse&lt;2&gt;,
 U9/button_pulse&lt;1&gt;,
 U9/button_pulse&lt;0&gt;,
-U17/douta&lt;7&gt;,
-U7/GPIOf0&lt;21&gt;</arg>
+U7/GPIOf0&lt;21&gt;,
+U7/GPIOf0&lt;20&gt;</arg>
 To see the details of these <arg fmt="%s" index="4">info</arg> messages, please use the -detail switch.
 </msg>
 

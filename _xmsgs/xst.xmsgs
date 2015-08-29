@@ -29,6 +29,9 @@
 <msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\Young\Documents\GitHub\CPU-Project\socmf.v" Line 83: Assignment to <arg fmt="%s" index="1">state</arg> ignored, since the identifier is never used
 </msg>
 
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"C:\Users\Young\Documents\GitHub\CPU-Project\ipcore_dir\RAM_B.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">RAM_B</arg>&gt; remains a black box.
+</msg>
+
 <msg type="warning" file="HDLCompiler" num="1499" delta="old" >"C:\Users\Young\Documents\GitHub\CPU-Project\7seg_Dev_IO.v" Line 21: Empty module &lt;<arg fmt="%s" index="1">seven_seg_Dev_IO</arg>&gt; remains a black box.
 </msg>
 

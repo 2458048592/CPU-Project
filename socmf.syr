@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.13 secs
+Total CPU time to Xst completion: 0.11 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.13 secs
+Total CPU time to Xst completion: 0.11 secs
  
 --> Reading design: socmf.prj
 
@@ -242,6 +242,7 @@ WARNING:HDLCompiler:634 - "C:\Users\Young\Documents\GitHub\CPU-Project\datapath.
 WARNING:HDLCompiler:1127 - "C:\Users\Young\Documents\GitHub\CPU-Project\socmf.v" Line 83: Assignment to state ignored, since the identifier is never used
 
 Elaborating module <RAM_B>.
+WARNING:HDLCompiler:1499 - "C:\Users\Young\Documents\GitHub\CPU-Project\ipcore_dir\RAM_B.v" Line 39: Empty module <RAM_B> remains a black box.
 
 Elaborating module <MIO_BUS>.
 
@@ -675,18 +676,18 @@ Macro Statistics
 =========================================================================
 
 Reading core <Anti_jitter.ngc>.
-Reading core <ipcore_dir/char_ram.ngc>.
 Reading core <seven_seg_Dev_IO.ngc>.
 Reading core <led_Dev_IO.ngc>.
 Reading core <Counter_x.ngc>.
 Reading core <ipcore_dir/RAM_B.ngc>.
+Reading core <ipcore_dir/char_ram.ngc>.
 Reading core <seven_seg_dev.ngc>.
 Loading core <Anti_jitter> for timing and area information for instance <U9>.
-Loading core <char_ram> for timing and area information for instance <U17>.
 Loading core <seven_seg_Dev_IO> for timing and area information for instance <U5>.
 Loading core <led_Dev_IO> for timing and area information for instance <U7>.
 Loading core <Counter_x> for timing and area information for instance <U10>.
 Loading core <RAM_B> for timing and area information for instance <U3>.
+Loading core <char_ram> for timing and area information for instance <U17>.
 Loading core <seven_seg_dev> for timing and area information for instance <U6>.
 WARNING:Xst:1710 - FF/Latch <vgaBlue_0> (without init value) has a constant value of 0 in block <U14>. This FF/Latch will be trimmed during the optimization process.
 
@@ -855,7 +856,7 @@ INFO:Xst:2261 - The FF/Latch <U1/m_ctrl/PCSource_0> in Unit <socmf> is equivalen
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block socmf, actual ratio is 41.
+Found area constraint ratio of 100 (+ 5) on block socmf, actual ratio is 40.
 FlipFlop U1/m_ctrl/ALUSrcB_0 has been replicated 2 time(s)
 FlipFlop U1/m_ctrl/ALUSrcB_1 has been replicated 2 time(s)
 FlipFlop U1/m_datapath/IR/register_16 has been replicated 22 time(s)
@@ -864,7 +865,7 @@ FlipFlop U1/m_datapath/IR/register_18 has been replicated 3 time(s)
 FlipFlop U1/m_datapath/IR/register_19 has been replicated 3 time(s)
 FlipFlop U1/m_datapath/IR/register_20 has been replicated 2 time(s)
 FlipFlop U1/m_datapath/IR/register_21 has been replicated 15 time(s)
-FlipFlop U1/m_datapath/IR/register_22 has been replicated 14 time(s)
+FlipFlop U1/m_datapath/IR/register_22 has been replicated 13 time(s)
 FlipFlop U1/m_datapath/IR/register_23 has been replicated 3 time(s)
 FlipFlop U1/m_datapath/IR/register_24 has been replicated 3 time(s)
 FlipFlop U1/m_datapath/IR/register_25 has been replicated 1 time(s)
@@ -880,8 +881,8 @@ Unit <socmf> processed.
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 1339
- Flip-Flops                                            : 1339
+# Registers                                            : 1338
+ Flip-Flops                                            : 1338
 # Shift Registers                                      : 2
  3-bit shift register                                  : 1
  4-bit shift register                                  : 1
@@ -907,34 +908,34 @@ Top Level Output File Name         : socmf.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 3787
+# BELS                             : 3765
 #      GND                         : 6
 #      INV                         : 62
 #      LUT1                        : 113
-#      LUT2                        : 21
-#      LUT3                        : 1345
+#      LUT2                        : 23
+#      LUT3                        : 1338
 #      LUT3_D                      : 2
-#      LUT4                        : 370
+#      LUT4                        : 368
 #      LUT4_L                      : 53
-#      LUT5                        : 238
-#      LUT6                        : 1021
+#      LUT5                        : 228
+#      LUT6                        : 1017
 #      MUXCY                       : 193
 #      MUXF5                       : 136
 #      MUXF6                       : 40
-#      MUXF7                       : 4
+#      MUXF7                       : 3
 #      VCC                         : 6
 #      XORCY                       : 177
-# FlipFlops/Latches                : 1595
-#      FD                          : 153
+# FlipFlops/Latches                : 1594
+#      FD                          : 145
 #      FD_1                        : 14
 #      FDC                         : 106
 #      FDCE                        : 1027
 #      FDCE_1                      : 7
-#      FDE                         : 209
+#      FDE                         : 208
 #      FDE_1                       : 22
 #      FDP                         : 24
 #      FDPE_1                      : 3
-#      FDR                         : 18
+#      FDR                         : 26
 #      FDRE                        : 10
 #      LD                          : 2
 # RAMS                             : 7
@@ -957,18 +958,18 @@ Selected Device : 6slx16csg324-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:            1595  out of  18224     8%  
- Number of Slice LUTs:                 3227  out of   9112    35%  
-    Number used as Logic:              3225  out of   9112    35%  
+ Number of Slice Registers:            1594  out of  18224     8%  
+ Number of Slice LUTs:                 3206  out of   9112    35%  
+    Number used as Logic:              3204  out of   9112    35%  
     Number used as Memory:                2  out of   2176     0%  
        Number used as SRL:                2
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   4365
-   Number with an unused Flip Flop:    2770  out of   4365    63%  
-   Number with an unused LUT:          1138  out of   4365    26%  
-   Number of fully used LUT-FF pairs:   457  out of   4365    10%  
-   Number of unique control sets:        29
+ Number of LUT Flip Flop pairs used:   4384
+   Number with an unused Flip Flop:    2790  out of   4384    63%  
+   Number with an unused LUT:          1178  out of   4384    26%  
+   Number of fully used LUT-FF pairs:   416  out of   4384     9%  
+   Number of unique control sets:        30
 
 IO Utilization: 
  Number of IOs:                          46
@@ -1001,15 +1002,15 @@ Clock Information:
 -----------------------------------+------------------------------------------------------------------------------------------------------------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)                                                                                                        | Load  |
 -----------------------------------+------------------------------------------------------------------------------------------------------------------------------+-------+
-clk                                | BUFGP                                                                                                                        | 151   |
+U11/count_1                        | BUFG                                                                                                                         | 63    |
+clk                                | BUFGP                                                                                                                        | 125   |
 U12/PS2Cf                          | BUFG                                                                                                                         | 18    |
-Clk_CPU(U8/Mmux_Clk_CPU11:O)       | BUFG(*)(U1/m_datapath/ALUout/register_31)                                                                                    | 1241  |
-U11/count_1                        | BUFG                                                                                                                         | 37    |
-U17/N1                             | NONE(U17/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram)| 5     |
+Clk_CPU(U8/Mmux_Clk_CPU11:O)       | BUFG(*)(U1/m_datapath/ALUout/register_31)                                                                                    | 1240  |
 NOT_Clk_CPU(NOT_Clk_CPU1:O)        | BUFG(*)(U5/blink_out_0)                                                                                                      | 120   |
 U9/rst                             | NONE(U5/Disp_num_31_LD)                                                                                                      | 2     |
 U8/clkdiv_7                        | BUFG                                                                                                                         | 35    |
-U3/BU2/doutb(0)                    | NONE(U3/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram)                               | 2     |
+U3/N1                              | NONE(U3/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram) | 2     |
+U17/N1                             | NONE(U17/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram)| 5     |
 -----------------------------------+------------------------------------------------------------------------------------------------------------------------------+-------+
 (*) These 2 clock signal(s) are generated by combinatorial logic,
 and XST is not able to identify which are the primary clock signals.
@@ -1024,7 +1025,7 @@ Timing Summary:
 ---------------
 Speed Grade: -3
 
-   Minimum period: 11.061ns (Maximum Frequency: 90.410MHz)
+   Minimum period: 11.163ns (Maximum Frequency: 89.581MHz)
    Minimum input arrival time before clock: 6.106ns
    Maximum output required time after clock: 8.232ns
    Maximum combinational path delay: No path found
@@ -1034,9 +1035,36 @@ Timing Details:
 All values displayed in nanoseconds (ns)
 
 =========================================================================
+Timing constraint: Default period analysis for Clock 'U11/count_1'
+  Clock period: 11.163ns (frequency: 89.581MHz)
+  Total number of paths / destination ports: 15088 / 165
+-------------------------------------------------------------------------
+Delay:               11.163ns (Levels of Logic = 6)
+  Source:            U13/vc_0 (FF)
+  Destination:       U17/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram (RAM)
+  Source Clock:      U11/count_1 rising
+  Destination Clock: U11/count_1 rising
+
+  Data Path: U13/vc_0 to U17/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q           104   0.447   1.888  U13/vc_0 (U13/vc_0)
+     LUT3:I2->O            4   0.205   0.684  U15/Msub_ypix_xor<3>111 (U15/Msub_ypix_xor<3>11)
+     LUT5:I4->O            1   0.205   0.579  U15/Msub_ypix_xor<6>11 (U15/ypix<6>)
+     DSP48A1:B3->P11       1   4.394   0.580  U15/Maddsub_n0036 (vga_address<11>)
+     LUT3:I2->O            6   0.205   0.973  U18/Mmux_char_address31 (char_address<11>)
+     begin scope: 'U17:addra<11>'
+     LUT3:I0->O            1   0.205   0.579  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ADDR[2]_PWR_16_o_equal_5_o<2>1 (U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ena_array<4>)
+     RAMB16BWER:ENA            0.220          U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram
+    ----------------------------------------
+    Total                     11.163ns (5.881ns logic, 5.282ns route)
+                                       (52.7% logic, 47.3% route)
+
+=========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
   Clock period: 5.116ns (frequency: 195.454MHz)
-  Total number of paths / destination ports: 5572 / 158
+  Total number of paths / destination ports: 5524 / 142
 -------------------------------------------------------------------------
 Delay:               5.116ns (Levels of Logic = 4)
   Source:            U9/sw_temp_4 (FF)
@@ -1082,7 +1110,7 @@ Delay:               1.415ns (Levels of Logic = 0)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'Clk_CPU'
   Clock period: 11.061ns (frequency: 90.410MHz)
-  Total number of paths / destination ports: 3632857 / 2347
+  Total number of paths / destination ports: 3637423 / 2345
 -------------------------------------------------------------------------
 Delay:               11.061ns (Levels of Logic = 33)
   Source:            U1/m_datapath/IR/register_21_7 (FF)
@@ -1134,68 +1162,39 @@ Delay:               11.061ns (Levels of Logic = 33)
                                        (31.8% logic, 68.2% route)
 
 =========================================================================
-Timing constraint: Default period analysis for Clock 'U11/count_1'
-  Clock period: 9.016ns (frequency: 110.919MHz)
-  Total number of paths / destination ports: 7572 / 75
--------------------------------------------------------------------------
-Delay:               9.016ns (Levels of Logic = 7)
-  Source:            U13/vc_0 (FF)
-  Destination:       U15/data_0 (FF)
-  Source Clock:      U11/count_1 rising
-  Destination Clock: U11/count_1 rising
-
-  Data Path: U13/vc_0 to U15/data_0
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     FDRE:C->Q           104   0.447   1.888  U13/vc_0 (U13/vc_0)
-     LUT2:I1->O           94   0.205   1.942  U16/Msub_GND_39_o_GND_39_o_sub_3_OUT<12:0>_xor<0>51 (U16/GND_39_o_GND_39_o_sub_3_OUT<4>)
-     LUT6:I4->O            1   0.203   0.827  U16/Mram_font_dot411 (U16/Mram_font_dot41)
-     LUT6:I2->O            1   0.203   0.827  U16/Mram_font_dot941_145 (U16/Mram_font_dot941_145)
-     LUT6:I2->O            1   0.203   0.827  U16/Mram_font_dot941_91 (U16/Mram_font_dot941_91)
-     LUT6:I2->O            1   0.203   0.000  U16/Mram_font_dot941_41 (U16/Mram_font_dot941_4)
-     MUXF7:I0->O           8   0.131   0.803  U16/Mram_font_dot941_2_f7 (font_dot)
-     LUT3:I2->O            1   0.205   0.000  U15/data_0_rstpot (U15/data_0_rstpot)
-     FD:D                      0.102          U15/data_0
-    ----------------------------------------
-    Total                      9.016ns (1.902ns logic, 7.114ns route)
-                                       (21.1% logic, 78.9% route)
-
-=========================================================================
 Timing constraint: Default period analysis for Clock 'NOT_Clk_CPU'
-  Clock period: 9.713ns (frequency: 102.952MHz)
-  Total number of paths / destination ports: 159 / 84
+  Clock period: 8.810ns (frequency: 113.505MHz)
+  Total number of paths / destination ports: 154 / 84
 -------------------------------------------------------------------------
-Delay:               4.857ns (Levels of Logic = 7)
-  Source:            U7/LED_4 (FF)
-  Destination:       U5/Disp_num_16_C_16 (FF)
+Delay:               4.405ns (Levels of Logic = 6)
+  Source:            U7/LED_5 (FF)
+  Destination:       U5/Disp_num_17 (FF)
   Source Clock:      NOT_Clk_CPU falling
   Destination Clock: NOT_Clk_CPU rising
 
-  Data Path: U7/LED_4 to U5/Disp_num_16_C_16
+  Data Path: U7/LED_5 to U5/Disp_num_17
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDCE_1:C->Q           3   0.447   0.651  LED_4 (led_out<4>)
-     end scope: 'U7:led_out<4>'
-     LUT6:I5->O            1   0.205   0.684  U4/Mmux_Cpu_data4bus82_SW1 (N223)
-     LUT6:I4->O            1   0.203   0.580  U4/Mmux_Cpu_data4bus82 (U4/Mmux_Cpu_data4bus81)
-     LUT6:I5->O           25   0.205   1.297  U4/Mmux_Cpu_data4bus83 (Data_in<16>)
-     begin scope: 'U5:Test_data6<16>'
-     LUT3:I1->O            1   0.203   0.000  Mmux_Disp_num_mux0000_47 (Mmux_Disp_num_mux0000_47)
-     MUXF5:I1->O           1   0.140   0.000  Mmux_Disp_num_mux0000_3_f5_6 (Mmux_Disp_num_mux0000_3_f57)
-     MUXF6:I1->O           2   0.140   0.000  Mmux_Disp_num_mux0000_2_f6_6 (Disp_num_mux0000<16>)
-     FD:D                      0.102          Disp_num_16_C_16
+     FDPE_1:C->Q           2   0.447   0.981  LED_5 (led_out<5>)
+     end scope: 'U7:led_out<5>'
+     LUT6:I0->O            1   0.203   0.808  U4/Mmux_Cpu_data4bus92 (U4/Mmux_Cpu_data4bus91)
+     LUT6:I3->O           19   0.205   1.176  U4/Mmux_Cpu_data4bus93 (Data_in<17>)
+     begin scope: 'U5:Test_data6<17>'
+     LUT3:I1->O            1   0.203   0.000  Mmux_Disp_num_mux0000_48 (Mmux_Disp_num_mux0000_48)
+     MUXF5:I1->O           1   0.140   0.000  Mmux_Disp_num_mux0000_3_f5_7 (Mmux_Disp_num_mux0000_3_f58)
+     MUXF6:I1->O           1   0.140   0.000  Mmux_Disp_num_mux0000_2_f6_7 (Disp_num_mux0000<17>)
+     FDC:D                     0.102          Disp_num_17
     ----------------------------------------
-    Total                      4.857ns (1.645ns logic, 3.212ns route)
-                                       (33.9% logic, 66.1% route)
+    Total                      4.405ns (1.440ns logic, 2.965ns route)
+                                       (32.7% logic, 67.3% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'U8/clkdiv_7'
-  Clock period: 4.745ns (frequency: 210.747MHz)
+  Clock period: 4.742ns (frequency: 210.864MHz)
   Total number of paths / destination ports: 1351 / 35
 -------------------------------------------------------------------------
-Delay:               4.745ns (Levels of Logic = 3)
+Delay:               4.742ns (Levels of Logic = 3)
   Source:            U10/counter0_32 (FF)
   Destination:       U10/counter0_28 (FF)
   Source Clock:      U8/clkdiv_7 rising
@@ -1205,18 +1204,37 @@ Delay:               4.745ns (Levels of Logic = 3)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q            136   0.447   1.972  counter0_32 (counter0_OUT)
+     FDC:C->Q            135   0.447   1.969  counter0_32 (counter0_OUT)
      LUT2:I1->O           31   0.205   1.506  Mxor_counter0_32_xor0000_Result1 (counter0_32_xor0000)
      LUT4_L:I1->LO         1   0.205   0.105  Mmux_counter0_30_mux0000_3 (Mmux_counter0_30_mux0000_3)
      LUT3:I1->O            1   0.203   0.000  Mmux_counter0_30_mux0000_2_f5 (counter0_30_mux0000)
      FDC:D                     0.102          counter0_30
     ----------------------------------------
-    Total                      4.745ns (1.162ns logic, 3.583ns route)
+    Total                      4.742ns (1.162ns logic, 3.580ns route)
                                        (24.5% logic, 75.5% route)
 
 =========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'U11/count_1'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              1.903ns (Levels of Logic = 1)
+  Source:            PS2KeyboardClk (PAD)
+  Destination:       U12/ps2c_filter_7 (FF)
+  Destination Clock: U11/count_1 rising
+
+  Data Path: PS2KeyboardClk to U12/ps2c_filter_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.222   0.579  PS2KeyboardClk_IBUF (PS2KeyboardClk_IBUF)
+     FD:D                      0.102          U12/ps2c_filter_7
+    ----------------------------------------
+    Total                      1.903ns (1.324ns logic, 0.579ns route)
+                                       (69.6% logic, 30.4% route)
+
+=========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
-  Total number of paths / destination ports: 1047 / 112
+  Total number of paths / destination ports: 1045 / 110
 -------------------------------------------------------------------------
 Offset:              6.106ns (Levels of Logic = 6)
   Source:            SW<4> (PAD)
@@ -1325,7 +1343,7 @@ Offset:              8.232ns (Levels of Logic = 9)
 Timing constraint: Default OFFSET OUT AFTER for Clock 'U11/count_1'
   Total number of paths / destination ports: 22 / 10
 -------------------------------------------------------------------------
-Offset:              6.111ns (Levels of Logic = 3)
+Offset:              6.138ns (Levels of Logic = 3)
   Source:            U13/vc_5 (FF)
   Destination:       Vsync (PAD)
   Source Clock:      U11/count_1 rising
@@ -1334,13 +1352,13 @@ Offset:              6.111ns (Levels of Logic = 3)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDRE:C->Q             8   0.447   1.147  U13/vc_5 (U13/vc_5)
+     FDRE:C->Q             9   0.447   1.174  U13/vc_5 (U13/vc_5)
      LUT5:I0->O            2   0.203   0.961  U13/SF011 (U13/SF01)
      LUT5:I0->O            1   0.203   0.579  U13/Vsync11 (Vsync_OBUF)
      OBUF:I->O                 2.571          Vsync_OBUF (Vsync)
     ----------------------------------------
-    Total                      6.111ns (3.424ns logic, 2.687ns route)
-                                       (56.0% logic, 44.0% route)
+    Total                      6.138ns (3.424ns logic, 2.714ns route)
+                                       (55.8% logic, 44.2% route)
 
 =========================================================================
 
@@ -1353,9 +1371,9 @@ Clock to Setup on destination clock Clk_CPU
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
 Clk_CPU        |   11.061|         |         |         |
-NOT_Clk_CPU    |         |    3.077|         |         |
+NOT_Clk_CPU    |         |    2.941|         |         |
 U12/PS2Cf      |         |    2.584|         |         |
-U8/clkdiv_7    |    4.886|         |         |         |
+U8/clkdiv_7    |    4.098|         |         |         |
 clk            |    5.307|    3.099|         |         |
 ---------------+---------+---------+---------+---------+
 
@@ -1364,10 +1382,10 @@ Clock to Setup on destination clock NOT_Clk_CPU
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-Clk_CPU        |    9.683|         |    8.697|         |
-NOT_Clk_CPU    |    2.554|    4.857|         |         |
+Clk_CPU        |   10.069|         |    8.595|         |
+NOT_Clk_CPU    |    2.554|    4.405|         |         |
 U12/PS2Cf      |         |    3.823|         |         |
-U8/clkdiv_7    |    6.124|         |         |         |
+U8/clkdiv_7    |    5.337|         |         |         |
 U9/rst         |         |    2.954|         |         |
 clk            |    6.545|    4.879|    4.459|         |
 ---------------+---------+---------+---------+---------+
@@ -1377,8 +1395,8 @@ Clock to Setup on destination clock U11/count_1
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-U11/count_1    |    9.016|         |         |         |
-clk            |    8.705|         |         |         |
+Clk_CPU        |    8.364|         |         |         |
+U11/count_1    |   11.163|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock U12/PS2Cf
@@ -1386,8 +1404,8 @@ Clock to Setup on destination clock U12/PS2Cf
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
+U11/count_1    |         |         |    1.063|         |
 U12/PS2Cf      |         |         |    1.415|         |
-clk            |         |         |    1.063|         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock U8/clkdiv_7
@@ -1396,7 +1414,7 @@ Clock to Setup on destination clock U8/clkdiv_7
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
 NOT_Clk_CPU    |    4.445|         |         |         |
-U8/clkdiv_7    |    4.745|         |         |         |
+U8/clkdiv_7    |    4.742|         |         |         |
 clk            |    3.745|         |         |         |
 ---------------+---------+---------+---------+---------+
 
@@ -1405,22 +1423,21 @@ Clock to Setup on destination clock clk
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-Clk_CPU        |    8.321|         |    7.490|         |
-U11/count_1    |   12.756|         |         |         |
+Clk_CPU        |         |         |    7.437|         |
 clk            |    5.116|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 22.00 secs
-Total CPU time to Xst completion: 22.36 secs
+Total REAL time to Xst completion: 21.00 secs
+Total CPU time to Xst completion: 21.44 secs
  
 --> 
 
-Total memory usage is 198820 kilobytes
+Total memory usage is 199268 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   46 (   0 filtered)
+Number of warnings :   47 (   0 filtered)
 Number of infos    :    8 (   0 filtered)
 

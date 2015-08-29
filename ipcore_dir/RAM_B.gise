@@ -25,7 +25,6 @@
     <file xil_pn:fileType="FILE_ASY" xil_pn:name="RAM_B.asy" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="RAM_B.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_VEO" xil_pn:name="RAM_B.veo" xil_pn:origination="imported"/>
-    <file xil_pn:fileType="FILE_USERDOC" xil_pn:name="blk_mem_gen_readme.txt" xil_pn:origination="imported"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema"/>
