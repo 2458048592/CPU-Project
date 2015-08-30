@@ -34,7 +34,7 @@ module socmf (
 	wire [3:0] point_out;
 	wire [7:0] SW_OK;
 	wire [3:0] button_out;
-	wire [9:0] ram_addr;
+	wire [10:0] ram_addr;
 	wire [0:0] data_ram_we;
 	wire [1:0] counter_ch;
 	wire [7:0] LED_DUMMY;
@@ -84,7 +84,7 @@ module socmf (
 	);
 	
 	RAM_B U3 (
-		.addra(ram_addr[9:0]),
+		.addra(ram_addr),
 		.clka(NOT_clk),
 		.dina(ram_data_in[31:0]),
 		.wea(data_ram_we[0]),
@@ -111,7 +111,7 @@ module socmf (
 		.GPIOe0000000_we(GPIOe0000000_we),
 		.GPIOf0000000_we(GPIOf0000000_we),
 		.Peripheral_in(counter_val[31:0]),
-		.ram_addr(ram_addr[9:0]),
+		.ram_addr(ram_addr),
 		.ram_data_in(ram_data_in[31:0]),
 		
 		.xkey(xkey),

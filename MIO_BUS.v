@@ -54,11 +54,10 @@ input [7:0]SW,led_out;
 input [31:0] Cpu_data2bus,ram_data_out,addr_bus,counter_out;					
 output data_ram_we,GPIOe0000000_we,GPIOf0000000_we,counter_we;
 output [31:0]Cpu_data4bus,ram_data_in,Peripheral_in;	
-output [9:0] ram_addr;
+output reg [10:0] ram_addr;
 
 reg data_ram_we,GPIOf0000000_we,GPIOe0000000_we,counter_we;
 reg data_ram_rd,GPIOf0000000_rd,GPIOe0000000_rd,counter_rd;
-reg[9:0] ram_addr;
 reg[31:0] Cpu_data4bus,ram_data_in,Peripheral_in;
 reg[7:0] led_in;
 wire[7:0] led_out;
@@ -78,7 +77,7 @@ always@* begin
 	GPIOe0000000_we=0;
 	GPIOf0000000_rd=0;
 	GPIOe0000000_rd=0;
-	ram_addr=10'h0;
+	ram_addr=11'h0;
 	ram_data_in=32'h0;
 	Peripheral_in=32'h0;
 	Cpu_data4bus =32'h0;
@@ -89,7 +88,7 @@ always@* begin
 	case(addr_bus[31:28])
 	4'h0:begin
 		data_ram_we = mem_w;
-		ram_addr = addr_bus[11:2];
+		ram_addr = addr_bus[12:2];
 		ram_data_in = Cpu_data2bus;
 		Cpu_data4bus = ram_data_out;
 		data_ram_rd = ~mem_w;

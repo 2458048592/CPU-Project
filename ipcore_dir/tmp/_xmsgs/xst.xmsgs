@@ -8,16 +8,28 @@
 <msg type="warning" file="UtilitiesC" num="159" delta="old" >Message file &quot;<arg fmt="%s" index="1">usenglish/ip.msg</arg>&quot; wasn&apos;t found.
 </msg>
 
-<msg type="info" file="ip" num="0" delta="new" ><arg fmt="%d" index="1">0</arg>: (<arg fmt="%d" index="2">0</arg>,<arg fmt="%d" index="3">0</arg>) 	: <arg fmt="%d" index="4">18</arg>x<arg fmt="%d" index="5">1024</arg> 	u:<arg fmt="%d" index="6">18</arg>
+<msg type="info" file="ip" num="0" delta="new" ><arg fmt="%d" index="1">0</arg>: (<arg fmt="%d" index="2">0</arg>,<arg fmt="%d" index="3">0</arg>) 	: <arg fmt="%d" index="4">9</arg>x<arg fmt="%d" index="5">2048</arg> 	u:<arg fmt="%d" index="6">9</arg>
 </msg>
 
-<msg type="info" file="ip" num="0" delta="new" ><arg fmt="%d" index="1">1</arg>: (<arg fmt="%d" index="2">18</arg>,<arg fmt="%d" index="3">0</arg>) 	: <arg fmt="%d" index="4">18</arg>x<arg fmt="%d" index="5">1024</arg> 	u:<arg fmt="%d" index="6">14</arg>
+<msg type="info" file="ip" num="0" delta="new" ><arg fmt="%d" index="1">1</arg>: (<arg fmt="%d" index="2">9</arg>,<arg fmt="%d" index="3">0</arg>) 	: <arg fmt="%d" index="4">9</arg>x<arg fmt="%d" index="5">2048</arg> 	u:<arg fmt="%d" index="6">9</arg>
 </msg>
 
-<msg type="info" file="ip" num="0" delta="new" ><arg fmt="%d" index="1">0</arg>: (<arg fmt="%d" index="2">0</arg>,<arg fmt="%d" index="3">0</arg>) 	: <arg fmt="%d" index="4">18</arg>x<arg fmt="%d" index="5">1024</arg> 	u:<arg fmt="%d" index="6">18</arg>
+<msg type="info" file="ip" num="0" delta="new" ><arg fmt="%d" index="1">2</arg>: (<arg fmt="%d" index="2">18</arg>,<arg fmt="%d" index="3">0</arg>) 	: <arg fmt="%d" index="4">9</arg>x<arg fmt="%d" index="5">2048</arg> 	u:<arg fmt="%d" index="6">9</arg>
 </msg>
 
-<msg type="info" file="ip" num="0" delta="new" ><arg fmt="%d" index="1">1</arg>: (<arg fmt="%d" index="2">18</arg>,<arg fmt="%d" index="3">0</arg>) 	: <arg fmt="%d" index="4">18</arg>x<arg fmt="%d" index="5">1024</arg> 	u:<arg fmt="%d" index="6">14</arg>
+<msg type="info" file="ip" num="0" delta="new" ><arg fmt="%d" index="1">3</arg>: (<arg fmt="%d" index="2">27</arg>,<arg fmt="%d" index="3">0</arg>) 	: <arg fmt="%d" index="4">9</arg>x<arg fmt="%d" index="5">2048</arg> 	u:<arg fmt="%d" index="6">5</arg>
+</msg>
+
+<msg type="info" file="ip" num="0" delta="new" ><arg fmt="%d" index="1">0</arg>: (<arg fmt="%d" index="2">0</arg>,<arg fmt="%d" index="3">0</arg>) 	: <arg fmt="%d" index="4">9</arg>x<arg fmt="%d" index="5">2048</arg> 	u:<arg fmt="%d" index="6">9</arg>
+</msg>
+
+<msg type="info" file="ip" num="0" delta="new" ><arg fmt="%d" index="1">1</arg>: (<arg fmt="%d" index="2">9</arg>,<arg fmt="%d" index="3">0</arg>) 	: <arg fmt="%d" index="4">9</arg>x<arg fmt="%d" index="5">2048</arg> 	u:<arg fmt="%d" index="6">9</arg>
+</msg>
+
+<msg type="info" file="ip" num="0" delta="new" ><arg fmt="%d" index="1">2</arg>: (<arg fmt="%d" index="2">18</arg>,<arg fmt="%d" index="3">0</arg>) 	: <arg fmt="%d" index="4">9</arg>x<arg fmt="%d" index="5">2048</arg> 	u:<arg fmt="%d" index="6">9</arg>
+</msg>
+
+<msg type="info" file="ip" num="0" delta="new" ><arg fmt="%d" index="1">3</arg>: (<arg fmt="%d" index="2">27</arg>,<arg fmt="%d" index="3">0</arg>) 	: <arg fmt="%d" index="4">9</arg>x<arg fmt="%d" index="5">2048</arg> 	u:<arg fmt="%d" index="6">5</arg>
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="321" delta="old" >"C:\Users\Young\Documents\GitHub\CPU-Project\ipcore_dir\tmp\_cg\_dbg\blk_mem_gen_v7_3\blk_mem_input_block.vhd" Line 691: Comparison between arrays of unequal length always returns <arg fmt="%s" index="1">FALSE</arg>.
@@ -74,7 +86,7 @@
 <msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Users\Young\Documents\GitHub\CPU-Project\ipcore_dir\tmp\_cg\_dbg\blk_mem_gen_v7_3\blk_mem_gen_prim_wrapper_s6_init.vhd" Line 505: Net &lt;<arg fmt="%s" index="1">pad_dinp_b4[3]</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Users\Young\Documents\GitHub\CPU-Project\ipcore_dir\tmp\_cg\_dbg\blk_mem_gen_v7_3\blk_mem_gen_prim_wrapper_s6_init.vhd" Line 531: Net &lt;<arg fmt="%s" index="1">doutb_i[17]</arg>&gt; does not have a driver.
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Users\Young\Documents\GitHub\CPU-Project\ipcore_dir\tmp\_cg\_dbg\blk_mem_gen_v7_3\blk_mem_gen_prim_wrapper_s6_init.vhd" Line 531: Net &lt;<arg fmt="%s" index="1">doutb_i[8]</arg>&gt; does not have a driver.
 </msg>
 
 <msg type="info" file="ip" num="0" delta="new" >Reading MIF file at <arg fmt="%s" index="1">C:/Users/Young/Documents/GitHub/CPU-Project/ipcore_dir/tmp/_cg/RAM_B.mif</arg>
@@ -104,10 +116,64 @@
 <msg type="info" file="ip" num="0" delta="new" >Default data (<arg fmt="%s" index="1">0</arg> hex) will persist where not overwritten by MIF file.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Users\Young\Documents\GitHub\CPU-Project\ipcore_dir\tmp\_cg\_dbg\blk_mem_gen_v7_3\blk_mem_gen_prim_width.vhd" Line 430: Net &lt;<arg fmt="%s" index="1">dina_pad[17]</arg>&gt; does not have a driver.
+<msg type="info" file="ip" num="0" delta="new" >Reading MIF file at <arg fmt="%s" index="1">C:/Users/Young/Documents/GitHub/CPU-Project/ipcore_dir/tmp/_cg/RAM_B.mif</arg>
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Users\Young\Documents\GitHub\CPU-Project\ipcore_dir\tmp\_cg\_dbg\blk_mem_gen_v7_3\blk_mem_gen_prim_width.vhd" Line 434: Net &lt;<arg fmt="%s" index="1">dinb_pad[17]</arg>&gt; does not have a driver.
+<msg type="warning" file="ip" num="0" delta="new" >Memory initialization file (<arg fmt="%s" index="1">RAM_B.mif</arg>) depth is smaller than memory depth.
+</msg>
+
+<msg type="warning" file="ip" num="0" delta="new" >Memory initialization file (<arg fmt="%s" index="1">RAM_B.mif</arg>) has words wider than <arg fmt="%0d" index="2">32</arg> bits, right-aligning.
+</msg>
+
+<msg type="info" file="ip" num="0" delta="new" >Default data (<arg fmt="%s" index="1">0</arg> hex) will persist where not overwritten by MIF file.
+</msg>
+
+<msg type="info" file="ip" num="0" delta="new" ><arg fmt="%s" index="1">$Id: get_init_bmg_v7_3.c,v 1.3 2011/07/25 06:20:41 Exp $</arg>
+</msg>
+
+<msg type="info" file="ip" num="0" delta="new" >Reading MIF file at <arg fmt="%s" index="1">C:/Users/Young/Documents/GitHub/CPU-Project/ipcore_dir/tmp/_cg/RAM_B.mif</arg>
+</msg>
+
+<msg type="warning" file="ip" num="0" delta="new" >Memory initialization file (<arg fmt="%s" index="1">RAM_B.mif</arg>) depth is smaller than memory depth.
+</msg>
+
+<msg type="warning" file="ip" num="0" delta="new" >Memory initialization file (<arg fmt="%s" index="1">RAM_B.mif</arg>) has words wider than <arg fmt="%0d" index="2">32</arg> bits, right-aligning.
+</msg>
+
+<msg type="info" file="ip" num="0" delta="new" >Default data (<arg fmt="%s" index="1">0</arg> hex) will persist where not overwritten by MIF file.
+</msg>
+
+<msg type="info" file="ip" num="0" delta="new" >Reading MIF file at <arg fmt="%s" index="1">C:/Users/Young/Documents/GitHub/CPU-Project/ipcore_dir/tmp/_cg/RAM_B.mif</arg>
+</msg>
+
+<msg type="warning" file="ip" num="0" delta="new" >Memory initialization file (<arg fmt="%s" index="1">RAM_B.mif</arg>) depth is smaller than memory depth.
+</msg>
+
+<msg type="warning" file="ip" num="0" delta="new" >Memory initialization file (<arg fmt="%s" index="1">RAM_B.mif</arg>) has words wider than <arg fmt="%0d" index="2">32</arg> bits, right-aligning.
+</msg>
+
+<msg type="info" file="ip" num="0" delta="new" >Default data (<arg fmt="%s" index="1">0</arg> hex) will persist where not overwritten by MIF file.
+</msg>
+
+<msg type="info" file="ip" num="0" delta="new" ><arg fmt="%s" index="1">$Id: get_init_bmg_v7_3.c,v 1.3 2011/07/25 06:20:41 Exp $</arg>
+</msg>
+
+<msg type="info" file="ip" num="0" delta="new" >Reading MIF file at <arg fmt="%s" index="1">C:/Users/Young/Documents/GitHub/CPU-Project/ipcore_dir/tmp/_cg/RAM_B.mif</arg>
+</msg>
+
+<msg type="warning" file="ip" num="0" delta="new" >Memory initialization file (<arg fmt="%s" index="1">RAM_B.mif</arg>) depth is smaller than memory depth.
+</msg>
+
+<msg type="warning" file="ip" num="0" delta="new" >Memory initialization file (<arg fmt="%s" index="1">RAM_B.mif</arg>) has words wider than <arg fmt="%0d" index="2">32</arg> bits, right-aligning.
+</msg>
+
+<msg type="info" file="ip" num="0" delta="new" >Default data (<arg fmt="%s" index="1">0</arg> hex) will persist where not overwritten by MIF file.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Users\Young\Documents\GitHub\CPU-Project\ipcore_dir\tmp\_cg\_dbg\blk_mem_gen_v7_3\blk_mem_gen_prim_width.vhd" Line 430: Net &lt;<arg fmt="%s" index="1">dina_pad[8]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Users\Young\Documents\GitHub\CPU-Project\ipcore_dir\tmp\_cg\_dbg\blk_mem_gen_v7_3\blk_mem_gen_prim_width.vhd" Line 434: Net &lt;<arg fmt="%s" index="1">dinb_pad[8]</arg>&gt; does not have a driver.
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="321" delta="old" >"C:\Users\Young\Documents\GitHub\CPU-Project\ipcore_dir\tmp\_cg\_dbg\blk_mem_gen_v7_3\blk_mem_gen_generic_cstr.vhd" Line 1546: Comparison between arrays of unequal length always returns <arg fmt="%s" index="1">FALSE</arg>.
@@ -350,6 +416,18 @@
 <msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Young\Documents\GitHub\CPU-Project\ipcore_dir\tmp\_cg\_dbg\blk_mem_gen_v7_3\blk_mem_gen_generic_cstr.vhd</arg>&quot; line <arg fmt="%s" index="2">1342</arg>: Output port &lt;<arg fmt="%s" index="3">DBITERR</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ramloop[1].ram.r</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Young\Documents\GitHub\CPU-Project\ipcore_dir\tmp\_cg\_dbg\blk_mem_gen_v7_3\blk_mem_gen_generic_cstr.vhd</arg>&quot; line <arg fmt="%s" index="2">1342</arg>: Output port &lt;<arg fmt="%s" index="3">SBITERR</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ramloop[2].ram.r</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Young\Documents\GitHub\CPU-Project\ipcore_dir\tmp\_cg\_dbg\blk_mem_gen_v7_3\blk_mem_gen_generic_cstr.vhd</arg>&quot; line <arg fmt="%s" index="2">1342</arg>: Output port &lt;<arg fmt="%s" index="3">DBITERR</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ramloop[2].ram.r</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Young\Documents\GitHub\CPU-Project\ipcore_dir\tmp\_cg\_dbg\blk_mem_gen_v7_3\blk_mem_gen_generic_cstr.vhd</arg>&quot; line <arg fmt="%s" index="2">1342</arg>: Output port &lt;<arg fmt="%s" index="3">SBITERR</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ramloop[3].ram.r</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Young\Documents\GitHub\CPU-Project\ipcore_dir\tmp\_cg\_dbg\blk_mem_gen_v7_3\blk_mem_gen_generic_cstr.vhd</arg>&quot; line <arg fmt="%s" index="2">1342</arg>: Output port &lt;<arg fmt="%s" index="3">DBITERR</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ramloop[3].ram.r</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
 <msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">RDADDRECC</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
 </msg>
 
@@ -395,25 +473,13 @@
 <msg type="warning" file="Xst" num="2935" delta="old" >Signal &apos;<arg fmt="%s" index="1">pad_dinp_b4</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">blk_mem_gen_prim_wrapper_s6_init_1</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">0000</arg>).
 </msg>
 
-<msg type="warning" file="Xst" num="2935" delta="old" >Signal &apos;<arg fmt="%s" index="1">doutb_i</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">blk_mem_gen_prim_wrapper_s6_init_1</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">000000000000000000</arg>).
+<msg type="warning" file="Xst" num="2935" delta="old" >Signal &apos;<arg fmt="%s" index="1">doutb_i</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">blk_mem_gen_prim_wrapper_s6_init_1</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">000000000</arg>).
 </msg>
 
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">INJECTSBITERR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">INJECTDBITERR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-</msg>
-
-<msg type="warning" file="Xst" num="2935" delta="old" >Signal &apos;<arg fmt="%s" index="1">dina_pad&lt;17:16&gt;</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">blk_mem_gen_prim_width_2</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">00</arg>).
-</msg>
-
-<msg type="warning" file="Xst" num="2935" delta="old" >Signal &apos;<arg fmt="%s" index="1">dina_pad&lt;8:7&gt;</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">blk_mem_gen_prim_width_2</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">00</arg>).
-</msg>
-
-<msg type="warning" file="Xst" num="2935" delta="old" >Signal &apos;<arg fmt="%s" index="1">dinb_pad&lt;17:16&gt;</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">blk_mem_gen_prim_width_2</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">00</arg>).
-</msg>
-
-<msg type="warning" file="Xst" num="2935" delta="old" >Signal &apos;<arg fmt="%s" index="1">dinb_pad&lt;8:7&gt;</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">blk_mem_gen_prim_width_2</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">00</arg>).
 </msg>
 
 <msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">SBITERR</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
@@ -446,7 +512,91 @@
 <msg type="warning" file="Xst" num="2935" delta="old" >Signal &apos;<arg fmt="%s" index="1">pad_dinp_b4</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">blk_mem_gen_prim_wrapper_s6_init_2</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">0000</arg>).
 </msg>
 
-<msg type="warning" file="Xst" num="2935" delta="old" >Signal &apos;<arg fmt="%s" index="1">doutb_i</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">blk_mem_gen_prim_wrapper_s6_init_2</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">000000000000000000</arg>).
+<msg type="warning" file="Xst" num="2935" delta="old" >Signal &apos;<arg fmt="%s" index="1">doutb_i</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">blk_mem_gen_prim_wrapper_s6_init_2</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">000000000</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">INJECTSBITERR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">INJECTDBITERR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">SBITERR</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">DBITERR</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">WEB</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ADDRB</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">DINB</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ENB</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">REGCEB</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">pad_addr_b14</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="old" >Signal &apos;<arg fmt="%s" index="1">pad_din_b32</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">blk_mem_gen_prim_wrapper_s6_init_3</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">00000000000000000000000000000000</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="old" >Signal &apos;<arg fmt="%s" index="1">pad_dinp_b4</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">blk_mem_gen_prim_wrapper_s6_init_3</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">0000</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="old" >Signal &apos;<arg fmt="%s" index="1">doutb_i</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">blk_mem_gen_prim_wrapper_s6_init_3</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">000000000</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">INJECTSBITERR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">INJECTDBITERR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="old" >Signal &apos;<arg fmt="%s" index="1">dina_pad&lt;8:5&gt;</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">blk_mem_gen_prim_width_4</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">0000</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="old" >Signal &apos;<arg fmt="%s" index="1">dinb_pad&lt;8:5&gt;</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">blk_mem_gen_prim_width_4</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">0000</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">SBITERR</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">DBITERR</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">WEB</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ADDRB</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">DINB</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ENB</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">REGCEB</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">pad_addr_b14</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="old" >Signal &apos;<arg fmt="%s" index="1">pad_din_b32</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">blk_mem_gen_prim_wrapper_s6_init_4</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">00000000000000000000000000000000</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="old" >Signal &apos;<arg fmt="%s" index="1">pad_dinp_b4</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">blk_mem_gen_prim_wrapper_s6_init_4</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">0000</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="old" >Signal &apos;<arg fmt="%s" index="1">doutb_i</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">blk_mem_gen_prim_wrapper_s6_init_4</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">000000000</arg>).
 </msg>
 
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">DOUTB_I</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.

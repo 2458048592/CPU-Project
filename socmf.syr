@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.13 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.14 secs
  
 --> Reading design: socmf.prj
 
@@ -502,7 +502,7 @@ Unit <Ext_32> synthesized.
 Synthesizing Unit <MIO_BUS>.
     Related source file is "C:\Users\Young\Documents\GitHub\CPU-Project\MIO_BUS.v".
 WARNING:Xst:647 - Input <addr_bus<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-WARNING:Xst:647 - Input <addr_bus<27:12>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <addr_bus<27:13>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <char_data> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <rst> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -655,7 +655,7 @@ Macro Statistics
  10-bit comparator lessequal                           : 2
 # Multiplexers                                         : 103
  1-bit 2-to-1 multiplexer                              : 27
- 10-bit 2-to-1 multiplexer                             : 1
+ 11-bit 2-to-1 multiplexer                             : 1
  13-bit 2-to-1 multiplexer                             : 1
  2-bit 2-to-1 multiplexer                              : 21
  3-bit 2-to-1 multiplexer                              : 4
@@ -745,7 +745,7 @@ Macro Statistics
  10-bit comparator lessequal                           : 2
 # Multiplexers                                         : 102
  1-bit 2-to-1 multiplexer                              : 26
- 10-bit 2-to-1 multiplexer                             : 1
+ 11-bit 2-to-1 multiplexer                             : 1
  13-bit 2-to-1 multiplexer                             : 1
  2-bit 2-to-1 multiplexer                              : 21
  3-bit 2-to-1 multiplexer                              : 4
@@ -856,7 +856,7 @@ INFO:Xst:2261 - The FF/Latch <U1/m_ctrl/PCSource_0> in Unit <socmf> is equivalen
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block socmf, actual ratio is 40.
+Found area constraint ratio of 100 (+ 5) on block socmf, actual ratio is 41.
 FlipFlop U1/m_ctrl/ALUSrcB_0 has been replicated 2 time(s)
 FlipFlop U1/m_ctrl/ALUSrcB_1 has been replicated 2 time(s)
 FlipFlop U1/m_datapath/IR/register_16 has been replicated 22 time(s)
@@ -908,14 +908,14 @@ Top Level Output File Name         : socmf.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 3765
+# BELS                             : 3766
 #      GND                         : 6
 #      INV                         : 62
 #      LUT1                        : 113
 #      LUT2                        : 23
 #      LUT3                        : 1338
 #      LUT3_D                      : 2
-#      LUT4                        : 368
+#      LUT4                        : 369
 #      LUT4_L                      : 53
 #      LUT5                        : 228
 #      LUT6                        : 1017
@@ -938,8 +938,8 @@ Primitive and Black Box Usage:
 #      FDR                         : 26
 #      FDRE                        : 10
 #      LD                          : 2
-# RAMS                             : 7
-#      RAMB16BWER                  : 7
+# RAMS                             : 9
+#      RAMB16BWER                  : 9
 # Shift Registers                  : 2
 #      SRLC16E                     : 2
 # Clock Buffers                    : 6
@@ -959,16 +959,16 @@ Selected Device : 6slx16csg324-3
 
 Slice Logic Utilization: 
  Number of Slice Registers:            1594  out of  18224     8%  
- Number of Slice LUTs:                 3206  out of   9112    35%  
-    Number used as Logic:              3204  out of   9112    35%  
+ Number of Slice LUTs:                 3207  out of   9112    35%  
+    Number used as Logic:              3205  out of   9112    35%  
     Number used as Memory:                2  out of   2176     0%  
        Number used as SRL:                2
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   4384
-   Number with an unused Flip Flop:    2790  out of   4384    63%  
-   Number with an unused LUT:          1178  out of   4384    26%  
-   Number of fully used LUT-FF pairs:   416  out of   4384     9%  
+ Number of LUT Flip Flop pairs used:   4385
+   Number with an unused Flip Flop:    2791  out of   4385    63%  
+   Number with an unused LUT:          1178  out of   4385    26%  
+   Number of fully used LUT-FF pairs:   416  out of   4385     9%  
    Number of unique control sets:        30
 
 IO Utilization: 
@@ -976,8 +976,8 @@ IO Utilization:
  Number of bonded IOBs:                  46  out of    232    19%  
 
 Specific Feature Utilization:
- Number of Block RAM/FIFO:                7  out of     32    21%  
-    Number using Block RAM only:          7
+ Number of Block RAM/FIFO:                9  out of     32    28%  
+    Number using Block RAM only:          9
  Number of BUFG/BUFGCTRLs:                6  out of     16    37%  
  Number of DSP48A1s:                      1  out of     32     3%  
 
@@ -1003,13 +1003,13 @@ Clock Information:
 Clock Signal                       | Clock buffer(FF name)                                                                                                        | Load  |
 -----------------------------------+------------------------------------------------------------------------------------------------------------------------------+-------+
 U11/count_1                        | BUFG                                                                                                                         | 63    |
-clk                                | BUFGP                                                                                                                        | 125   |
+clk                                | BUFGP                                                                                                                        | 127   |
 U12/PS2Cf                          | BUFG                                                                                                                         | 18    |
 Clk_CPU(U8/Mmux_Clk_CPU11:O)       | BUFG(*)(U1/m_datapath/ALUout/register_31)                                                                                    | 1240  |
 NOT_Clk_CPU(NOT_Clk_CPU1:O)        | BUFG(*)(U5/blink_out_0)                                                                                                      | 120   |
 U9/rst                             | NONE(U5/Disp_num_31_LD)                                                                                                      | 2     |
 U8/clkdiv_7                        | BUFG                                                                                                                         | 35    |
-U3/N1                              | NONE(U3/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram) | 2     |
+U3/N1                              | NONE(U3/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram) | 4     |
 U17/N1                             | NONE(U17/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram)| 5     |
 -----------------------------------+------------------------------------------------------------------------------------------------------------------------------+-------+
 (*) These 2 clock signal(s) are generated by combinatorial logic,
@@ -1382,7 +1382,7 @@ Clock to Setup on destination clock NOT_Clk_CPU
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-Clk_CPU        |   10.069|         |    8.595|         |
+Clk_CPU        |   10.090|         |    8.602|         |
 NOT_Clk_CPU    |    2.554|    4.405|         |         |
 U12/PS2Cf      |         |    3.823|         |         |
 U8/clkdiv_7    |    5.337|         |         |         |
@@ -1423,19 +1423,19 @@ Clock to Setup on destination clock clk
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-Clk_CPU        |         |         |    7.437|         |
+Clk_CPU        |         |         |    7.551|         |
 clk            |    5.116|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 21.00 secs
-Total CPU time to Xst completion: 21.44 secs
+Total REAL time to Xst completion: 23.00 secs
+Total CPU time to Xst completion: 22.50 secs
  
 --> 
 
-Total memory usage is 199268 kilobytes
+Total memory usage is 198692 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   47 (   0 filtered)

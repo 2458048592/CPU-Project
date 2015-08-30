@@ -56,12 +56,6 @@ module vga_control(
 		end
 		else
 		begin
-			/*
-			if (font_dot == 1)
-				data <= RGB[15:8];
-			else
-				data <= RGB[7:0];
-			*/
 			if (font_dot == 1)
 				data <= RGB;
 			else
