@@ -19,10 +19,10 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module char_mode(
-			input [12:0] cpu_address,
-			input [12:0] vga_address,
+			input [14:0] cpu_address,
+			input [14:0] vga_address,
 			input mode,
-			output [12:0] char_address
+			output [14:0] char_address
     );
 
 	assign char_address = (mode == 1) ? cpu_address : vga_address;

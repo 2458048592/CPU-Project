@@ -10,18 +10,19 @@
          <ClosedNode>/socmf C:|Users|Young|Desktop|Verilog Project|proj3|socmf.v/U1 - Muliti_CPU/m_datapath - M_datapath</ClosedNode>
          <ClosedNode>/socmf C:|Users|Young|Desktop|proj3|socmf.v/U1 - Muliti_CPU</ClosedNode>
          <ClosedNode>/socmf C:|Users|Young|Desktop|proj3|socmf.v/U1 - Muliti_CPU/m_datapath - M_datapath</ClosedNode>
+         <ClosedNode>/socmf C:|Users|Young|Documents|GitHub|CPU-Project|socmf.v/U1 - Muliti_CPU</ClosedNode>
          <ClosedNode>/socmf C:|Users|Young|Documents|GitHub|CPU-Project|socmf.v/U1 - Muliti_CPU/m_datapath - M_datapath</ClosedNode>
          <ClosedNode>/socmf C:|Users|Young|Documents|GitHub|CPU-Project|socmf.v/U1 - Muliti_CPU/m_datapath - M_datapath/U1 - ALU</ClosedNode>
          <ClosedNode>/socmf D:|Desktop|Porject|socmf.v/U1 - Muliti_CPU/m_datapath - M_datapath</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>U3 - RAM_B (C:/Users/Young/Documents/GitHub/CPU-Project/ipcore_dir/RAM_B.xco)</SelectedItem>
+         <SelectedItem>U17 - char_ram (C:/Users/Young/Documents/GitHub/CPU-Project/ipcore_dir/char_ram.xco)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >14</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000016a000000020000000000000000000000000200000064ffffffff0000008100000003000000020000016a0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>U3 - RAM_B (C:/Users/Young/Documents/GitHub/CPU-Project/ipcore_dir/RAM_B.xco)</CurrentItem>
+      <CurrentItem>U17 - char_ram (C:/Users/Young/Documents/GitHub/CPU-Project/ipcore_dir/char_ram.xco)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
       <ClosedNodes>
@@ -35,13 +36,13 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Design Summary/Reports</SelectedItem>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000104000000010000000100000000000000000000000064ffffffff000000810000000000000001000001040000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Design Summary/Reports</CurrentItem>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -86,13 +87,13 @@
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000104000000010000000100000000000000000000000064ffffffff000000810000000000000001000001040000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -114,13 +115,13 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000174000000010000000100000000000000000000000064ffffffff000000810000000000000001000001740000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000104000000010000000100000000000000000000000064ffffffff000000810000000000000001000001040000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>

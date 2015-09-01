@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.13 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.14 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
  
 --> Reading design: socmf.prj
 
@@ -186,7 +186,7 @@ Parsing module <socmf>.
 =========================================================================
 *                            HDL Elaboration                            *
 =========================================================================
-WARNING:HDLCompiler:1016 - "C:\Users\Young\Documents\GitHub\CPU-Project\socmf.v" Line 171: Port button_pulse is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\Young\Documents\GitHub\CPU-Project\socmf.v" Line 174: Port button_pulse is not connected to this instance
 
 Elaborating module <socmf>.
 
@@ -239,7 +239,7 @@ Elaborating module <mux4to1_32>.
 
 Elaborating module <Ext_32>.
 WARNING:HDLCompiler:634 - "C:\Users\Young\Documents\GitHub\CPU-Project\datapath.v" Line 49: Net <rst> does not have a driver.
-WARNING:HDLCompiler:1127 - "C:\Users\Young\Documents\GitHub\CPU-Project\socmf.v" Line 83: Assignment to state ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\Young\Documents\GitHub\CPU-Project\socmf.v" Line 86: Assignment to state ignored, since the identifier is never used
 
 Elaborating module <RAM_B>.
 WARNING:HDLCompiler:1499 - "C:\Users\Young\Documents\GitHub\CPU-Project\ipcore_dir\RAM_B.v" Line 39: Empty module <RAM_B> remains a black box.
@@ -275,9 +275,9 @@ WARNING:HDLCompiler:413 - "C:\Users\Young\Documents\GitHub\CPU-Project\vga_640x4
 Elaborating module <vga_display>.
 
 Elaborating module <vga_control>.
-WARNING:HDLCompiler:413 - "C:\Users\Young\Documents\GitHub\CPU-Project\vga_control.v" Line 44: Result of 32-bit expression is truncated to fit in 10-bit target.
 WARNING:HDLCompiler:413 - "C:\Users\Young\Documents\GitHub\CPU-Project\vga_control.v" Line 45: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\Young\Documents\GitHub\CPU-Project\vga_control.v" Line 48: Result of 15-bit expression is truncated to fit in 13-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Young\Documents\GitHub\CPU-Project\vga_control.v" Line 46: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\Young\Documents\GitHub\CPU-Project\vga_control.v" Line 48: Result of 32-bit expression is truncated to fit in 15-bit target.
 WARNING:HDLCompiler:413 - "C:\Users\Young\Documents\GitHub\CPU-Project\vga_control.v" Line 49: Result of 32-bit expression is truncated to fit in 10-bit target.
 
 Elaborating module <font_table>.
@@ -294,10 +294,10 @@ WARNING:HDLCompiler:634 - "C:\Users\Young\Documents\GitHub\CPU-Project\socmf.v" 
 
 Synthesizing Unit <socmf>.
     Related source file is "C:\Users\Young\Documents\GitHub\CPU-Project\socmf.v".
-INFO:Xst:3210 - "C:\Users\Young\Documents\GitHub\CPU-Project\socmf.v" line 71: Output port <state> of the instance <U1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\Young\Documents\GitHub\CPU-Project\socmf.v" line 71: Output port <CPU_MIO> of the instance <U1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\Young\Documents\GitHub\CPU-Project\socmf.v" line 153: Output port <GPIOf0> of the instance <U7> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\Young\Documents\GitHub\CPU-Project\socmf.v" line 171: Output port <button_pulse> of the instance <U9> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Young\Documents\GitHub\CPU-Project\socmf.v" line 74: Output port <state> of the instance <U1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Young\Documents\GitHub\CPU-Project\socmf.v" line 74: Output port <CPU_MIO> of the instance <U1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Young\Documents\GitHub\CPU-Project\socmf.v" line 156: Output port <GPIOf0> of the instance <U7> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Young\Documents\GitHub\CPU-Project\socmf.v" line 174: Output port <button_pulse> of the instance <U9> is unconnected or connected to loadless signal.
 WARNING:Xst:653 - Signal <blinke> is used but never assigned. This sourceless signal will be automatically connected to value GND.
     Summary:
 	no macro.
@@ -502,7 +502,7 @@ Unit <Ext_32> synthesized.
 Synthesizing Unit <MIO_BUS>.
     Related source file is "C:\Users\Young\Documents\GitHub\CPU-Project\MIO_BUS.v".
 WARNING:Xst:647 - Input <addr_bus<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-WARNING:Xst:647 - Input <addr_bus<27:13>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <addr_bus<27:15>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <char_data> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <rst> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -586,15 +586,29 @@ Synthesizing Unit <vga_control>.
         vbp = 31
         vfp = 511
     Found 8-bit register for signal <data>.
-    Found 14-bit adder for signal <n0016> created at line 48.
-    Found 32-bit adder for signal <n0017> created at line 49.
-    Found 10-bit subtractor for signal <xpix> created at line 41.
-    Found 10-bit subtractor for signal <ypix> created at line 42.
-    Found 7x7-bit multiplier for signal <n0036> created at line 48.
+    Found 11-bit subtractor for signal <GND_37_o_GND_37_o_sub_6_OUT> created at line 48.
+    Found 15-bit subtractor for signal <GND_37_o_GND_37_o_sub_23_OUT> created at line 64.
+    Found 11-bit subtractor for signal <GND_37_o_GND_37_o_sub_24_OUT> created at line 64.
+    Found 15-bit adder for signal <n0084[14:0]> created at line 48.
+    Found 32-bit adder for signal <n0046> created at line 48.
+    Found 32-bit adder for signal <n0068> created at line 48.
+    Found 32-bit adder for signal <n0040> created at line 49.
+    Found 14-bit adder for signal <n0094[13:0]> created at line 64.
+    Found 32-bit adder for signal <GND_37_o_GND_37_o_add_25_OUT> created at line 64.
+    Found 10-bit subtractor for signal <xpix> created at line 42.
+    Found 10-bit subtractor for signal <ypix> created at line 43.
+    Found 7x7-bit multiplier for signal <ypix[9]_PWR_37_o_MuLt_3_OUT> created at line 48.
+    Found 32x8-bit multiplier for signal <n0053> created at line 64.
+    Found 10-bit comparator greater for signal <xpix[9]_GND_37_o_LessThan_18_o> created at line 60
+    Found 10-bit comparator greater for signal <GND_37_o_xpix[9]_LessThan_19_o> created at line 60
+    Found 10-bit comparator greater for signal <ypix[9]_GND_37_o_LessThan_20_o> created at line 60
+    Found 10-bit comparator greater for signal <GND_37_o_ypix[9]_LessThan_21_o> created at line 60
     Summary:
-	inferred   1 Multiplier(s).
-	inferred   4 Adder/Subtractor(s).
+	inferred   2 Multiplier(s).
+	inferred  11 Adder/Subtractor(s).
 	inferred   8 D-type flip-flop(s).
+	inferred   4 Comparator(s).
+	inferred   4 Multiplexer(s).
 Unit <vga_control> synthesized.
 
 Synthesizing Unit <font_table>.
@@ -609,9 +623,9 @@ Synthesizing Unit <font_table>.
 1111110001100000011000000011000000000000000000000000000000000000000000000000000000000000111100000001100011111001100110001110100000000001100000011000000111110001100110011001100110011001111100000000000000000000000000001111000110011001100000011001100011110000000000000001100000011000111110011001100110011001100110001111100000000000000000000000000011110001100110011111000110000000111100000000000000111000011000000110000011111000011000000110000001100000000000000000000000000000111110011001100110011000111110000001100011110001100000011000000111110001100110011001100110011001100110000000000001100000000000000110000001100000011000000110000001100000000000000110000000000000011000000110000001100000011000000110000111000001100000011000000110011001101100011110000110110001100110000000000011000000110000001100000011000000110000001100000001110000000000000000000000000011001100111111101101011011000110110001100000000000000000000000000111110001100110011001100110011001100110000000000000000000000000001111000110011001100110011001100011110000
 0000000000000000000000011111000110011001100110011111000110000001100000000000000000000000111110011001100110011000111110000001100000011000000000000000000011011000111000001100000011000000110000000000000000000000000000001111100110000000111100000001100111110000000000000110000001100000111100000110000001100000011000000011000000000000000000000000000110011001100110011001100110011000111100000000000000000000000000011001100110011001100110001111000001100000000000000000000000000011000110110101101101011001111100001010000000000000000000000000000110011000111100000110000011110001100110000000000000000000000000011001100110011001100110001111100000011001111100000000000000000001111110000011000001100000110000011111100000000000011100001100000011000001100000001100000011000000011100000000000001100000011000000110000001100000011000000110000001100000000000001110000000110000001100000001100000110000001100001110000000000000000000001100100100110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 000000
-    Found 9-bit subtractor for signal <GND_39_o_GND_39_o_sub_1_OUT> created at line 158.
-    Found 32-bit adder for signal <GND_39_o_GND_39_o_add_1_OUT> created at line 158.
-    Found 13-bit subtractor for signal <GND_39_o_GND_39_o_sub_3_OUT<12:0>> created at line 158.
+    Found 9-bit subtractor for signal <GND_40_o_GND_40_o_sub_1_OUT> created at line 158.
+    Found 32-bit adder for signal <GND_40_o_GND_40_o_add_1_OUT> created at line 158.
+    Found 13-bit subtractor for signal <GND_40_o_GND_40_o_sub_3_OUT<12:0>> created at line 158.
     Found 8192x1-bit Read Only RAM for signal <font_dot>
     Summary:
 	inferred   1 RAM(s).
@@ -630,15 +644,19 @@ HDL Synthesis Report
 Macro Statistics
 # RAMs                                                 : 1
  8192x1-bit single-port Read Only RAM                  : 1
-# Multipliers                                          : 1
+# Multipliers                                          : 2
+ 32x8-bit multiplier                                   : 1
  7x7-bit multiplier                                    : 1
-# Adders/Subtractors                                   : 13
+# Adders/Subtractors                                   : 20
  10-bit adder                                          : 2
  10-bit subtractor                                     : 2
+ 11-bit subtractor                                     : 2
  13-bit subtractor                                     : 1
  14-bit adder                                          : 1
+ 15-bit adder                                          : 1
+ 15-bit subtractor                                     : 1
  2-bit adder                                           : 1
- 32-bit adder                                          : 3
+ 32-bit adder                                          : 6
  33-bit adder                                          : 2
  9-bit subtractor                                      : 1
 # Registers                                            : 35
@@ -650,20 +668,21 @@ Macro Statistics
  32-bit register                                       : 5
  8-bit register                                        : 3
  992-bit register                                      : 1
-# Comparators                                          : 6
- 10-bit comparator greater                             : 4
+# Comparators                                          : 10
+ 10-bit comparator greater                             : 8
  10-bit comparator lessequal                           : 2
-# Multiplexers                                         : 103
+# Multiplexers                                         : 107
  1-bit 2-to-1 multiplexer                              : 27
- 11-bit 2-to-1 multiplexer                             : 1
  13-bit 2-to-1 multiplexer                             : 1
+ 15-bit 2-to-1 multiplexer                             : 1
  2-bit 2-to-1 multiplexer                              : 21
  3-bit 2-to-1 multiplexer                              : 4
- 32-bit 2-to-1 multiplexer                             : 42
+ 32-bit 2-to-1 multiplexer                             : 43
  32-bit 31-to-1 multiplexer                            : 2
  32-bit 4-to-1 multiplexer                             : 3
  32-bit 8-to-1 multiplexer                             : 1
  5-bit 3-to-1 multiplexer                              : 1
+ 8-bit 2-to-1 multiplexer                              : 3
 # FSMs                                                 : 1
 # Xors                                                 : 3
  1-bit xor2                                            : 1
@@ -700,7 +719,7 @@ The following registers are absorbed into counter <count>: 1 register on signal 
 Unit <clk_div_4> synthesized (advanced).
 
 Synthesizing (advanced) Unit <socmf>.
-	Multiplier <U15/Mmult_n0036> in block <socmf> and adder/subtractor <U15/Madd_n0016_Madd> in block <socmf> are combined into a MAC<U15/Maddsub_n0036>.
+	Multiplier <U15/Mmult_ypix[9]_PWR_37_o_MuLt_3_OUT> in block <socmf> and adder/subtractor <U15/Madd_n0084[14:0]> in block <socmf> are combined into a MAC<U15/Maddsub_ypix[9]_PWR_37_o_MuLt_3_OUT>.
 INFO:Xst:3218 - HDL ADVISOR - The RAM <U16/Mram_font_dot> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
     -----------------------------------------------------------------------
     | ram_type           | Distributed                         |          |
@@ -708,7 +727,7 @@ INFO:Xst:3218 - HDL ADVISOR - The RAM <U16/Mram_font_dot> will be implemented on
     | Port A                                                              |
     |     aspect ratio   | 8192-word x 1-bit                   |          |
     |     weA            | connected to signal <GND>           | high     |
-    |     addrA          | connected to signal <U16/GND_39_o_GND_39_o_sub_3_OUT> |          |
+    |     addrA          | connected to signal <U16/GND_40_o_GND_40_o_sub_3_OUT> |          |
     |     diA            | connected to signal <GND>           |          |
     |     doA            | connected to signal <font_dot>      |          |
     -----------------------------------------------------------------------
@@ -726,12 +745,18 @@ Macro Statistics
 # RAMs                                                 : 1
  8192x1-bit single-port distributed Read Only RAM      : 1
 # MACs                                                 : 1
- 7x7-to-13-bit MAC                                     : 1
-# Adders/Subtractors                                   : 7
+ 7x7-to-15-bit MAC                                     : 1
+# Multipliers                                          : 1
+ 32x8-bit multiplier                                   : 1
+# Adders/Subtractors                                   : 14
+ 1-bit adder                                           : 2
+ 1-bit subtractor                                      : 1
  10-bit adder                                          : 1
  10-bit subtractor                                     : 2
+ 11-bit subtractor                                     : 2
  13-bit adder                                          : 1
  13-bit subtractor                                     : 1
+ 32-bit adder                                          : 2
  33-bit adder carry in                                 : 1
  7-bit subtractor                                      : 1
 # Counters                                             : 4
@@ -740,20 +765,21 @@ Macro Statistics
  32-bit up counter                                     : 1
 # Registers                                            : 1198
  Flip-Flops                                            : 1198
-# Comparators                                          : 6
- 10-bit comparator greater                             : 4
+# Comparators                                          : 10
+ 10-bit comparator greater                             : 8
  10-bit comparator lessequal                           : 2
-# Multiplexers                                         : 102
+# Multiplexers                                         : 106
  1-bit 2-to-1 multiplexer                              : 26
- 11-bit 2-to-1 multiplexer                             : 1
  13-bit 2-to-1 multiplexer                             : 1
+ 15-bit 2-to-1 multiplexer                             : 1
  2-bit 2-to-1 multiplexer                              : 21
  3-bit 2-to-1 multiplexer                              : 4
- 32-bit 2-to-1 multiplexer                             : 42
+ 32-bit 2-to-1 multiplexer                             : 43
  32-bit 31-to-1 multiplexer                            : 2
  32-bit 4-to-1 multiplexer                             : 3
  32-bit 8-to-1 multiplexer                             : 1
  5-bit 3-to-1 multiplexer                              : 1
+ 8-bit 2-to-1 multiplexer                              : 3
 # FSMs                                                 : 1
 # Xors                                                 : 3
  1-bit xor2                                            : 1
@@ -787,6 +813,7 @@ Optimizing FSM <U1/m_ctrl/FSM_0> on signal <state[1:16]> with one-hot encoding.
  01110 | 0100000000000000
  01111 | 1000000000000000
 ---------------------------
+WARNING:Xst:2677 - Node <U15/Mmult_n00531> of sequential type is unconnected in block <socmf>.
 WARNING:Xst:2677 - Node <U8/clkdiv_27> of sequential type is unconnected in block <socmf>.
 WARNING:Xst:2677 - Node <U8/clkdiv_28> of sequential type is unconnected in block <socmf>.
 WARNING:Xst:2677 - Node <U8/clkdiv_29> of sequential type is unconnected in block <socmf>.
@@ -856,19 +883,14 @@ INFO:Xst:2261 - The FF/Latch <U1/m_ctrl/PCSource_0> in Unit <socmf> is equivalen
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block socmf, actual ratio is 41.
-FlipFlop U1/m_ctrl/ALUSrcB_0 has been replicated 2 time(s)
-FlipFlop U1/m_ctrl/ALUSrcB_1 has been replicated 2 time(s)
-FlipFlop U1/m_datapath/IR/register_16 has been replicated 22 time(s)
-FlipFlop U1/m_datapath/IR/register_17 has been replicated 16 time(s)
-FlipFlop U1/m_datapath/IR/register_18 has been replicated 3 time(s)
-FlipFlop U1/m_datapath/IR/register_19 has been replicated 3 time(s)
-FlipFlop U1/m_datapath/IR/register_20 has been replicated 2 time(s)
-FlipFlop U1/m_datapath/IR/register_21 has been replicated 15 time(s)
-FlipFlop U1/m_datapath/IR/register_22 has been replicated 13 time(s)
-FlipFlop U1/m_datapath/IR/register_23 has been replicated 3 time(s)
-FlipFlop U1/m_datapath/IR/register_24 has been replicated 3 time(s)
-FlipFlop U1/m_datapath/IR/register_25 has been replicated 1 time(s)
+Found area constraint ratio of 100 (+ 5) on block socmf, actual ratio is 42.
+FlipFlop U1/m_datapath/IR/register_16 has been replicated 8 time(s)
+FlipFlop U1/m_datapath/IR/register_17 has been replicated 6 time(s)
+FlipFlop U1/m_datapath/IR/register_18 has been replicated 1 time(s)
+FlipFlop U1/m_datapath/IR/register_19 has been replicated 1 time(s)
+FlipFlop U1/m_datapath/IR/register_20 has been replicated 1 time(s)
+FlipFlop U1/m_datapath/IR/register_21 has been replicated 3 time(s)
+FlipFlop U1/m_datapath/IR/register_22 has been replicated 3 time(s)
 
 Final Macro Processing ...
 
@@ -881,8 +903,8 @@ Unit <socmf> processed.
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 1338
- Flip-Flops                                            : 1338
+# Registers                                            : 1276
+ Flip-Flops                                            : 1276
 # Shift Registers                                      : 2
  3-bit shift register                                  : 1
  4-bit shift register                                  : 1
@@ -908,38 +930,39 @@ Top Level Output File Name         : socmf.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 3766
+# BELS                             : 3892
 #      GND                         : 6
-#      INV                         : 62
-#      LUT1                        : 113
-#      LUT2                        : 23
-#      LUT3                        : 1338
+#      INV                         : 68
+#      LUT1                        : 117
+#      LUT2                        : 39
+#      LUT3                        : 1302
 #      LUT3_D                      : 2
-#      LUT4                        : 369
+#      LUT4                        : 392
 #      LUT4_L                      : 53
-#      LUT5                        : 228
-#      LUT6                        : 1017
-#      MUXCY                       : 193
+#      LUT5                        : 299
+#      LUT6                        : 972
+#      MUXCY                       : 216
 #      MUXF5                       : 136
 #      MUXF6                       : 40
-#      MUXF7                       : 3
+#      MUXF7                       : 43
 #      VCC                         : 6
-#      XORCY                       : 177
-# FlipFlops/Latches                : 1594
-#      FD                          : 145
+#      XORCY                       : 201
+# FlipFlops/Latches                : 1536
+#      FD                          : 110
 #      FD_1                        : 14
-#      FDC                         : 106
+#      FDC                         : 104
 #      FDCE                        : 1027
 #      FDCE_1                      : 7
-#      FDE                         : 208
+#      FDE                         : 187
 #      FDE_1                       : 22
-#      FDP                         : 24
+#      FDP                         : 22
 #      FDPE_1                      : 3
-#      FDR                         : 26
+#      FDR                         : 28
 #      FDRE                        : 10
 #      LD                          : 2
-# RAMS                             : 9
-#      RAMB16BWER                  : 9
+# RAMS                             : 32
+#      RAMB16BWER                  : 25
+#      RAMB8BWER                   : 7
 # Shift Registers                  : 2
 #      SRLC16E                     : 2
 # Clock Buffers                    : 6
@@ -948,8 +971,8 @@ Primitive and Black Box Usage:
 # IO Buffers                       : 45
 #      IBUF                        : 14
 #      OBUF                        : 31
-# DSPs                             : 1
-#      DSP48A1                     : 1
+# DSPs                             : 2
+#      DSP48A1                     : 2
 
 Device utilization summary:
 ---------------------------
@@ -958,28 +981,28 @@ Selected Device : 6slx16csg324-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:            1594  out of  18224     8%  
- Number of Slice LUTs:                 3207  out of   9112    35%  
-    Number used as Logic:              3205  out of   9112    35%  
+ Number of Slice Registers:            1536  out of  18224     8%  
+ Number of Slice LUTs:                 3246  out of   9112    35%  
+    Number used as Logic:              3244  out of   9112    35%  
     Number used as Memory:                2  out of   2176     0%  
        Number used as SRL:                2
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   4385
-   Number with an unused Flip Flop:    2791  out of   4385    63%  
-   Number with an unused LUT:          1178  out of   4385    26%  
-   Number of fully used LUT-FF pairs:   416  out of   4385     9%  
-   Number of unique control sets:        30
+ Number of LUT Flip Flop pairs used:   4486
+   Number with an unused Flip Flop:    2950  out of   4486    65%  
+   Number with an unused LUT:          1240  out of   4486    27%  
+   Number of fully used LUT-FF pairs:   296  out of   4486     6%  
+   Number of unique control sets:        33
 
 IO Utilization: 
  Number of IOs:                          46
  Number of bonded IOBs:                  46  out of    232    19%  
 
 Specific Feature Utilization:
- Number of Block RAM/FIFO:                9  out of     32    28%  
-    Number using Block RAM only:          9
+ Number of Block RAM/FIFO:               29  out of     32    90%  
+    Number using Block RAM only:         29
  Number of BUFG/BUFGCTRLs:                6  out of     16    37%  
- Number of DSP48A1s:                      1  out of     32     3%  
+ Number of DSP48A1s:                      2  out of     32     6%  
 
 ---------------------------
 Partition Resource Summary:
@@ -1002,15 +1025,15 @@ Clock Information:
 -----------------------------------+------------------------------------------------------------------------------------------------------------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)                                                                                                        | Load  |
 -----------------------------------+------------------------------------------------------------------------------------------------------------------------------+-------+
-U11/count_1                        | BUFG                                                                                                                         | 63    |
-clk                                | BUFGP                                                                                                                        | 127   |
+clk                                | BUFGP                                                                                                                        | 138   |
 U12/PS2Cf                          | BUFG                                                                                                                         | 18    |
-Clk_CPU(U8/Mmux_Clk_CPU11:O)       | BUFG(*)(U1/m_datapath/ALUout/register_31)                                                                                    | 1240  |
+U11/count_1                        | BUFG                                                                                                                         | 79    |
+Clk_CPU(U8/Mmux_Clk_CPU11:O)       | BUFG(*)(U1/m_datapath/ALUout/register_31)                                                                                    | 1178  |
 NOT_Clk_CPU(NOT_Clk_CPU1:O)        | BUFG(*)(U5/blink_out_0)                                                                                                      | 120   |
 U9/rst                             | NONE(U5/Disp_num_31_LD)                                                                                                      | 2     |
 U8/clkdiv_7                        | BUFG                                                                                                                         | 35    |
-U3/N1                              | NONE(U3/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram) | 4     |
-U17/N1                             | NONE(U17/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram)| 5     |
+U3/N1                              | NONE(U3/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.SIMPLE_PRIM9.ram)  | 12    |
+U17/N1                             | NONE(U17/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram)| 20    |
 -----------------------------------+------------------------------------------------------------------------------------------------------------------------------+-------+
 (*) These 2 clock signal(s) are generated by combinatorial logic,
 and XST is not able to identify which are the primary clock signals.
@@ -1025,7 +1048,7 @@ Timing Summary:
 ---------------
 Speed Grade: -3
 
-   Minimum period: 11.163ns (Maximum Frequency: 89.581MHz)
+   Minimum period: 13.908ns (Maximum Frequency: 71.899MHz)
    Minimum input arrival time before clock: 6.106ns
    Maximum output required time after clock: 8.232ns
    Maximum combinational path delay: No path found
@@ -1033,33 +1056,6 @@ Speed Grade: -3
 Timing Details:
 ---------------
 All values displayed in nanoseconds (ns)
-
-=========================================================================
-Timing constraint: Default period analysis for Clock 'U11/count_1'
-  Clock period: 11.163ns (frequency: 89.581MHz)
-  Total number of paths / destination ports: 15088 / 165
--------------------------------------------------------------------------
-Delay:               11.163ns (Levels of Logic = 6)
-  Source:            U13/vc_0 (FF)
-  Destination:       U17/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram (RAM)
-  Source Clock:      U11/count_1 rising
-  Destination Clock: U11/count_1 rising
-
-  Data Path: U13/vc_0 to U17/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     FDRE:C->Q           104   0.447   1.888  U13/vc_0 (U13/vc_0)
-     LUT3:I2->O            4   0.205   0.684  U15/Msub_ypix_xor<3>111 (U15/Msub_ypix_xor<3>11)
-     LUT5:I4->O            1   0.205   0.579  U15/Msub_ypix_xor<6>11 (U15/ypix<6>)
-     DSP48A1:B3->P11       1   4.394   0.580  U15/Maddsub_n0036 (vga_address<11>)
-     LUT3:I2->O            6   0.205   0.973  U18/Mmux_char_address31 (char_address<11>)
-     begin scope: 'U17:addra<11>'
-     LUT3:I0->O            1   0.205   0.579  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ADDR[2]_PWR_16_o_equal_5_o<2>1 (U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ena_array<4>)
-     RAMB16BWER:ENA            0.220          U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram
-    ----------------------------------------
-    Total                     11.163ns (5.881ns logic, 5.282ns route)
-                                       (52.7% logic, 47.3% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
@@ -1108,39 +1104,72 @@ Delay:               1.415ns (Levels of Logic = 0)
                                        (100.0% logic, 0.0% route)
 
 =========================================================================
-Timing constraint: Default period analysis for Clock 'Clk_CPU'
-  Clock period: 11.061ns (frequency: 90.410MHz)
-  Total number of paths / destination ports: 3637423 / 2345
+Timing constraint: Default period analysis for Clock 'U11/count_1'
+  Clock period: 13.908ns (frequency: 71.899MHz)
+  Total number of paths / destination ports: 4700468 / 370
 -------------------------------------------------------------------------
-Delay:               11.061ns (Levels of Logic = 33)
-  Source:            U1/m_datapath/IR/register_21_7 (FF)
-  Destination:       U1/m_datapath/PC/register_1 (FF)
-  Source Clock:      Clk_CPU rising
-  Destination Clock: Clk_CPU rising
+Delay:               13.908ns (Levels of Logic = 24)
+  Source:            U13/vc_0 (FF)
+  Destination:       U17/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram (RAM)
+  Source Clock:      U11/count_1 rising
+  Destination Clock: U11/count_1 rising
 
-  Data Path: U1/m_datapath/IR/register_21_7 to U1/m_datapath/PC/register_1
+  Data Path: U13/vc_0 to U17/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDE:C->Q             19   0.447   1.176  U1/m_datapath/IR/register_21_7 (U1/m_datapath/IR/register_21_7)
-     LUT6:I4->O            1   0.203   0.827  U1/m_datapath/U2/Mmux_R_addr_A[4]_register[31][31]_wide_mux_1_OUT_834 (U1/m_datapath/U2/Mmux_R_addr_A[4]_register[31][31]_wide_mux_1_OUT_834)
-     LUT6:I2->O            1   0.203   0.580  U1/m_datapath/U2/Mmux_R_addr_A[4]_register[31][31]_wide_mux_1_OUT_311 (U1/m_datapath/U2/Mmux_R_addr_A[4]_register[31][31]_wide_mux_1_OUT_311)
-     LUT6:I5->O            5   0.205   0.819  U1/m_datapath/MUX4/Mmux_o121 (U1/m_datapath/A<1>)
-     LUT6:I4->O            1   0.203   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_lut<1> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_lut<1>)
-     MUXCY:S->O            1   0.172   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<1> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<1>)
-     MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<2> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<2>)
-     MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<3> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<3>)
-     MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<4> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<4>)
-     MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<5> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<5>)
-     MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<6> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<6>)
-     MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<7> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<7>)
-     MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<8> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<8>)
-     MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<9> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<9>)
-     MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<10> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<10>)
-     MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<11> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<11>)
-     MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<12> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<12>)
-     MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<13> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<13>)
-     MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<14> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<14>)
+     FDRE:C->Q           111   0.447   1.907  U13/vc_0 (U13/vc_0)
+     LUT2:I1->O            3   0.205   0.651  U15/Msub_GND_37_o_GND_37_o_sub_24_OUT_xor<3>111 (U15/Msub_GND_37_o_GND_37_o_sub_24_OUT_xor<3>11)
+     LUT6:I5->O            1   0.205   0.579  U15/Msub_GND_37_o_GND_37_o_sub_24_OUT_xor<8>131 (U15/Msub_GND_37_o_GND_37_o_sub_24_OUT_xor<8>13)
+     MUXF7:S->O            7   0.148   0.773  U15/Msub_GND_37_o_GND_37_o_sub_24_OUT_xor<10>11 (U15/GND_37_o_GND_37_o_sub_24_OUT<10>)
+     DSP48A1:B10->M0       1   3.364   0.580  U15/Mmult_n0053 (U15/n0053<0>)
+     LUT2:I1->O            9   0.205   0.000  U15/Madd_n0046_lut<0> (U15/Madd_GND_37_o_GND_37_o_add_25_OUT_Madd_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  U15/Madd_n0046_cy<0> (U15/Madd_n0046_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  U15/Madd_n0046_cy<1> (U15/Madd_n0046_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  U15/Madd_n0046_cy<2> (U15/Madd_n0046_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  U15/Madd_n0046_cy<3> (U15/Madd_n0046_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  U15/Madd_n0046_cy<4> (U15/Madd_n0046_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  U15/Madd_n0046_cy<5> (U15/Madd_n0046_cy<5>)
+     MUXCY:CI->O           1   0.019   0.000  U15/Madd_n0046_cy<6> (U15/Madd_n0046_cy<6>)
+     MUXCY:CI->O           1   0.019   0.000  U15/Madd_n0046_cy<7> (U15/Madd_n0046_cy<7>)
+     MUXCY:CI->O           1   0.019   0.000  U15/Madd_n0046_cy<8> (U15/Madd_n0046_cy<8>)
+     MUXCY:CI->O           1   0.019   0.000  U15/Madd_n0046_cy<9> (U15/Madd_n0046_cy<9>)
+     MUXCY:CI->O           1   0.019   0.000  U15/Madd_n0046_cy<10> (U15/Madd_n0046_cy<10>)
+     MUXCY:CI->O           1   0.019   0.000  U15/Madd_n0046_cy<11> (U15/Madd_n0046_cy<11>)
+     XORCY:CI->O           1   0.180   0.580  U15/Madd_n0046_xor<12> (U15/n0046<12>)
+     LUT1:I0->O            1   0.205   0.000  U15/Madd_n0068_cy<11>_rt (U15/Madd_n0068_cy<11>_rt)
+     MUXCY:S->O            1   0.172   0.000  U15/Madd_n0068_cy<11> (U15/Madd_n0068_cy<11>)
+     XORCY:CI->O           1   0.180   0.580  U15/Madd_n0068_xor<12> (U15/n0068<12>)
+     LUT6:I5->O           20   0.205   1.321  U18/Mmux_char_address41 (char_address<12>)
+     begin scope: 'U17:addra<12>'
+     LUT3:I0->O            2   0.205   0.616  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ADDR[3]_PWR_16_o_equal_10_o<3>111 (U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ADDR[3]_PWR_16_o_equal_10_o<3>1)
+     RAMB16BWER:ENA            0.220          U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram
+    ----------------------------------------
+    Total                     13.908ns (6.322ns logic, 7.586ns route)
+                                       (45.5% logic, 54.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clk_CPU'
+  Clock period: 13.048ns (frequency: 76.638MHz)
+  Total number of paths / destination ports: 3562372 / 2258
+-------------------------------------------------------------------------
+Delay:               13.048ns (Levels of Logic = 21)
+  Source:            U1/m_datapath/IR/register_17 (FF)
+  Destination:       U1/m_datapath/PC/register_31 (FF)
+  Source Clock:      Clk_CPU rising
+  Destination Clock: Clk_CPU rising
+
+  Data Path: U1/m_datapath/IR/register_17 to U1/m_datapath/PC/register_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q            151   0.447   2.010  U1/m_datapath/IR/register_17 (U1/m_datapath/IR/register_17)
+     LUT5:I4->O            1   0.205   0.580  U1/m_datapath/U2/Mmux_R_addr_B[4]_register[31][31]_wide_mux_4_OUT_817 (U1/m_datapath/U2/Mmux_R_addr_B[4]_register[31][31]_wide_mux_4_OUT_817)
+     LUT6:I5->O            2   0.205   0.721  U1/m_datapath/U2/Mmux_R_addr_B[4]_register[31][31]_wide_mux_4_OUT_45 (U1/m_datapath/U2/Mmux_R_addr_B[4]_register[31][31]_wide_mux_4_OUT_45)
+     LUT4:I2->O            4   0.203   0.684  U1/m_datapath/U2/Mmux_rdata_B61 (Data_out<14>)
+     LUT5:I4->O            2   0.205   0.617  U1/m_datapath/MUX3/Mmux_o61 (U1/m_datapath/B<14>)
+     LUT6:I5->O            1   0.205   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_lut<14> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_lut<14>)
+     MUXCY:S->O            1   0.172   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<14> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<14>)
      MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<15> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<15>)
      MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<16> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<16>)
      MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<17> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<17>)
@@ -1152,42 +1181,42 @@ Delay:               11.061ns (Levels of Logic = 33)
      MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<23> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<23>)
      XORCY:CI->O           1   0.180   0.580  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_xor<24> (U1/m_datapath/U1/S<24>)
      LUT6:I5->O            3   0.205   0.879  U1/m_datapath/U1/XLXI_14/Mmux_o171 (U1/m_datapath/res<24>)
-     LUT5:I2->O            1   0.205   0.808  U1/m_datapath/U1/XLXI_15/out7_SW0 (N27)
-     LUT6:I3->O            1   0.205   0.579  U1/m_datapath/U1/XLXI_15/out10 (U1/m_datapath/U1/XLXN_89)
-     INV:I->O             32   0.568   1.292  U1/m_datapath/U1/XLXI_24 (U1/zero)
-     LUT6:I5->O            1   0.205   0.000  U1/m_datapath/PC/register_27_rstpot (U1/m_datapath/PC/register_27_rstpot)
-     FD:D                      0.102          U1/m_datapath/PC/register_27
+     LUT5:I2->O            1   0.205   0.827  U1/m_datapath/U1/XLXI_15/out7_SW0 (N38)
+     LUT6:I2->O            1   0.203   0.579  U1/m_datapath/U1/XLXI_15/out10 (U1/m_datapath/U1/XLXN_89)
+     INV:I->O              1   0.568   0.580  U1/m_datapath/U1/XLXI_24 (U1/zero)
+     LUT4:I3->O           32   0.205   1.291  U1/m_datapath/PC_CE1 (U1/m_datapath/PC_CE)
+     FDE:CE                    0.322          U1/m_datapath/PC/register_0
     ----------------------------------------
-    Total                     11.061ns (3.521ns logic, 7.540ns route)
-                                       (31.8% logic, 68.2% route)
+    Total                     13.048ns (3.701ns logic, 9.347ns route)
+                                       (28.4% logic, 71.6% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'NOT_Clk_CPU'
-  Clock period: 8.810ns (frequency: 113.505MHz)
+  Clock period: 8.393ns (frequency: 119.150MHz)
   Total number of paths / destination ports: 154 / 84
 -------------------------------------------------------------------------
-Delay:               4.405ns (Levels of Logic = 6)
-  Source:            U7/LED_5 (FF)
-  Destination:       U5/Disp_num_17 (FF)
+Delay:               4.196ns (Levels of Logic = 6)
+  Source:            U7/LED_4 (FF)
+  Destination:       U5/Disp_num_16_C_16 (FF)
   Source Clock:      NOT_Clk_CPU falling
   Destination Clock: NOT_Clk_CPU rising
 
-  Data Path: U7/LED_5 to U5/Disp_num_17
+  Data Path: U7/LED_4 to U5/Disp_num_16_C_16
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDPE_1:C->Q           2   0.447   0.981  LED_5 (led_out<5>)
-     end scope: 'U7:led_out<5>'
-     LUT6:I0->O            1   0.203   0.808  U4/Mmux_Cpu_data4bus92 (U4/Mmux_Cpu_data4bus91)
-     LUT6:I3->O           19   0.205   1.176  U4/Mmux_Cpu_data4bus93 (Data_in<17>)
-     begin scope: 'U5:Test_data6<17>'
-     LUT3:I1->O            1   0.203   0.000  Mmux_Disp_num_mux0000_48 (Mmux_Disp_num_mux0000_48)
-     MUXF5:I1->O           1   0.140   0.000  Mmux_Disp_num_mux0000_3_f5_7 (Mmux_Disp_num_mux0000_3_f58)
-     MUXF6:I1->O           1   0.140   0.000  Mmux_Disp_num_mux0000_2_f6_7 (Disp_num_mux0000<17>)
-     FDC:D                     0.102          Disp_num_17
+     FDCE_1:C->Q           2   0.447   0.961  LED_4 (led_out<4>)
+     end scope: 'U7:led_out<4>'
+     LUT6:I1->O            1   0.203   0.808  U4/Mmux_Cpu_data4bus82 (U4/Mmux_Cpu_data4bus81)
+     LUT6:I3->O           11   0.205   0.987  U4/Mmux_Cpu_data4bus83 (Data_in<16>)
+     begin scope: 'U5:Test_data6<16>'
+     LUT3:I1->O            1   0.203   0.000  Mmux_Disp_num_mux0000_47 (Mmux_Disp_num_mux0000_47)
+     MUXF5:I1->O           1   0.140   0.000  Mmux_Disp_num_mux0000_3_f5_6 (Mmux_Disp_num_mux0000_3_f57)
+     MUXF6:I1->O           2   0.140   0.000  Mmux_Disp_num_mux0000_2_f6_6 (Disp_num_mux0000<16>)
+     FD:D                      0.102          Disp_num_16_C_16
     ----------------------------------------
-    Total                      4.405ns (1.440ns logic, 2.965ns route)
-                                       (32.7% logic, 67.3% route)
+    Total                      4.196ns (1.440ns logic, 2.756ns route)
+                                       (34.3% logic, 65.7% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'U8/clkdiv_7'
@@ -1343,7 +1372,7 @@ Offset:              8.232ns (Levels of Logic = 9)
 Timing constraint: Default OFFSET OUT AFTER for Clock 'U11/count_1'
   Total number of paths / destination ports: 22 / 10
 -------------------------------------------------------------------------
-Offset:              6.138ns (Levels of Logic = 3)
+Offset:              6.380ns (Levels of Logic = 3)
   Source:            U13/vc_5 (FF)
   Destination:       Vsync (PAD)
   Source Clock:      U11/count_1 rising
@@ -1352,13 +1381,13 @@ Offset:              6.138ns (Levels of Logic = 3)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDRE:C->Q             9   0.447   1.174  U13/vc_5 (U13/vc_5)
+     FDRE:C->Q            19   0.447   1.416  U13/vc_5 (U13/vc_5)
      LUT5:I0->O            2   0.203   0.961  U13/SF011 (U13/SF01)
      LUT5:I0->O            1   0.203   0.579  U13/Vsync11 (Vsync_OBUF)
      OBUF:I->O                 2.571          Vsync_OBUF (Vsync)
     ----------------------------------------
-    Total                      6.138ns (3.424ns logic, 2.714ns route)
-                                       (55.8% logic, 44.2% route)
+    Total                      6.380ns (3.424ns logic, 2.956ns route)
+                                       (53.7% logic, 46.3% route)
 
 =========================================================================
 
@@ -1370,11 +1399,11 @@ Clock to Setup on destination clock Clk_CPU
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-Clk_CPU        |   11.061|         |         |         |
-NOT_Clk_CPU    |         |    2.941|         |         |
-U12/PS2Cf      |         |    2.584|         |         |
-U8/clkdiv_7    |    4.098|         |         |         |
-clk            |    5.307|    3.099|         |         |
+Clk_CPU        |   13.048|         |         |         |
+NOT_Clk_CPU    |         |    2.726|         |         |
+U12/PS2Cf      |         |    2.678|         |         |
+U8/clkdiv_7    |    4.078|         |         |         |
+clk            |    3.818|    4.012|         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock NOT_Clk_CPU
@@ -1382,12 +1411,12 @@ Clock to Setup on destination clock NOT_Clk_CPU
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-Clk_CPU        |   10.090|         |    8.602|         |
-NOT_Clk_CPU    |    2.554|    4.405|         |         |
-U12/PS2Cf      |         |    3.823|         |         |
-U8/clkdiv_7    |    5.337|         |         |         |
+Clk_CPU        |   10.884|         |    8.580|         |
+NOT_Clk_CPU    |    2.554|    4.196|         |         |
+U12/PS2Cf      |         |    3.917|         |         |
+U8/clkdiv_7    |    5.317|         |         |         |
 U9/rst         |         |    2.954|         |         |
-clk            |    6.545|    4.879|    4.459|         |
+clk            |    5.056|    5.343|    4.458|         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock U11/count_1
@@ -1395,8 +1424,9 @@ Clock to Setup on destination clock U11/count_1
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-Clk_CPU        |    8.364|         |         |         |
-U11/count_1    |   11.163|         |         |         |
+Clk_CPU        |    9.222|         |         |         |
+U11/count_1    |   13.908|         |         |         |
+clk            |    4.495|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock U12/PS2Cf
@@ -1415,7 +1445,7 @@ Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
 NOT_Clk_CPU    |    4.445|         |         |         |
 U8/clkdiv_7    |    4.742|         |         |         |
-clk            |    3.745|         |         |         |
+clk            |    3.744|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock clk
@@ -1423,21 +1453,21 @@ Clock to Setup on destination clock clk
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-Clk_CPU        |         |         |    7.551|         |
+Clk_CPU        |         |         |    6.753|         |
 clk            |    5.116|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 23.00 secs
-Total CPU time to Xst completion: 22.50 secs
+Total REAL time to Xst completion: 24.00 secs
+Total CPU time to Xst completion: 23.68 secs
  
 --> 
 
-Total memory usage is 198692 kilobytes
+Total memory usage is 204324 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   47 (   0 filtered)
+Number of warnings :   48 (   0 filtered)
 Number of infos    :    8 (   0 filtered)
 

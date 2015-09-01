@@ -23,11 +23,12 @@ module vga_control(
 			input wire [9:0] hc,
 			input wire [9:0] vc,
 			input wire vidon,
-			input wire [7:0] RGB,
+			input wire [15:0] RGB,
 			input wire font_dot,
+			input wire graph_mode,
 			
 			output reg [7:0] data,
-			output wire [12:0] vga_address,
+			output wire [14:0] vga_address,
 			output wire [9:0] font_address
     );
 
@@ -44,8 +45,7 @@ module vga_control(
 	assign xpix = hc - hbp;
 	assign ypix = vc - vbp;
 
-	//assign address = (xpix >> 4) + (ypix >> 4) * 40;
-	assign vga_address = (xpix >> 3) + (ypix >> 3) * 80;
+	assign vga_address = (graph_mode == 0) ? (xpix >> 3) + (ypix >> 3) * 80 : ((xpix - 250 + (ypix - 150) * 140) >> 1) + 4800;
 	assign font_address = (xpix & 7) + (ypix & 7) * 8;
 	
 	always @(posedge clk25)
@@ -55,9 +55,22 @@ module vga_control(
 			data <= 0;
 		end
 		else
+		if (graph_mode == 1)
+		begin
+			if (xpix < 251 | (xpix > 388) | ypix < 151 | (ypix > 328))
+				data <= 8'hff;
+			else
+			begin
+				if ((4800 + xpix - 250 + (ypix - 150) * 140) & 1 == 1)
+					data <= RGB[15:8];
+				else
+					data <= RGB[7:0];
+			end
+		end
+		else
 		begin
 			if (font_dot == 1)
-				data <= RGB;
+				data <= RGB[15:8];
 			else
 				data <= 0;
 		end

@@ -42,7 +42,7 @@ module MIO_BUS(clk,
 					Peripheral_in,
 					
 					char_data,
-					GPIOd0000000_we,
+					GPIOc0000000_we,
 					xkey
 					);
 					
@@ -54,7 +54,7 @@ input [7:0]SW,led_out;
 input [31:0] Cpu_data2bus,ram_data_out,addr_bus,counter_out;					
 output data_ram_we,GPIOe0000000_we,GPIOf0000000_we,counter_we;
 output [31:0]Cpu_data4bus,ram_data_in,Peripheral_in;	
-output reg [10:0] ram_addr;
+output reg [12:0] ram_addr;
 
 reg data_ram_we,GPIOf0000000_we,GPIOe0000000_we,counter_we;
 reg data_ram_rd,GPIOf0000000_rd,GPIOe0000000_rd,counter_rd;
@@ -65,7 +65,7 @@ wire counter_over;
 
 input [15:0] xkey;
 input [15:0] char_data;
-output reg GPIOd0000000_we;
+output reg GPIOc0000000_we;
 reg keyboard_rd;
 
 always@* begin
@@ -77,18 +77,18 @@ always@* begin
 	GPIOe0000000_we=0;
 	GPIOf0000000_rd=0;
 	GPIOe0000000_rd=0;
-	ram_addr=11'h0;
+	ram_addr=13'h0;
 	ram_data_in=32'h0;
 	Peripheral_in=32'h0;
 	Cpu_data4bus =32'h0;
 	
 	keyboard_rd = 0;
-	GPIOd0000000_we = 0;
+	GPIOc0000000_we = 0;
 		
 	case(addr_bus[31:28])
 	4'h0:begin
 		data_ram_we = mem_w;
-		ram_addr = addr_bus[12:2];
+		ram_addr = addr_bus[14:2];
 		ram_data_in = Cpu_data2bus;
 		Cpu_data4bus = ram_data_out;
 		data_ram_rd = ~mem_w;
@@ -123,7 +123,7 @@ always@* begin
 	
 	4'hc:
 	begin
-		GPIOd0000000_we = mem_w;
+		GPIOc0000000_we = mem_w;
 		Peripheral_in = Cpu_data2bus;
 	end
 	

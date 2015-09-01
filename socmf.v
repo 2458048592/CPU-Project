@@ -34,7 +34,7 @@ module socmf (
 	wire [3:0] point_out;
 	wire [7:0] SW_OK;
 	wire [3:0] button_out;
-	wire [10:0] ram_addr;
+	wire [12:0] ram_addr;
 	wire [0:0] data_ram_we;
 	wire [1:0] counter_ch;
 	wire [7:0] LED_DUMMY;
@@ -55,13 +55,16 @@ module socmf (
 	wire [9:0] hc;
 	wire [9:0] vc;
 	wire vidon;
-	wire GPIOd0000000_we;
+	wire GPIOc0000000_we;
 	wire [15:0] char_data;
 	wire font_dot;
 	wire [7:0] data;
-	wire [12:0] char_address;
-	wire [12:0] vga_address;
+	wire [14:0] char_address;
+	wire [14:0] vga_address;
 	wire [9:0] font_address;
+	
+	wire graph_mode;
+	assign graph_mode = SW_OK[2];
 	
 	assign LED[7:0] = {LED_DUMMY[7] | Clk_CPU, LED_DUMMY[6:0]};
 	assign NOT_clk = ~clk;
@@ -116,7 +119,7 @@ module socmf (
 		
 		.xkey(xkey),
 		.char_data(char_data),
-		.GPIOd0000000_we(GPIOd0000000_we)
+		.GPIOc0000000_we(GPIOc0000000_we)
 	);
 	
 	seven_seg_Dev_IO U5 (
@@ -229,8 +232,9 @@ module socmf (
 			.hc(hc),
 			.vc(vc),
 			.vidon(vidon),
-			.RGB(char_data[15:8]),
+			.RGB(char_data[15:0]),
 			.font_dot(font_dot),
+			.graph_mode(graph_mode),
 			
 			.data(data),
 			.vga_address(vga_address),
@@ -248,15 +252,15 @@ module socmf (
 			.addra(char_address),
 			.dina(counter_val[31:16]),
 			.douta(char_data),
-			.wea(GPIOd0000000_we),
+			.wea(GPIOc0000000_we),
 			.clka(clk25)
 	);
 	
 	char_mode U18 (
-			.cpu_address(counter_val[12:0]),
+			.cpu_address(counter_val[14:0]),
 			.vga_address(vga_address),
 			.char_address(char_address),
-			.mode(GPIOd0000000_we)
+			.mode(GPIOc0000000_we)
 	);
 	
 endmodule
