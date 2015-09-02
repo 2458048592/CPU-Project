@@ -43,7 +43,9 @@ module MIO_BUS(clk,
 					
 					char_data,
 					GPIOc0000000_we,
-					xkey
+					xkey,
+					
+					graph_mode
 					);
 					
 					
@@ -68,7 +70,16 @@ input [15:0] char_data;
 output reg GPIOc0000000_we;
 reg keyboard_rd;
 
-always@* begin
+output graph_mode;
+reg graph;
+assign graph_mode = graph;
+ 
+initial
+begin
+	graph = 0;
+end
+
+always@(posedge clk) begin
 	data_ram_we=0;
 	data_ram_rd=0;
 	counter_we=0;
@@ -125,6 +136,16 @@ always@* begin
 	begin
 		GPIOc0000000_we = mem_w;
 		Peripheral_in = Cpu_data2bus;
+	end
+	
+	4'hb:
+	begin
+		graph = Cpu_data2bus[0];
+	end
+	
+	default:
+	begin
+		;
 	end
 	
 	endcase

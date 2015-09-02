@@ -64,7 +64,7 @@ module socmf (
 	wire [9:0] font_address;
 	
 	wire graph_mode;
-	assign graph_mode = SW_OK[2];
+	//assign graph_mode = SW_OK[2];
 	
 	assign LED[7:0] = {LED_DUMMY[7] | Clk_CPU, LED_DUMMY[6:0]};
 	assign NOT_clk = ~clk;
@@ -119,7 +119,9 @@ module socmf (
 		
 		.xkey(xkey),
 		.char_data(char_data),
-		.GPIOc0000000_we(GPIOc0000000_we)
+		.GPIOc0000000_we(GPIOc0000000_we),
+		
+		.graph_mode(graph_mode)
 	);
 	
 	seven_seg_Dev_IO U5 (

@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Tue Sep 01 19:54:06 2015
+// Written by: Map P.20131013 on Wed Sep 02 15:47:37 2015
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -117,37 +117,83 @@ TIMEGRP sys_clk_pin = BEL "U11/count_0" BEL "U11/count_1" BEL "U8/clkdiv_0"
         "U8/clkdiv_17" BEL "U8/clkdiv_18" BEL "U8/clkdiv_19" BEL
         "U8/clkdiv_20" BEL "U8/clkdiv_21" BEL "U8/clkdiv_22" BEL
         "U8/clkdiv_23" BEL "U8/clkdiv_24" BEL "U8/clkdiv_25" BEL
-        "U8/clkdiv_26" BEL "clk_BUFGP/BUFG" BEL "U9/sw_temp_0" BEL
-        "U9/sw_temp_1" BEL "U9/sw_temp_2" BEL "U9/sw_temp_3" BEL
-        "U9/sw_temp_4" BEL "U9/sw_temp_5" BEL "U9/sw_temp_6" BEL
-        "U9/sw_temp_7" BEL "U9/button_out_0" BEL "U9/button_out_1" BEL
-        "U9/button_out_2" BEL "U9/button_out_3" BEL "U9/SW_OK_0" BEL
-        "U9/SW_OK_1" BEL "U9/SW_OK_2" BEL "U9/SW_OK_3" BEL "U9/SW_OK_4" BEL
-        "U9/SW_OK_5" BEL "U9/SW_OK_6" BEL "U9/SW_OK_7" BEL "U9/btn_temp_0" BEL
-        "U9/btn_temp_1" BEL "U9/btn_temp_2" BEL "U9/btn_temp_3" BEL "U9/rst"
-        BEL "U9/rst_counter_0" BEL "U9/rst_counter_1" BEL "U9/rst_counter_2"
-        BEL "U9/rst_counter_3" BEL "U9/rst_counter_4" BEL "U9/rst_counter_5"
-        BEL "U9/rst_counter_6" BEL "U9/rst_counter_7" BEL "U9/rst_counter_8"
-        BEL "U9/rst_counter_9" BEL "U9/rst_counter_10" BEL "U9/rst_counter_11"
-        BEL "U9/rst_counter_12" BEL "U9/rst_counter_13" BEL
-        "U9/rst_counter_14" BEL "U9/rst_counter_15" BEL "U9/rst_counter_16"
-        BEL "U9/rst_counter_17" BEL "U9/rst_counter_18" BEL
-        "U9/rst_counter_19" BEL "U9/rst_counter_20" BEL "U9/rst_counter_21"
-        BEL "U9/rst_counter_22" BEL "U9/rst_counter_23" BEL
-        "U9/rst_counter_24" BEL "U9/rst_counter_25" BEL "U9/rst_counter_26"
-        BEL "U9/rst_counter_27" BEL "U9/rst_counter_28" BEL
-        "U9/rst_counter_29" BEL "U9/rst_counter_30" BEL "U9/rst_counter_31"
-        BEL "U9/counter_0" BEL "U9/counter_1" BEL "U9/counter_2" BEL
-        "U9/counter_3" BEL "U9/counter_4" BEL "U9/counter_5" BEL
-        "U9/counter_6" BEL "U9/counter_7" BEL "U9/counter_8" BEL
-        "U9/counter_9" BEL "U9/counter_10" BEL "U9/counter_11" BEL
-        "U9/counter_12" BEL "U9/counter_13" BEL "U9/counter_14" BEL
-        "U9/counter_15" BEL "U9/counter_16" BEL "U9/counter_17" BEL
-        "U9/counter_18" BEL "U9/counter_19" BEL "U9/counter_20" BEL
-        "U9/counter_21" BEL "U9/counter_22" BEL "U9/counter_23" BEL
-        "U9/counter_24" BEL "U9/counter_25" BEL "U9/counter_26" BEL
-        "U9/counter_27" BEL "U9/counter_28" BEL "U9/counter_29" BEL
-        "U9/counter_30" BEL "U9/counter_31" PIN
+        "U8/clkdiv_26" BEL "U4/Cpu_data4bus_31" BEL "U4/Cpu_data4bus_30" BEL
+        "U4/Cpu_data4bus_29" BEL "U4/Cpu_data4bus_28" BEL "U4/Cpu_data4bus_27"
+        BEL "U4/Cpu_data4bus_26" BEL "U4/Cpu_data4bus_25" BEL
+        "U4/Cpu_data4bus_24" BEL "U4/Cpu_data4bus_23" BEL "U4/Cpu_data4bus_22"
+        BEL "U4/Cpu_data4bus_21" BEL "U4/Cpu_data4bus_20" BEL
+        "U4/Cpu_data4bus_19" BEL "U4/Cpu_data4bus_18" BEL "U4/Cpu_data4bus_17"
+        BEL "U4/Cpu_data4bus_16" BEL "U4/Cpu_data4bus_15" BEL
+        "U4/Cpu_data4bus_14" BEL "U4/Cpu_data4bus_13" BEL "U4/Cpu_data4bus_12"
+        BEL "U4/Cpu_data4bus_11" BEL "U4/Cpu_data4bus_10" BEL
+        "U4/Cpu_data4bus_9" BEL "U4/Cpu_data4bus_8" BEL "U4/Cpu_data4bus_7"
+        BEL "U4/Cpu_data4bus_6" BEL "U4/Cpu_data4bus_5" BEL
+        "U4/Cpu_data4bus_4" BEL "U4/Cpu_data4bus_3" BEL "U4/Cpu_data4bus_2"
+        BEL "U4/Cpu_data4bus_1" BEL "U4/Cpu_data4bus_0" BEL "U4/data_ram_we"
+        BEL "U4/ram_addr_12" BEL "U4/ram_addr_11" BEL "U4/ram_addr_10" BEL
+        "U4/ram_addr_9" BEL "U4/ram_addr_8" BEL "U4/ram_addr_7" BEL
+        "U4/ram_addr_6" BEL "U4/ram_addr_5" BEL "U4/ram_addr_4" BEL
+        "U4/ram_addr_3" BEL "U4/ram_addr_2" BEL "U4/ram_addr_1" BEL
+        "U4/ram_addr_0" BEL "U4/Peripheral_in_31" BEL "U4/Peripheral_in_30"
+        BEL "U4/Peripheral_in_29" BEL "U4/Peripheral_in_28" BEL
+        "U4/Peripheral_in_27" BEL "U4/Peripheral_in_26" BEL
+        "U4/Peripheral_in_25" BEL "U4/Peripheral_in_24" BEL
+        "U4/Peripheral_in_23" BEL "U4/Peripheral_in_22" BEL
+        "U4/Peripheral_in_21" BEL "U4/Peripheral_in_20" BEL
+        "U4/Peripheral_in_19" BEL "U4/Peripheral_in_18" BEL
+        "U4/Peripheral_in_17" BEL "U4/Peripheral_in_16" BEL
+        "U4/Peripheral_in_15" BEL "U4/Peripheral_in_14" BEL
+        "U4/Peripheral_in_13" BEL "U4/Peripheral_in_12" BEL
+        "U4/Peripheral_in_11" BEL "U4/Peripheral_in_10" BEL
+        "U4/Peripheral_in_9" BEL "U4/Peripheral_in_8" BEL "U4/Peripheral_in_7"
+        BEL "U4/Peripheral_in_6" BEL "U4/Peripheral_in_5" BEL
+        "U4/Peripheral_in_4" BEL "U4/Peripheral_in_3" BEL "U4/Peripheral_in_2"
+        BEL "U4/Peripheral_in_1" BEL "U4/Peripheral_in_0" BEL
+        "U4/ram_data_in_31" BEL "U4/ram_data_in_30" BEL "U4/ram_data_in_29"
+        BEL "U4/ram_data_in_28" BEL "U4/ram_data_in_27" BEL
+        "U4/ram_data_in_26" BEL "U4/ram_data_in_25" BEL "U4/ram_data_in_24"
+        BEL "U4/ram_data_in_23" BEL "U4/ram_data_in_22" BEL
+        "U4/ram_data_in_21" BEL "U4/ram_data_in_20" BEL "U4/ram_data_in_19"
+        BEL "U4/ram_data_in_18" BEL "U4/ram_data_in_17" BEL
+        "U4/ram_data_in_16" BEL "U4/ram_data_in_15" BEL "U4/ram_data_in_14"
+        BEL "U4/ram_data_in_13" BEL "U4/ram_data_in_12" BEL
+        "U4/ram_data_in_11" BEL "U4/ram_data_in_10" BEL "U4/ram_data_in_9" BEL
+        "U4/ram_data_in_8" BEL "U4/ram_data_in_7" BEL "U4/ram_data_in_6" BEL
+        "U4/ram_data_in_5" BEL "U4/ram_data_in_4" BEL "U4/ram_data_in_3" BEL
+        "U4/ram_data_in_2" BEL "U4/ram_data_in_1" BEL "U4/ram_data_in_0" BEL
+        "U4/graph" BEL "U4/GPIOf0000000_we" BEL "U4/counter_we" BEL
+        "U4/GPIOe0000000_we" BEL "U4/GPIOc0000000_we" BEL "clk_BUFGP/BUFG" BEL
+        "U9/sw_temp_0" BEL "U9/sw_temp_1" BEL "U9/sw_temp_2" BEL
+        "U9/sw_temp_3" BEL "U9/sw_temp_4" BEL "U9/sw_temp_5" BEL
+        "U9/sw_temp_6" BEL "U9/sw_temp_7" BEL "U9/button_out_0" BEL
+        "U9/button_out_1" BEL "U9/button_out_2" BEL "U9/button_out_3" BEL
+        "U9/SW_OK_0" BEL "U9/SW_OK_1" BEL "U9/SW_OK_2" BEL "U9/SW_OK_3" BEL
+        "U9/SW_OK_4" BEL "U9/SW_OK_5" BEL "U9/SW_OK_6" BEL "U9/SW_OK_7" BEL
+        "U9/btn_temp_0" BEL "U9/btn_temp_1" BEL "U9/btn_temp_2" BEL
+        "U9/btn_temp_3" BEL "U9/rst" BEL "U9/rst_counter_0" BEL
+        "U9/rst_counter_1" BEL "U9/rst_counter_2" BEL "U9/rst_counter_3" BEL
+        "U9/rst_counter_4" BEL "U9/rst_counter_5" BEL "U9/rst_counter_6" BEL
+        "U9/rst_counter_7" BEL "U9/rst_counter_8" BEL "U9/rst_counter_9" BEL
+        "U9/rst_counter_10" BEL "U9/rst_counter_11" BEL "U9/rst_counter_12"
+        BEL "U9/rst_counter_13" BEL "U9/rst_counter_14" BEL
+        "U9/rst_counter_15" BEL "U9/rst_counter_16" BEL "U9/rst_counter_17"
+        BEL "U9/rst_counter_18" BEL "U9/rst_counter_19" BEL
+        "U9/rst_counter_20" BEL "U9/rst_counter_21" BEL "U9/rst_counter_22"
+        BEL "U9/rst_counter_23" BEL "U9/rst_counter_24" BEL
+        "U9/rst_counter_25" BEL "U9/rst_counter_26" BEL "U9/rst_counter_27"
+        BEL "U9/rst_counter_28" BEL "U9/rst_counter_29" BEL
+        "U9/rst_counter_30" BEL "U9/rst_counter_31" BEL "U9/counter_0" BEL
+        "U9/counter_1" BEL "U9/counter_2" BEL "U9/counter_3" BEL
+        "U9/counter_4" BEL "U9/counter_5" BEL "U9/counter_6" BEL
+        "U9/counter_7" BEL "U9/counter_8" BEL "U9/counter_9" BEL
+        "U9/counter_10" BEL "U9/counter_11" BEL "U9/counter_12" BEL
+        "U9/counter_13" BEL "U9/counter_14" BEL "U9/counter_15" BEL
+        "U9/counter_16" BEL "U9/counter_17" BEL "U9/counter_18" BEL
+        "U9/counter_19" BEL "U9/counter_20" BEL "U9/counter_21" BEL
+        "U9/counter_22" BEL "U9/counter_23" BEL "U9/counter_24" BEL
+        "U9/counter_25" BEL "U9/counter_26" BEL "U9/counter_27" BEL
+        "U9/counter_28" BEL "U9/counter_29" BEL "U9/counter_30" BEL
+        "U9/counter_31" PIN
         "U3/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.SIMPLE_PRIM9.ram_pins<26>"
         BEL
         "U3/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/sel_pipe_0"
