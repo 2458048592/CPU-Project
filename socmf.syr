@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.13 secs
+Total CPU time to Xst completion: 0.11 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.13 secs
+Total CPU time to Xst completion: 0.11 secs
  
 --> Reading design: socmf.prj
 
@@ -425,7 +425,7 @@ Unit <nor32> synthesized.
 Synthesizing Unit <srl32>.
     Related source file is "C:\Users\Young\Documents\GitHub\CPU-Project\srl32.v".
 WARNING:Xst:647 - Input <A> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-WARNING:Xst:647 - Input <B> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <B<0:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Summary:
 	no macro.
 Unit <srl32> synthesized.
@@ -893,12 +893,12 @@ INFO:Xst:2261 - The FF/Latch <U1/m_ctrl/PCSource_0> in Unit <socmf> is equivalen
 Mapping all equations...
 Building and optimizing final netlist ...
 Found area constraint ratio of 100 (+ 5) on block socmf, actual ratio is 42.
-FlipFlop U1/m_datapath/IR/register_16 has been replicated 8 time(s)
-FlipFlop U1/m_datapath/IR/register_17 has been replicated 7 time(s)
+FlipFlop U1/m_datapath/IR/register_16 has been replicated 13 time(s)
+FlipFlop U1/m_datapath/IR/register_17 has been replicated 13 time(s)
 FlipFlop U1/m_datapath/IR/register_18 has been replicated 1 time(s)
 FlipFlop U1/m_datapath/IR/register_19 has been replicated 1 time(s)
-FlipFlop U1/m_datapath/IR/register_21 has been replicated 4 time(s)
-FlipFlop U1/m_datapath/IR/register_22 has been replicated 4 time(s)
+FlipFlop U1/m_datapath/IR/register_21 has been replicated 9 time(s)
+FlipFlop U1/m_datapath/IR/register_22 has been replicated 9 time(s)
 
 Final Macro Processing ...
 
@@ -911,8 +911,8 @@ Unit <socmf> processed.
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 1393
- Flip-Flops                                            : 1393
+# Registers                                            : 1414
+ Flip-Flops                                            : 1414
 # Shift Registers                                      : 2
  3-bit shift register                                  : 1
  4-bit shift register                                  : 1
@@ -938,30 +938,30 @@ Top Level Output File Name         : socmf.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 3813
+# BELS                             : 3858
 #      GND                         : 6
 #      INV                         : 68
 #      LUT1                        : 117
-#      LUT2                        : 36
-#      LUT3                        : 1301
+#      LUT2                        : 33
+#      LUT3                        : 1311
 #      LUT3_D                      : 2
-#      LUT4                        : 390
+#      LUT4                        : 406
 #      LUT4_L                      : 53
 #      LUT5                        : 233
-#      LUT6                        : 966
+#      LUT6                        : 999
 #      MUXCY                       : 216
 #      MUXF5                       : 136
 #      MUXF6                       : 40
-#      MUXF7                       : 42
+#      MUXF7                       : 31
 #      VCC                         : 6
 #      XORCY                       : 201
-# FlipFlops/Latches                : 1653
-#      FD                          : 149
+# FlipFlops/Latches                : 1674
+#      FD                          : 182
 #      FD_1                        : 14
 #      FDC                         : 104
 #      FDCE                        : 1027
 #      FDCE_1                      : 7
-#      FDE                         : 189
+#      FDE                         : 177
 #      FDE_1                       : 22
 #      FDP                         : 22
 #      FDPE_1                      : 3
@@ -989,18 +989,18 @@ Selected Device : 6slx16csg324-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:            1653  out of  18224     9%  
- Number of Slice LUTs:                 3168  out of   9112    34%  
-    Number used as Logic:              3166  out of   9112    34%  
+ Number of Slice Registers:            1674  out of  18224     9%  
+ Number of Slice LUTs:                 3224  out of   9112    35%  
+    Number used as Logic:              3222  out of   9112    35%  
     Number used as Memory:                2  out of   2176     0%  
        Number used as SRL:                2
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   4439
-   Number with an unused Flip Flop:    2786  out of   4439    62%  
-   Number with an unused LUT:          1271  out of   4439    28%  
-   Number of fully used LUT-FF pairs:   382  out of   4439     8%  
-   Number of unique control sets:        33
+ Number of LUT Flip Flop pairs used:   4528
+   Number with an unused Flip Flop:    2854  out of   4528    63%  
+   Number with an unused LUT:          1304  out of   4528    28%  
+   Number of fully used LUT-FF pairs:   370  out of   4528     8%  
+   Number of unique control sets:        32
 
 IO Utilization: 
  Number of IOs:                          46
@@ -1036,7 +1036,7 @@ Clock Signal                       | Clock buffer(FF name)                      
 clk                                | BUFGP                                                                                                                        | 253   |
 U12/PS2Cf                          | BUFG                                                                                                                         | 18    |
 U11/count_1                        | BUFG                                                                                                                         | 79    |
-Clk_CPU(U8/Mmux_Clk_CPU11:O)       | BUFG(*)(U1/m_datapath/ALUout/register_31)                                                                                    | 1180  |
+Clk_CPU(U8/Mmux_Clk_CPU11:O)       | BUFG(*)(U1/m_datapath/ALUout/register_31)                                                                                    | 1201  |
 NOT_Clk_CPU(NOT_Clk_CPU1:O)        | BUFG(*)(U5/blink_out_0)                                                                                                      | 120   |
 U9/rst                             | NONE(U5/Disp_num_31_LD)                                                                                                      | 2     |
 U8/clkdiv_7                        | BUFG                                                                                                                         | 35    |
@@ -1157,26 +1157,40 @@ Delay:               13.908ns (Levels of Logic = 24)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'Clk_CPU'
-  Clock period: 12.846ns (frequency: 77.846MHz)
-  Total number of paths / destination ports: 3546823 / 2173
+  Clock period: 12.809ns (frequency: 78.072MHz)
+  Total number of paths / destination ports: 3612701 / 2161
 -------------------------------------------------------------------------
-Delay:               12.846ns (Levels of Logic = 20)
-  Source:            U1/m_datapath/IR/register_17 (FF)
-  Destination:       U1/m_datapath/PC/register_31 (FF)
+Delay:               12.809ns (Levels of Logic = 38)
+  Source:            U1/m_datapath/IR/register_16_7 (FF)
+  Destination:       U1/m_datapath/PC/register_1 (FF)
   Source Clock:      Clk_CPU rising
   Destination Clock: Clk_CPU rising
 
-  Data Path: U1/m_datapath/IR/register_17 to U1/m_datapath/PC/register_31
+  Data Path: U1/m_datapath/IR/register_16_7 to U1/m_datapath/PC/register_1
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDE:C->Q            140   0.447   1.983  U1/m_datapath/IR/register_17 (U1/m_datapath/IR/register_17)
-     LUT6:I5->O            1   0.205   0.580  U1/m_datapath/U2/Mmux_R_addr_B[4]_register[31][31]_wide_mux_4_OUT_77 (U1/m_datapath/U2/Mmux_R_addr_B[4]_register[31][31]_wide_mux_4_OUT_77)
-     LUT6:I5->O            1   0.205   0.580  U1/m_datapath/U2/Mmux_R_addr_B[4]_register[31][31]_wide_mux_4_OUT_37 (U1/m_datapath/U2/Mmux_R_addr_B[4]_register[31][31]_wide_mux_4_OUT_37)
-     LUT4:I3->O            4   0.205   0.684  U1/m_datapath/U2/Mmux_rdata_B81 (Data_out<16>)
-     LUT5:I4->O            2   0.205   0.617  U1/m_datapath/MUX3/Mmux_o81 (U1/m_datapath/B<16>)
-     LUT6:I5->O            1   0.205   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_lut<16> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_lut<16>)
-     MUXCY:S->O            1   0.172   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<16> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<16>)
+     FDE:C->Q             13   0.447   1.037  U1/m_datapath/IR/register_16_7 (U1/m_datapath/IR/register_16_7)
+     LUT6:I4->O            1   0.203   0.827  U1/m_datapath/U2/Mmux_R_addr_B[4]_register[31][31]_wide_mux_4_OUT_867 (U1/m_datapath/U2/Mmux_R_addr_B[4]_register[31][31]_wide_mux_4_OUT_867)
+     LUT6:I2->O            1   0.203   0.808  U1/m_datapath/U2/Mmux_R_addr_B[4]_register[31][31]_wide_mux_4_OUT_322 (U1/m_datapath/U2/Mmux_R_addr_B[4]_register[31][31]_wide_mux_4_OUT_322)
+     LUT4:I1->O            4   0.205   0.684  U1/m_datapath/U2/Mmux_rdata_B231 (Data_out<2>)
+     LUT5:I4->O            3   0.205   0.651  U1/m_datapath/MUX3/Mmux_o231 (U1/m_datapath/B<2>)
+     LUT3:I2->O            1   0.205   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_lut<2> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_lut<2>)
+     MUXCY:S->O            1   0.172   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<2> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<3> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<4> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<5> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<5>)
+     MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<6> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<6>)
+     MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<7> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<7>)
+     MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<8> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<8>)
+     MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<9> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<9>)
+     MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<10> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<10>)
+     MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<11> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<11>)
+     MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<12> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<12>)
+     MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<13> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<13>)
+     MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<14> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<14>)
+     MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<15> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<15>)
+     MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<16> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<16>)
      MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<17> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<17>)
      MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<18> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<18>)
      MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<19> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<19>)
@@ -1185,16 +1199,20 @@ Delay:               12.846ns (Levels of Logic = 20)
      MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<22> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<22>)
      MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<23> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<23>)
      MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<24> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<24>)
-     XORCY:CI->O           1   0.180   0.580  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_xor<25> (U1/m_datapath/U1/S<25>)
-     LUT6:I5->O            3   0.205   0.879  U1/m_datapath/U1/XLXI_14/Mmux_o181 (U1/m_datapath/res<25>)
-     LUT6:I3->O            1   0.205   0.808  U1/m_datapath/U1/XLXI_15/out10_SW0_SW0_SW0 (N85)
-     LUT6:I3->O            1   0.205   0.579  U1/m_datapath/U1/XLXI_15/out10 (U1/m_datapath/U1/XLXN_89)
-     INV:I->O              1   0.568   0.580  U1/m_datapath/U1/XLXI_24 (U1/zero)
-     LUT4:I3->O           32   0.205   1.291  U1/m_datapath/PC_CE1 (U1/m_datapath/PC_CE)
-     FDE:CE                    0.322          U1/m_datapath/PC/register_0
+     MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<25> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<25>)
+     MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<26> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<26>)
+     MUXCY:CI->O           1   0.019   0.000  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<27> (U1/m_datapath/U1/XLXI_8/Madd_S_Madd_cy<27>)
+     XORCY:CI->O           1   0.180   0.580  U1/m_datapath/U1/XLXI_8/Madd_S_Madd_xor<28> (U1/m_datapath/U1/S<28>)
+     LUT4:I3->O            3   0.205   0.879  U1/m_datapath/U1/XLXI_14/Mmux_o212 (U1/m_datapath/res<28>)
+     LUT5:I2->O            1   0.205   0.808  U1/m_datapath/U1/XLXI_15/out1 (U1/m_datapath/U1/XLXI_15/out)
+     LUT6:I3->O            1   0.205   0.579  U1/m_datapath/U1/XLXI_15/out8 (U1/m_datapath/U1/XLXN_89)
+     INV:I->O             27   0.568   1.221  U1/m_datapath/U1/XLXI_24 (U1/zero)
+     LUT4:I3->O            6   0.205   0.745  U1/m_datapath/PC_CE1 (U1/m_datapath/PC_CE)
+     LUT6:I5->O            1   0.205   0.000  U1/m_datapath/PC/register_31_rstpot (U1/m_datapath/PC/register_31_rstpot)
+     FD:D                      0.102          U1/m_datapath/PC/register_31
     ----------------------------------------
-    Total                     12.846ns (3.686ns logic, 9.160ns route)
-                                       (28.7% logic, 71.3% route)
+    Total                     12.809ns (3.990ns logic, 8.819ns route)
+                                       (31.2% logic, 68.8% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'NOT_Clk_CPU'
@@ -1402,8 +1420,8 @@ Clock to Setup on destination clock Clk_CPU
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-Clk_CPU        |   12.846|         |         |         |
-clk            |    3.802|         |         |         |
+Clk_CPU        |   12.809|         |         |         |
+clk            |    3.890|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock NOT_Clk_CPU
@@ -1411,7 +1429,7 @@ Clock to Setup on destination clock NOT_Clk_CPU
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-Clk_CPU        |    5.894|         |         |         |
+Clk_CPU        |    5.111|         |         |         |
 NOT_Clk_CPU    |    2.554|    4.137|         |         |
 U12/PS2Cf      |         |    2.814|         |         |
 U8/clkdiv_7    |    2.235|         |         |         |
@@ -1462,12 +1480,12 @@ clk            |    5.116|    4.129|    2.519|         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 26.00 secs
-Total CPU time to Xst completion: 26.17 secs
+Total REAL time to Xst completion: 24.00 secs
+Total CPU time to Xst completion: 23.83 secs
  
 --> 
 
-Total memory usage is 204068 kilobytes
+Total memory usage is 204196 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   47 (   0 filtered)
